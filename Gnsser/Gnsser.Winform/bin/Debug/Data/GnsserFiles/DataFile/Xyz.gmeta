@@ -1,0 +1,8 @@
+#这是注释
+Version       =1.0                       #注释
+Author        =Gnsser                    #这个不是必须的
+CreationTime  =2015-09-26                #这个不是必须的
+FileType      =.xyz                      #必须的
+ItemSplliter  =|,|;|	| |                # 空格也是可以的
+PropertyNames =Id, X, Y, Z             #必须的
+Epoch         =2015-1-1                  #这个不是必须的

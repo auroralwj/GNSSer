@@ -1,0 +1,7 @@
+D:\Codes\CSharp\Gnsser\Geo\Geo\bin\Release\Geo.dll
+D:\Codes\CSharp\Gnsser\Geo\Geo\bin\Release\Geo.pdb
+D:\Codes\CSharp\Gnsser\Geo\Geo\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\Codes\CSharp\Gnsser\Geo\Geo\obj\Release\Geo.csproj.CoreCompileInputs.cache
+D:\Codes\CSharp\Gnsser\Geo\Geo\obj\Release\Geo.dll
+D:\Codes\CSharp\Gnsser\Geo\Geo\obj\Release\Geo.pdb
+D:\Codes\CSharp\Gnsser\Geo\Geo\obj\Release\Geo.csproj.CopyComplete

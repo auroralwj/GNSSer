@@ -1,0 +1,15 @@
+D:\Codes\CSharp\Gnsser\Gnsser\Gnsser.Common\bin\Release\Gnsser.Core.dll
+D:\Codes\CSharp\Gnsser\Gnsser\Gnsser.Common\bin\Release\Gnsser.Core.pdb
+D:\Codes\CSharp\Gnsser\Gnsser\Gnsser.Common\bin\Release\Geo.dll
+D:\Codes\CSharp\Gnsser\Gnsser\Gnsser.Common\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\Codes\CSharp\Gnsser\Gnsser\Gnsser.Common\bin\Release\Geo.pdb
+D:\Codes\CSharp\Gnsser\Gnsser\Gnsser.Common\obj\Release\Gnsser.Core.csproj.CoreCompileInputs.cache
+D:\Codes\CSharp\Gnsser\Gnsser\Gnsser.Common\obj\Release\Gnsser.Core.dll
+D:\Codes\CSharp\Gnsser\Gnsser\Gnsser.Common\obj\Release\Gnsser.Core.pdb
+D:\Codes\CSharp\Gnsser\Gnsser\Gnsser.Common\obj\Release\Gnsser.Core.csproj.CopyComplete
+D:\Codes\Csharp\Gnsser\Gnsser\Gnsser.Common\bin\Release\AnyInfo.dll
+D:\Codes\Csharp\Gnsser\Gnsser\Gnsser.Common\bin\Release\Geo.Winform.dll
+D:\Codes\Csharp\Gnsser\Gnsser\Gnsser.Common\bin\Release\AnyInfo.pdb
+D:\Codes\Csharp\Gnsser\Gnsser\Gnsser.Common\bin\Release\AnyInfo.dll.config
+D:\Codes\Csharp\Gnsser\Gnsser\Gnsser.Common\bin\Release\Geo.Winform.pdb
+D:\Codes\Csharp\Gnsser\Gnsser\Gnsser.Common\obj\Release\Gnsser.Core.csprojAssemblyReference.cache

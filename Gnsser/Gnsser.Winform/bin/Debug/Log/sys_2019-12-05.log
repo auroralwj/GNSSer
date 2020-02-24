@@ -1,0 +1,5 @@
+2019-12-05 10:04:00.613	Info	程序启动	Program
+2019-12-05 10:04:01.042	Info	成功加载配置文件 gnsser.conf	Setting
+2019-12-05 10:04:01.110	Error	小心！服务路径为空！	FileBasedService`1
+2019-12-05 10:05:30.239	Info	保存了配置到文件 gnsser.conf	Setting
+2019-12-05 10:05:30.242	Info	程序正常退出	Program

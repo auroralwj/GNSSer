@@ -1,0 +1,123 @@
+2020-02-06 17:35:44.905	Info	程序启动	Program
+2020-02-06 17:35:45.190	Info	检查新版本	Program
+2020-02-06 17:35:45.220	Info	成功加载配置文件 gnsser.conf	Setting
+2020-02-06 17:35:45.243	Error	小心！服务路径为空！	FileBasedService`1
+2020-02-06 17:35:52.955	Info	保存了配置到文件 gnsser.conf	Setting
+2020-02-06 17:35:52.964	Info	程序正常退出	Program
+2020-02-06 17:38:16.036	Info	程序启动	Program
+2020-02-06 17:38:16.134	Info	检查新版本	Program
+2020-02-06 17:38:16.262	Info	成功加载配置文件 gnsser.conf	Setting
+2020-02-06 17:38:16.292	Error	小心！服务路径为空！	FileBasedService`1
+2020-02-06 17:38:26.930	Info	输入文件，载入 2 条项目：
+D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hers0010.18O
+D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hert0010.18O
+2条	FileOpenControl
+2020-02-06 17:38:32.436	Info	输入文件，载入了： D:\Data\GNSS\Rinex\algo0010.13o	FileOpenControl
+2020-02-06 17:38:36.672	Info	解析获取了 1 个文件	MultiFileStreamerForm
+2020-02-06 17:38:36.693	Info	开始初始化，加载资源等。。。	AbstractGnssStreamBackGroundRunner`3
+2020-02-06 17:38:36.897	Info	数据流缓存大小：60	BufferedStreamService`1
+2020-02-06 17:38:36.902	Info	algo0010.13o 起始处理编号: 0, 最大处理数量: 10000000	ObsFileEpochRunner`1
+2020-02-06 17:38:36.917	Info	-ALGO0CAC 1个数据源的公共时段为：2013-01-01 00:00:00>2013-01-02 00:00:00	MultiSiteObsStream
+2020-02-06 17:38:36.992	Info	当前历元2013-01-01 00:00:00可以获得IGS Final 产品	IgsEphemerisServiceAutoProvider
+2020-02-06 17:38:37.154	Warn	igs17212.sp3星历略过 EOF	AbstractTimedStreamReader`1
+2020-02-06 17:38:37.158	Info	完全加载了星历文件到内存 igs17212.sp3	AbstractTimedStreamReader`1
+2020-02-06 17:38:37.183	Info	成功载入 Sp3,D:\Data\IgsProduct\igs17212.sp3	AbstractIgsProductSourceProvider`2
+2020-02-06 17:38:37.186	Info	计算选项设置为不拼接 IGS 产品，因此只采用起始历元的产品。	AbstractIgsProductSourceProvider`2
+2020-02-06 17:38:37.220	Warn	不包含结束时间的 IEphemerisService 服务！2013-01-02 00:00:00	IgsServiceAutoProvider`1
+2020-02-06 17:38:37.242	Info	成功自动匹配星历文件 全局自动 IGS 精密星历服务, 1980-01-06 00:00:00->2079-12-31 00:00:00, G,C,R,E	EphemerisServiceProvider
+2020-02-06 17:38:37.247	Info	成功自动匹配钟差文件 全局自动 IGS 精密钟差服务, 1980-01-06 00:00:00->2079-12-31 00:00:00	ClockServiceProvider
+2020-02-06 17:38:37.250	Info	成功自动匹配 ERP 文件 全局自动 IGS ERP 服务, 1980-01-06 00:00:00->2079-12-31 00:00:00	ClockServiceProvider
+2020-02-06 17:38:37.284	Info	成功采用自动 IGS 格网电离层服务 	DataSourceContext
+2020-02-06 17:38:37.298	Info	将移除非 G 系统的观测值	EpochInfoReviser
+2020-02-06 17:38:37.306	Info	将移除观测值为 0 的卫星	EpochInfoReviser
+2020-02-06 17:38:37.308	Info	将删除不稳定的或有故障的卫星	EpochInfoReviser
+2020-02-06 17:38:37.310	Info	启用 移除不能组成无电离层组合的卫星数据	EpochInfoReviser
+2020-02-06 17:38:37.318	Info	将删除高度截止角低于 7 的卫星。	EpochInfoReviser
+2020-02-06 17:38:37.320	Info	将删除受太阳阴影影响的卫星。	EpochInfoReviser
+2020-02-06 17:38:37.322	Info	将过滤连续历元不足 30 的数据。	EpochInfoReviser
+2020-02-06 17:38:37.374	Info	采用了指定的周跳探测方法。	EpochInfoReviseManager
+2020-02-06 17:38:37.388	Info	伪距 DCB 距离改正， 目前只会改正GPS系统的DCB！	AbstractRangeCorrector
+2020-02-06 17:38:37.449	Info	启用结果检核。	GnssResultChecker
+2020-02-06 17:38:37.476	Info	algo0010.13o 初始化完毕。	PointPositionBackGroundRunner
+2020-02-06 17:38:37.499	Info	algo0010.13o 开始计算。	AbstractGnssStreamBackGroundRunner`3
+2020-02-06 17:39:09.724	Info	当前历元2013-01-01 00:00:00可以获得IGS Final 产品	IgsClockServiceAutoProvider
+2020-02-06 17:39:10.196	Info	成功载入 Clk_30s,D:\Data\IgsProduct\igs17212.clk_30s	AbstractIgsProductSourceProvider`2
+2020-02-06 17:39:10.828	Info	成功载入 Clk_30s,D:\Data\IgsProduct\igs17213.clk_30s	AbstractIgsProductSourceProvider`2
+2020-02-06 17:54:12.163	Info	程序启动	Program
+2020-02-06 17:54:12.245	Info	检查新版本	Program
+2020-02-06 17:54:12.368	Info	成功加载配置文件 gnsser.conf	Setting
+2020-02-06 17:54:12.392	Error	小心！服务路径为空！	FileBasedService`1
+2020-02-06 17:54:44.275	Info	输入文件，载入 2 条项目：
+D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hers0010.18O
+D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hert0010.18O
+2条	FileOpenControl
+2020-02-06 17:54:47.922	Info	输入文件，载入了： D:\Data\GNSS\Rinex\algo0010.13o	FileOpenControl
+2020-02-06 17:54:49.115	Info	解析获取了 1 个文件	MultiFileStreamerForm
+2020-02-06 17:54:49.127	Info	开始初始化，加载资源等。。。	AbstractGnssStreamBackGroundRunner`3
+2020-02-06 17:54:49.216	Info	数据流缓存大小：60	BufferedStreamService`1
+2020-02-06 17:54:49.225	Info	algo0010.13o 起始处理编号: 0, 最大处理数量: 10000000	ObsFileEpochRunner`1
+2020-02-06 17:54:49.241	Info	-ALGO0CAC 1个数据源的公共时段为：2013-01-01 00:00:00>2013-01-02 00:00:00	MultiSiteObsStream
+2020-02-06 17:54:49.286	Info	当前历元2013-01-01 00:00:00可以获得IGS Final 产品	IgsEphemerisServiceAutoProvider
+2020-02-06 17:54:49.372	Warn	igs17212.sp3星历略过 EOF	AbstractTimedStreamReader`1
+2020-02-06 17:54:49.375	Info	完全加载了星历文件到内存 igs17212.sp3	AbstractTimedStreamReader`1
+2020-02-06 17:54:49.398	Info	成功载入 Sp3,D:\Data\IgsProduct\igs17212.sp3	AbstractIgsProductSourceProvider`2
+2020-02-06 17:54:49.401	Info	计算选项设置为不拼接 IGS 产品，因此只采用起始历元的产品。	AbstractIgsProductSourceProvider`2
+2020-02-06 17:54:49.433	Warn	不包含结束时间的 IEphemerisService 服务！2013-01-02 00:00:00	IgsServiceAutoProvider`1
+2020-02-06 17:54:49.453	Info	成功自动匹配星历文件 全局自动 IGS 精密星历服务, 1980-01-06 00:00:00->2079-12-31 00:00:00, G,C,R,E	EphemerisServiceProvider
+2020-02-06 17:54:49.459	Info	成功自动匹配钟差文件 全局自动 IGS 精密钟差服务, 1980-01-06 00:00:00->2079-12-31 00:00:00	ClockServiceProvider
+2020-02-06 17:54:49.462	Info	成功自动匹配 ERP 文件 全局自动 IGS ERP 服务, 1980-01-06 00:00:00->2079-12-31 00:00:00	ClockServiceProvider
+2020-02-06 17:54:49.469	Info	成功采用自动 IGS 格网电离层服务 	DataSourceContext
+2020-02-06 17:54:49.481	Info	将移除非 G 系统的观测值	EpochInfoReviser
+2020-02-06 17:54:49.484	Info	将移除观测值为 0 的卫星	EpochInfoReviser
+2020-02-06 17:54:49.492	Info	将删除不稳定的或有故障的卫星	EpochInfoReviser
+2020-02-06 17:54:49.494	Info	启用 移除不能组成无电离层组合的卫星数据	EpochInfoReviser
+2020-02-06 17:54:49.497	Info	将删除高度截止角低于 7 的卫星。	EpochInfoReviser
+2020-02-06 17:54:49.501	Info	将删除受太阳阴影影响的卫星。	EpochInfoReviser
+2020-02-06 17:54:49.511	Info	将过滤连续历元不足 30 的数据。	EpochInfoReviser
+2020-02-06 17:54:49.535	Info	采用了指定的周跳探测方法。	EpochInfoReviseManager
+2020-02-06 17:54:49.546	Info	伪距 DCB 距离改正， 目前只会改正GPS系统的DCB！	AbstractRangeCorrector
+2020-02-06 17:54:49.586	Info	启用结果检核。	GnssResultChecker
+2020-02-06 17:54:49.605	Info	algo0010.13o 初始化完毕。	PointPositionBackGroundRunner
+2020-02-06 17:54:49.628	Info	algo0010.13o 开始计算。	AbstractGnssStreamBackGroundRunner`3
+2020-02-06 17:54:52.347	Info	当前历元2013-01-01 00:00:00可以获得IGS Final 产品	IgsClockServiceAutoProvider
+2020-02-06 17:54:52.672	Info	成功载入 Clk_30s,D:\Data\IgsProduct\igs17212.clk_30s	AbstractIgsProductSourceProvider`2
+2020-02-06 17:54:52.996	Info	成功载入 Clk_30s,D:\Data\IgsProduct\igs17213.clk_30s	AbstractIgsProductSourceProvider`2
+2020-02-06 18:15:12.158	Info	程序启动	Program
+2020-02-06 18:15:12.291	Info	检查新版本	Program
+2020-02-06 18:15:12.392	Info	成功加载配置文件 gnsser.conf	Setting
+2020-02-06 18:15:12.415	Error	小心！服务路径为空！	FileBasedService`1
+2020-02-06 18:15:19.231	Info	输入文件，载入 2 条项目：
+D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hers0010.18O
+D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hert0010.18O
+2条	FileOpenControl
+2020-02-06 18:15:23.161	Info	输入文件，载入了： D:\Data\GNSS\Rinex\algo0010.13o	FileOpenControl
+2020-02-06 18:15:25.980	Info	解析获取了 1 个文件	MultiFileStreamerForm
+2020-02-06 18:15:25.994	Info	开始初始化，加载资源等。。。	AbstractGnssStreamBackGroundRunner`3
+2020-02-06 18:15:26.078	Info	数据流缓存大小：60	BufferedStreamService`1
+2020-02-06 18:15:26.088	Info	algo0010.13o 起始处理编号: 0, 最大处理数量: 10000000	ObsFileEpochRunner`1
+2020-02-06 18:15:26.104	Info	-ALGO0CAC 1个数据源的公共时段为：2013-01-01 00:00:00>2013-01-02 00:00:00	MultiSiteObsStream
+2020-02-06 18:15:26.166	Info	当前历元2013-01-01 00:00:00可以获得IGS Final 产品	IgsEphemerisServiceAutoProvider
+2020-02-06 18:15:26.248	Warn	igs17212.sp3星历略过 EOF	AbstractTimedStreamReader`1
+2020-02-06 18:15:26.250	Info	完全加载了星历文件到内存 igs17212.sp3	AbstractTimedStreamReader`1
+2020-02-06 18:15:26.266	Info	成功载入 Sp3,D:\Data\IgsProduct\igs17212.sp3	AbstractIgsProductSourceProvider`2
+2020-02-06 18:15:26.273	Info	计算选项设置为不拼接 IGS 产品，因此只采用起始历元的产品。	AbstractIgsProductSourceProvider`2
+2020-02-06 18:15:26.297	Warn	不包含结束时间的 IEphemerisService 服务！2013-01-02 00:00:00	IgsServiceAutoProvider`1
+2020-02-06 18:15:26.319	Info	成功自动匹配星历文件 全局自动 IGS 精密星历服务, 1980-01-06 00:00:00->2079-12-31 00:00:00, G,C,R,E	EphemerisServiceProvider
+2020-02-06 18:15:26.324	Info	成功自动匹配钟差文件 全局自动 IGS 精密钟差服务, 1980-01-06 00:00:00->2079-12-31 00:00:00	ClockServiceProvider
+2020-02-06 18:15:26.328	Info	成功自动匹配 ERP 文件 全局自动 IGS ERP 服务, 1980-01-06 00:00:00->2079-12-31 00:00:00	ClockServiceProvider
+2020-02-06 18:15:26.342	Info	成功采用自动 IGS 格网电离层服务 	DataSourceContext
+2020-02-06 18:15:26.356	Info	将移除非 G 系统的观测值	EpochInfoReviser
+2020-02-06 18:15:26.360	Info	将移除观测值为 0 的卫星	EpochInfoReviser
+2020-02-06 18:15:26.374	Info	将删除不稳定的或有故障的卫星	EpochInfoReviser
+2020-02-06 18:15:26.380	Info	启用 移除不能组成无电离层组合的卫星数据	EpochInfoReviser
+2020-02-06 18:15:26.386	Info	将删除高度截止角低于 7 的卫星。	EpochInfoReviser
+2020-02-06 18:15:26.390	Info	将删除受太阳阴影影响的卫星。	EpochInfoReviser
+2020-02-06 18:15:26.397	Info	将过滤连续历元不足 30 的数据。	EpochInfoReviser
+2020-02-06 18:15:26.422	Info	采用了指定的周跳探测方法。	EpochInfoReviseManager
+2020-02-06 18:15:26.431	Info	伪距 DCB 距离改正， 目前只会改正GPS系统的DCB！	AbstractRangeCorrector
+2020-02-06 18:15:26.475	Info	启用结果检核。	GnssResultChecker
+2020-02-06 18:15:26.498	Info	algo0010.13o 初始化完毕。	PointPositionBackGroundRunner
+2020-02-06 18:15:26.525	Info	algo0010.13o 开始计算。	AbstractGnssStreamBackGroundRunner`3
+2020-02-06 18:15:28.542	Info	当前历元2013-01-01 00:00:00可以获得IGS Final 产品	IgsClockServiceAutoProvider
+2020-02-06 18:15:28.855	Info	成功载入 Clk_30s,D:\Data\IgsProduct\igs17212.clk_30s	AbstractIgsProductSourceProvider`2
+2020-02-06 18:15:29.201	Info	成功载入 Clk_30s,D:\Data\IgsProduct\igs17213.clk_30s	AbstractIgsProductSourceProvider`2

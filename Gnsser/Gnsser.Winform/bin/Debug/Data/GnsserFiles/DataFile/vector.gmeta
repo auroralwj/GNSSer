@@ -1,0 +1,7 @@
+#这是注释
+Version       =1.0                           #注释
+Author        =Gnsser                        #这个不是必须的
+CreationTime  = 2015-09-26                   #这个不是必须的
+FileType      = *.vector                     #必须的
+ItemSplliter  =|-|,|;|	| |                  # 空格也是可以的
+PropertyNames = StartName, EndName           #必须的 

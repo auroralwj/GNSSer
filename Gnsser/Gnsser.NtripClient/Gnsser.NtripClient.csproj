@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0FA39F8B-CDB8-421C-A75F-C669462992C0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>Gnsser.Ntrip</RootNamespace>
+    <AssemblyName>Gnsser.Ntrip</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>bin\Debug\Gnsser.Ntrip.XML</DocumentationFile>
+    <NOWARN>1591,660,661</NOWARN>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>NTRIPClient.xml</DocumentationFile>
+    <NOWARN>1591,660,661</NOWARN>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Geo\Geo.Winform\Geo.Winform.csproj">
+      <Project>{4d249fdd-b0fb-4567-8d13-cd5ef3228a45}</Project>
+      <Name>Geo.Winform</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Geo\Geo\Geo.csproj">
+      <Project>{e82770d4-22d7-4e3b-8ec6-2583e39f0779}</Project>
+      <Name>Geo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Gnsser.Common\Gnsser.Core.csproj">
+      <Project>{8ed075c1-2f96-4ede-afe5-b0e44db44d5c}</Project>
+      <Name>Gnsser.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Gnsser.Winform\Gnsser.Winform.csproj">
+      <Project>{edc12b19-8c0e-424a-b663-7dc0b567f1e0}</Project>
+      <Name>Gnsser.Winform</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Crc\ByteCrcGenerator.cs" />
+    <Compile Include="Crc\CrcGeneratror.cs" />
+    <Compile Include="Crc\CrcSovler.cs" />
+    <Compile Include="Crc\CrcUtil.cs" />
+    <Compile Include="INtripSourceItem.cs" />
+    <Compile Include="IO\NtripSourceManager.cs" />
+    <Compile Include="LocalGps.cs" />
+    <Compile Include="RealTimeGnssPositioner.cs" />
+    <Compile Include="RealTimeGnssDataWriter.cs" />
+    <Compile Include="NtripRunner.cs" />
+    <Compile Include="NtripUtil.cs" />
+    <Compile Include="Ntrip\NtripDataRequestor.cs" />
+    <Compile Include="Ntrip\NtripDataTransceiver.cs" />
+    <Compile Include="Ntrip\NtripParam.cs" />
+    <Compile Include="Ntrip\NtripRequestStringBuilder.cs" />
+    <Compile Include="Ntrip\NtripRtcm3Requestor.cs" />
+    <Compile Include="Ntrip\RawTcpIpRequestor.cs" />
+    <Compile Include="obj\Release\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Release\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Release\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Application.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Rtcm\BinaryDataWriter.cs" />
+    <Compile Include="Rtcm\References\RtcmT.cs" />
+    <Compile Include="Rtcm\Rtcm2\Rtcm2Byte.cs" />
+    <Compile Include="Rtcm\Rtcm2\Rtcm2DataReader.cs" />
+    <Compile Include="Rtcm\Rtcm2\Rtcm2Header.cs" />
+    <Compile Include="Rtcm\Rtcm3\DataAquirement.cs" />
+    <Compile Include="Rtcm\Rtcm3\Entity\Rtcm3Frame.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\BaseRtcmMessage.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\GlonassMessageHeader.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\GlonassNetworkFKPGradientHeader.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\GlonassNetworkRTKHeader.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\GpsMessageHeader.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\GpsNetworkFKPGradientHeader.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\Message1001.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\Message1002.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\Message1003.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\Message1004.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\Message1005.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\Message1006.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\Message1007.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\Message1008.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\Message1009.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\Message1010.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\Message1011.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\Message1012.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\Message1013.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\Message1019.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\Message1020.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\Message1021.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\Message1022.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\Message1023.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\Message1024.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\Message1025.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\Message1026.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\Message1027.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\Message1033.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\Message1034.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\Message1035.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\Message1037.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\Message1038.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\Message1039.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\Message1044.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\Message1045.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\Message1230.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\Message63.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\MSM\BaseMSM.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\MSM\HeaderOfMSM.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\MSM\MSM1.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\MSM\MSM2.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\MSM\MSM3.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\MSM\MSM4.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\MSM\MSM5.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\MSM\MSM6.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\MSM\MSM7.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\RtcmMessage.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\SSRBeiDou.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\SSRBeiDouHeader.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\SSRGalileo.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\SSRGalileoHeader.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\SSRGlonass.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\SSRGlonassHeader.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\SSRGps.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\SSRGpsHeader.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\SSRQZSS.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\SSRQZSSHeader.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\SSRSBS.cs" />
+    <Compile Include="Rtcm\Rtcm3\Messages\SSRSBSHeader.cs" />
+    <Compile Include="Rtcm\Rtcm3\Converters\Rtcm3Converter.cs" />
+    <Compile Include="Rtcm\Rtcm3\Rtcm3DataReceiver.cs" />
+    <Compile Include="Rtcm\Rtcm3\RtcmConst.cs" />
+    <Compile Include="Rtcm\Rtcm3\RealTimeGnssDataProvider.cs" />
+    <Compile Include="Rtcm\Rtcm3\RtcmDataParser.cs" />
+    <Compile Include="Rtcm\Rtcm3\Converters\RtcmEphMessageConverter.cs" />
+    <Compile Include="Rtcm\Rtcm3\Converters\RtcmMsmMessageConverter.cs" />
+    <Compile Include="Rtcm\Rtcm3\Converters\RtcmSSRMessageConverter.cs" />
+    <Compile Include="Setting.cs" />
+    <Compile Include="SourceTable.cs" />
+    <Compile Include="WinForms\DataReceiverForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\DataReceiverForm.Designer.cs">
+      <DependentUpon>DataReceiverForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\DrawLineControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WinForms\DrawLineControl.Designer.cs">
+      <DependentUpon>DrawLineControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\LocalDataReceiverForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\LocalDataReceiverForm.Designer.cs">
+      <DependentUpon>LocalDataReceiverForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\MainlyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\MainlyForm.Designer.cs">
+      <DependentUpon>MainlyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\NTRIPDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\NTRIPDialog.Designer.cs">
+      <DependentUpon>NTRIPDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\OptionsDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\OptionsDialog.Designer.cs">
+      <DependentUpon>OptionsDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\RtcmFileNamer.cs" />
+    <Compile Include="WinForms\SerialDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\SerialDialog.Designer.cs">
+      <DependentUpon>SerialDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinForms\SourceTableForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinForms\SourceTableForm.Designer.cs">
+      <DependentUpon>SourceTableForm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="obj\Debug\Gnsser.Ntrip.NTRIPDialog.resources" />
+    <EmbeddedResource Include="obj\Debug\Gnsser.Ntrip.OptionsDialog.resources" />
+    <EmbeddedResource Include="obj\Debug\Gnsser.Ntrip.Properties.Resources.resources" />
+    <EmbeddedResource Include="obj\Debug\Gnsser.Ntrip.SerialDialog.resources" />
+    <EmbeddedResource Include="obj\Debug\Gnsser.Ntrip.WinForms.DataReceiverForm.resources" />
+    <EmbeddedResource Include="obj\Debug\Gnsser.Ntrip.WinForms.LocalDataReceiverForm.resources" />
+    <EmbeddedResource Include="obj\Debug\Gnsser.Ntrip.WinForms.MainlyForm.resources" />
+    <EmbeddedResource Include="obj\Debug\Gnsser.Ntrip.WinForms.SourceTableForm.resources" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\DataReceiverForm.resx">
+      <DependentUpon>DataReceiverForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\DrawLineControl.resx">
+      <DependentUpon>DrawLineControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\LocalDataReceiverForm.resx">
+      <DependentUpon>LocalDataReceiverForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\MainlyForm.resx">
+      <DependentUpon>MainlyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\NTRIPDialog.resx">
+      <DependentUpon>NTRIPDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\OptionsDialog.resx">
+      <DependentUpon>OptionsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\SerialDialog.resx">
+      <DependentUpon>SerialDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinForms\SourceTableForm.resx">
+      <DependentUpon>SourceTableForm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="NTRIPClient.v12.suo" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\Gnsser.NtripClient.csproj.GenerateResource.Cache" />
+    <None Include="obj\Debug\Gnsser.NtripClient.csprojResolveAssemblyReference.cache" />
+    <None Include="obj\Release\build.force" />
+    <None Include="obj\Release\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Properties\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Gnsser.ico" />
+    <Content Include="obj\Debug\Gnsser.Ntrip.exe" />
+    <Content Include="obj\Debug\Gnsser.Ntrip.pdb" />
+    <Content Include="obj\Debug\Gnsser.NtripClient.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
+    <Content Include="obj\Release\TempPE\Properties.Resources.Designer.cs.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\" />
+  </ItemGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <Import Project="$(MSBuildBinPath)/Microsoft.CSharp.targets" />
+</Project>

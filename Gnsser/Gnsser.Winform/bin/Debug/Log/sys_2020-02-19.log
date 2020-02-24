@@ -1,0 +1,6 @@
+2020-02-19 10:04:00.741	Info	程序启动	Program
+2020-02-19 10:04:00.853	Info	检查新版本	Program
+2020-02-19 10:04:01.034	Info	成功加载配置文件 gnsser.conf	Setting
+2020-02-19 10:04:01.059	Error	小心！服务路径为空！	FileBasedService`1
+2020-02-19 10:23:03.374	Info	保存了配置到文件 gnsser.conf	Setting
+2020-02-19 10:23:03.378	Info	程序正常退出	Program

@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBoxControl_postParams.Text" xml:space="preserve">
+    <value># [Adjustment]
+PhaseCovaProportionToRange    =0.0001	# 卫星相位与伪距观测量的权比
+StdDevOfWhiteNoiseModel       =300000	#  随机模型参数，白噪声模型的标准差。
+StdDevOfTropoRandomWalkModel  =0.0004	# 随机模型参数， 对流层随机游走模型的标准差。
+StdDevOfStaticTransferModel   =1E-10	# 随机模型参数， 静态模型的标准差。
+StdDevOfIonoRandomWalkModel   =0.13	#  随机模型参数， 电离层随机游走模型的标准差。
+StdDevOfCycledPhaseModel      =20000000	#  随机模型参数， 发生周跳时，载波相位模型的标准差。
+StdDevOfPhaseModel            =1E-05	#  随机模型参数， 载波相位模型的标准差。
+StdDevOfRandomWalkModel       =0.0175	# 随机模型参数， 随机游走模型的标准差。
+AdjustmentType                =卡尔曼滤波	# 平差类型选项
+StdDevOfSysTimeRandomWalkModel=0.0004	# 随机模型参数， 随机游走模型的标准差。
+
+# [Basic]
+Version                       =1	# 自动生成
+Author                        =GNSSer, www.gnsser.com	# 自动生成
+CreationTime                  =2018-03-22 11:56:06	# 自动生成
+Name                          =未命名	# Name of this Option
+
+# [Calculation]
+CaculateType                  =Filter	# 计算方式
+MinSuccesiveEphemerisCount    =6	# 用于拟合的最小连续星历数量。
+MultiEpochCount               =3	# 系数阵历元数量
+MutliEpochSameSatCount        =5	# 参与差分卫星的数量
+IsRangeValueRequired          =True	# 是否需要伪距值
+IsPhaseValueRequired          =True	# 是否需要相位值
+IsSetApproxXyzWithCoordService=False	# 是否需要用坐标服务设置测站初值
+IsRemoveOrDisableNotPassedSat =True	# 是否移除未通过检核的卫星，否则标记为未启用。
+IsRemoveSmallPartSat          =True	# 是否移除观测段太小的卫星
+IsExcludeMalfunctioningSat    =True	# 是否移除故障卫星(通常从外部文件指定)
+IsDisableEclipsedSat          =True	#  是否禁用太阳阴影影响的卫星
+MinContinuouObsCount          =10	#  卫星连续观测的最小历元数量(单位：历元次)。即如果小于这个间隔，则抹去，不参与计算，以免影响精度。
+MinSatCount                   =4	# 最小卫星数量
+MinFrequenceCount             =2	# 至少的观测频率数量
+ObsPhaseDataType              =IonoFreePhaseRange	# 用于载波计算的观测值变量类型,此设置用于周跳探测，近似观测值获取等。
+PhaseTypeToSmoothRange        =IonoFreePhaseRange	# 平滑伪距的相位类型
+MinDistanceOfLongBaseLine     =50000	# 长基线的最小长度,单位米
+MaxMeanStdTimes               =100	# 最大平均均方根倍数
+EnableLoop                    =False	# 是否启用迭代
+MaxLoopCount                  =5	# 最大迭代次数
+FilterCourceError             =True	# 是否过滤粗差
+VertAngleCut                  =5	# 高度截止角
+IsPreciseOrbit                =False	# 是否是精密轨道
+MaxStdDev                     =100000	#  最大均方差，阈值。
+RejectGrossError              =False	# 是否剔除粗差
+SatelliteTypes                =G	# 参与计算的卫星类型，系统类型。
+MaxDistanceOfShortBaseLine    =1000	# 短基线的最大长度，单位米
+BufferSize                    =50	# 缓存数量
+IsTropAugmentEnabled          =False	# 是否对流层增强启用
+OrdinalAndReverseCount        =0	# 正反算， 顺序-逆序计算. 0表示只按照默认配置，单向计算一次。
+IsReversedDataSource          =False	# 是否逆序数据流正反算
+PositionType                  =静态定位	# 静态定位还是动态定位
+ProcessType                   =仅计算	# 数据处理类型，是否为预处理等
+GnssSolverType                =无电离层组合PPP	# GNSS 解算器类型
+StartIndex                    =0	# 计算起始历元编号。
+CaculateCount                 =10000000	# 计算数量，从起始编号开始计算。
+IsApproxXyzRequired           =True	# 是否需要测站初始值,如果需要，而测站值为空，则将自动进行计算设置
+InitApproxXyzRms              =100.00000, 100.00000, 100.00000	# 坐标初始中误差.用于初始赋权.默认为100米。
+InitApproxXyz                 =     0,      0,      0	# 坐标初始.用于初始赋权
+IsSameSatRequired             =True	# 是否要求相同卫星
+Interval                      =30	# 采样间隔，单位秒，用于周跳探测初值赋予等，需要想办法设置。默认为30秒。
+IsIonoParamModelCorrectionRequired=False	# 是否需要电离层导航参数模型
+IsEpochIonoFileRequired       =False	# 是否需要GNSSer历元电离层文件
+
+# [Correction]
+IsFrequencyCorrectionsRequired=True	# 是否需要频率改正
+IsApproxModelCorrectionRequired=True	# 是否需要近似模型改正
+IsSiteCorrectionsRequired     =True	# 测站改正
+IsDcbCorrectionRequired       =True	# 是否需要DCB改正
+IsReceiverAntPcoCorrectionRequired=True	# 接收机天线PCO改正
+IsOceanTideCorrectionRequired =True	# 海洋潮汐改正
+IsSolidTideCorrectionRequired =True	# 固体潮改正
+IsIonoCorretionRequired       =True	# 是否启用电离层模型改正。顶层接口，如果要采用电离层改正观测近似值，则必须设定。
+IsPoleTideCorrectionRequired  =True	# 极潮改正
+IsRangeCorrectionsRequired    =True	# 伪距改正
+IsTropCorrectionRequired      =True	# 对流层改正
+IsSatClockBiasCorrectionRequired=True	# 卫星钟差改正
+IsSatAntennaPhaseCenterCorrectionRequired=True	# 卫星天线相位中心改正
+IsRecAntennaPcoCorrectionRequired=True	# 接收机天线PCO改正
+IsRecAntennaPcvRequired       =True	# 接收机天线PCV改正
+IsPhaseWindUpCorrectionRequired=True	# 相位缠绕改正
+IsGravitationalDelayCorrectionRequired=True	# 重力延迟改正
+IsObsCorrectionRequired       =True	# 是否需要观测值改正
+
+# [DataSource]
+IsStationInfoRequired         =False	# 测站信息文件，主要包含天线时段信息。
+IsIndicatingStationInfoFile   =False	# 是否指定测站信息文件
+IsSiteCoordServiceRequired    =False	# 是否需要坐标服务
+EnableClockService            =True	#  是否启用单独的钟差服务（文件）
+Isgpt2File1DegreeRequired     =True	# 是否需要 GPT2的1度格网文件
+IsEnableNgaEphemerisSource    =True	# 是否启用NGA星历匹配，作为实时计算的备份。
+IsUniqueSource                =True	# 是否使用唯一数据源，当自动匹配时使用
+IsSwitchWhenEphemerisNull     =False	# 在获取星历失败后，是否切换星历数据源
+ObsFiles                      =ftp://cddis.gsfc.nasa.gov/pub/gps/data/daily/2013/001/13o/aber0010.13o.Z	# 观测文件路径，逗号“,”分隔
+IndicatedSourceCode           =ig	# 指定的IGS数据源，前两个字作为代码
+Isgpt2FileRequired            =True	# 是否采用GPT2通用文件改正
+IsVMF1FileRequired            =True	# 是否需要VMF1文件
+IsDCBFileRequired             =True	# 是否需要DCB文件
+IsOceanLoadingFileRequired    =True	# 是否需要潮汐文件
+IsSatInfoFileRequired         =True	# 是否需要卫星信息文件
+IsSatStateFileRequired        =True	# 是否需要卫星状态文件
+IsAntennaFileRequired         =True	# 是否需要天线文件
+IsPreciseEphemerisFileRequired=True	# 是否需要精密星历文件
+IsEphemerisRequired           =True	# 是否需要星历， 默认需要
+IsPreciseClockFileRequired    =True	# 是否需要精密钟差文件
+StationInfoPath               =Data\GNSS\Common\StationInfo.stainfo	# 测站信息文件路径
+IsIgsIonoFileRequired         =False	# 是否需要IGS电离层格网文件
+TropAugmentFilePath           =	# 对流层增强文件
+EphemerisFilePath             =Data\GNSS\Rinex\2013.01.01_17212\brdc0010.13n	# 指定的星历路径
+ClockFilePath                 =Data\GNSS\IgsProduct\igs17212.clk	# 指定的钟差路径，具有最高优先权
+IsIndicatingCoordFile         =False	# 是否指定坐标文件
+IsIndicatingEphemerisFile     =False	# 是否指定星历数据源，具有最高优先权
+EpochIonoParamFilePath        =	# 历元电离层参数文件路径
+IsIndicatingGridIonoFile      =False	# 是否指定格网电离层文件
+IonoGridFilePath              =Data\GNSS\IgsProduct\igsg0010.13i	# 格网电离层文件路径
+IsP2C2Enabled                 =False	# 是否需要 P2C2 
+IsIndicatingClockFile         =False	# 是否指定钟差
+IsObsDataRequired             =True	# 是否需要观测数据源
+IsLengthPhaseValue            =False	# 载波相位是否是以米为单位，如Android接收机单位为米。
+NavIonoModelPath              =	# 导航文件路径，用于提取电离层改正等
+IsEnableRealTimeCs            =True	# 是否启用实时周跳探测
+IsErpFileRequired             =True	# 是否采用ERP文件改正
+
+# [Default]
+IsCycleSlipReparationRequired =False
+IsAllowMissingEpochSite       =False
+ApproxDataType                =ApproxPseudoRangeA
+IsIndicateObsType             =False
+RangeType                     =IonoFreeRangeOfAB
+IsOutputSinex                 =False
+IsBaseSatelliteRequried       =False
+IsRequireSameSats             =False
+IsFixingAmbiguity             =False
+IsUpdateStationInfo           =False
+IsIndicatingApproxXyzRms      =False
+IsIndicatingApproxXyz         =False
+IsEnableInitApriori           =False
+InitApriori                   =
+RinexObsFileFormatType        =单站单历元
+IsFixingCoord                 =False
+CoordFilePath                 =
+IsOutputSummery               =False
+IsUpdateEstimatePostition     =False
+IsSmoothingRangeByPhase       =False
+IgnoreCsedOfBufferCs          =False
+IsOutputWetTrop               =False
+IsOutputIono                  =False
+IsPromoteTransWhenResultValueBreak=False
+IsResidualCheckEnabled        =False
+
+# [Output]
+IsOutputAdjust                =False	# 是否输出平差文件
+OutputDirectory               =Temp\	# 结果输出目录
+IsOutputEpochResult           =True	# 是否输出逐个历元计算结果
+OutputBufferCount             =10000	# 输出结果缓存大小
+IsOutputResult                =True	# 是否输出结果的总开关，只有此为true才会判断下面的输出
+IsOpenReportWhenCompleted     =True	# 是否在计算结束时打开平差报告
+OutputRinexVersion            =3.02	# RINEX 输出版本 2.11 或 3.02
+IsOutputSatInfo               =False	# 是否输出卫星信息
+
+# [PreProcess]
+MaxEpochSpan                  =120	# 最大的时间跨度，单位：秒，如果历元之间超过了这个时段，则清空以往数据，重新构建对象。
+DifferTimesOfBufferCs         =1	# 缓存周跳差分次数
+IsUsingRecordedCycleSlipInfo  =True	# 是否采用数据源信息标记的周跳，若已标记周跳，则认为有。
+MinAllowedRange               =15000000	# 允许最小的伪距
+PolyFitOrderOfBufferCs        =2	# 缓存周跳拟合阶次
+MinWindowSizeOfCs             =5	# 缓存周跳 最小窗口大小，小于此，都认为有周跳。
+CycleSlipDetectSwitcher       =	# 周跳开关.优先考虑周跳探测器开关,如为空，然后考虑默认周跳探测器。
+IsDopplerShiftRequired        =False	# 是否需要多普勒频率
+IsAliningPhaseWithRange       =False	# 是否将初始相位采用伪距对齐
+IsOutputCycleSlipFile         =False	# 是否输出周跳文件
+MaxErrorTimesOfBufferCs       =3	# 缓存周跳差分次数
+IsCycleSlipDetectionRequired  =True	# 是否进行周跳探测
+MaxBreakingEpochCount         =4	# 周跳探测允许最大断裂的时间间隔
+MaxValueDifferOfHigherDifferCs=14	# 高次差周跳探测中，允许的最大的误差
+MaxRmsTimesOfLsPolyCs         =50	# 多项式拟合周跳探测中，最大的误差倍数
+MaxDifferValueOfMwCs          =8.6	# MW周跳探测中，最大的误差
+IsReverseCycleSlipeRevise     =True	# 启用逆序周跳探测
+MaxAllowedRange               =40000000	# 允许最大的伪距
+IsEnableBufferCs              =False	# 启用缓存周跳探测</value>
+  </data>
+</root>

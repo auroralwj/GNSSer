@@ -1,0 +1,2708 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EDC12B19-8C0E-424A-B663-7DC0B567F1E0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Gnsser.Winform</RootNamespace>
+    <AssemblyName>Gnsser</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <PublishUrl>http://localhost/Gnss/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Gnsser.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AnyInfo, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Libs\AnyInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\..\Libs\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\MultiSolverOptionControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\MultiSolverOptionControl.Designer.cs">
+      <DependentUpon>MultiSolverOptionControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TimePeriodUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\TimePeriodUserControl.Designer.cs">
+      <DependentUpon>TimePeriodUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GnsserFormUtil.cs" />
+    <Compile Include="Service\Ambiguity\IonoFreeAmbiguityFixserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Ambiguity\IonoFreeAmbiguityFixserForm.Designer.cs">
+      <DependentUpon>IonoFreeAmbiguityFixserForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ObsSiteInfos.cs" />
+    <Compile Include="PppRinexFileApproxUpdater.cs" />
+    <Compile Include="ResultBackGroundStyle.cs" />
+    <Compile Include="Service\OptionForms\VizardPages\ParamOptionPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Service\OptionForms\VizardPages\ParamOptionPage.Designer.cs">
+      <DependentUpon>ParamOptionPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\SingleSitePointPositionSolverForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizards\SingleSitePointPositionSolverForm.Designer.cs">
+      <DependentUpon>SingleSitePointPositionSolverForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\MultiPeriodBaseLineSolverForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizards\MultiPeriodBaseLineSolverForm.Designer.cs">
+      <DependentUpon>MultiPeriodBaseLineSolverForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ObsFileChartEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ObsFileChartEditForm.Designer.cs">
+      <DependentUpon>ObsFileChartEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataAnanysis\MultiPathAnanasisForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataAnanysis\MultiPathAnanasisForm.Designer.cs">
+      <DependentUpon>MultiPathAnanasisForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\Md5CheckerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\Md5CheckerForm.Designer.cs">
+      <DependentUpon>Md5CheckerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ObsPeriodDividerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ObsPeriodDividerForm.Designer.cs">
+      <DependentUpon>ObsPeriodDividerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\BaseLineNetAdjust\LgoBaselineFileForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\BaseLineNetAdjust\LgoBaselineFileForm.Designer.cs">
+      <DependentUpon>LgoBaselineFileForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\BaseLineNetAdjust\BaselineNetAdjustForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\BaseLineNetAdjust\BaselineNetAdjustForm.Designer.cs">
+      <DependentUpon>BaselineNetAdjustForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\BaseLineNetAdjust\RankDeficiencyBaselineNetMatrixBuilder.cs" />
+    <Compile Include="Service\BaseLineNetAdjust\SiteFixedBaselineNetMatrixBuilder.cs" />
+    <Compile Include="Service\BaseLineNetAdjust\BaseLineNetAdjust.cs" />
+    <Compile Include="Service\BaseLineNetAdjust\GnssNetAccuracyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\BaseLineNetAdjust\GnssNetAccuracyForm.Designer.cs">
+      <DependentUpon>GnssNetAccuracyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\BaseLineNetAdjust\BaselineNetClosureErrorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\BaseLineNetAdjust\BaselineNetClosureErrorForm.Designer.cs">
+      <DependentUpon>BaselineNetClosureErrorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataAnanysis\IonoFreeDoubleDifferAmbiFixerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataAnanysis\IonoFreeDoubleDifferAmbiFixerForm.Designer.cs">
+      <DependentUpon>IonoFreeDoubleDifferAmbiFixerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataAnanysis\MwDifferTableBuilderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataAnanysis\MwDifferTableBuilderForm.Designer.cs">
+      <DependentUpon>MwDifferTableBuilderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataAnanysis\AmbiguityFileBuilderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataAnanysis\AmbiguityFileBuilderForm.Designer.cs">
+      <DependentUpon>AmbiguityFileBuilderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataAnanysis\AmbiguityCombineerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataAnanysis\AmbiguityCombineerForm.Designer.cs">
+      <DependentUpon>AmbiguityCombineerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataAnanysis\PeriodParamExtractor.cs" />
+    <Compile Include="Service\DataPrepare\IgsProdctExtractorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataPrepare\IgsProdctExtractorForm.Designer.cs">
+      <DependentUpon>IgsProdctExtractorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interoperability\Rtklib\RtkPositionViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interoperability\Rtklib\RtkPositionViewForm.designer.cs">
+      <DependentUpon>RtkPositionViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataPrepare\MultiCombineOFileForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataPrepare\MultiCombineOFileForm.Designer.cs">
+      <DependentUpon>MultiCombineOFileForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataPrepare\SameSiteSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataPrepare\SameSiteSelectForm.Designer.cs">
+      <DependentUpon>SameSiteSelectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataAnanysis\ConvergenceTimeCalculatorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataAnanysis\ConvergenceTimeCalculatorForm.Designer.cs">
+      <DependentUpon>ConvergenceTimeCalculatorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataPrepare\Rinex\ObsFileEditorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataPrepare\Rinex\ObsFileEditorForm.Designer.cs">
+      <DependentUpon>ObsFileEditorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PppAmbiguity\NewMethod\EpochBsdOfNarrowLaneSolver.cs" />
+    <Compile Include="PppAmbiguity\NewMethod\BsdOfNarrowLaneSolver.cs" />
+    <Compile Include="Service\DataAnanysis\RawMwTableBuilder.cs" />
+    <Compile Include="Service\DataAnanysis\SingleSiteMwValueBuilder.cs" />
+    <Compile Include="Service\DataAnanysis\SiteMwValueManagerBuilder.cs" />
+    <Compile Include="Service\DataView\Other\WhuFcb\WhuFcbServiceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataView\Other\WhuFcb\WhuFcbServiceForm.Designer.cs">
+      <DependentUpon>WhuFcbServiceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Ephemeris\SatPolarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Ephemeris\SatPolarForm.Designer.cs">
+      <DependentUpon>SatPolarForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataView\Other\Iono\IonoTrendCaculateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataView\Other\Iono\IonoTrendCaculateForm.Designer.cs">
+      <DependentUpon>IonoTrendCaculateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataPrepare\Rinex\OFileSmoothRangeFormaterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataPrepare\Rinex\OFileSmoothRangeFormaterForm.Designer.cs">
+      <DependentUpon>OFileSmoothRangeFormaterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\MultiSiteNetSolveForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\MultiSiteNetSolveForm.Designer.cs">
+      <DependentUpon>MultiSiteNetSolveForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\ClockLoseWeightForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\ClockLoseWeightForm.Designer.cs">
+      <DependentUpon>ClockLoseWeightForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\OptionForms\VizardPages\AccuracyEvaluationOptionPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Service\OptionForms\VizardPages\AccuracyEvaluationOptionPage.Designer.cs">
+      <DependentUpon>AccuracyEvaluationOptionPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\OptionForms\VizardPages\ResultCheckOptionPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Service\OptionForms\VizardPages\ResultCheckOptionPage.Designer.cs">
+      <DependentUpon>ResultCheckOptionPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\TwoSiteSolveForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\TwoSiteSolveForm.Designer.cs">
+      <DependentUpon>TwoSiteSolveForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\OptionForms\VizardPages\AmbiguityOptionPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Service\OptionForms\VizardPages\AmbiguityOptionPage.Designer.cs">
+      <DependentUpon>AmbiguityOptionPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\OptionForms\VizardPages\BaseLineOptionPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Service\OptionForms\VizardPages\BaseLineOptionPage.Designer.cs">
+      <DependentUpon>BaseLineOptionPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\OptionForms\VizardPages\PreprocessOptionPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Service\OptionForms\VizardPages\PreprocessOptionPage.Designer.cs">
+      <DependentUpon>PreprocessOptionPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\ClockJumpReviserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\ClockJumpReviserForm.Designer.cs">
+      <DependentUpon>ClockJumpReviserForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\OptionForms\VizardPages\MutiGnssOptionPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Service\OptionForms\VizardPages\MutiGnssOptionPage.Designer.cs">
+      <DependentUpon>MutiGnssOptionPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataPrepare\SingleCombineOFileForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataPrepare\SingleCombineOFileForm.Designer.cs">
+      <DependentUpon>SingleCombineOFileForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\BaseSatSelectingControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\BaseSatSelectingControl.Designer.cs">
+      <DependentUpon>BaseSatSelectingControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\EnumSelectControls\RinexObsFileFormatTypeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\EnumSelectControls\ProcessTypeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\EnumSelectControls\SingleSiteGnssSolverTypeSelectionControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\EnumSelectControls\SingleSiteGnssSolverTypeSelectionControl.Designer.cs">
+      <DependentUpon>SingleSiteGnssSolverTypeSelectionControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseForm\ParalleledFileForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseForm\ParalleledFileForm.Designer.cs">
+      <DependentUpon>ParalleledFileForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataView\Rinex\MultiObsFileViewerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataView\Rinex\MultiObsFileViewerForm.Designer.cs">
+      <DependentUpon>MultiObsFileViewerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\CoordSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\CoordSelectForm.Designer.cs">
+      <DependentUpon>CoordSelectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataView\Other\Iono\IonoSatServiceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataView\Other\Iono\IonoSatServiceForm.Designer.cs">
+      <DependentUpon>IonoSatServiceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataView\Other\Iono\GridIono\IonoDcbViewerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataView\Other\Iono\GridIono\IonoDcbViewerForm.Designer.cs">
+      <DependentUpon>IonoDcbViewerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataView\Other\Iono\GridIono\IonoDcbSolveForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataView\Other\Iono\GridIono\IonoDcbSolveForm.Designer.cs">
+      <DependentUpon>IonoDcbSolveForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataView\Other\Iono\IonOfSphericalHarmonicsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataView\Other\Iono\IonOfSphericalHarmonicsForm.Designer.cs">
+      <DependentUpon>IonOfSphericalHarmonicsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Ephemeris\IgsProducExtractorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Ephemeris\IgsProducExtractorForm.Designer.cs">
+      <DependentUpon>IgsProducExtractorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Ephemeris\ClkFilemaintainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Ephemeris\ClkFilemaintainForm.Designer.cs">
+      <DependentUpon>ClkFilemaintainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Ephemeris\Sp3FilemaintainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Ephemeris\Sp3FilemaintainForm.Designer.cs">
+      <DependentUpon>Sp3FilemaintainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\PathReplaceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\PathReplaceForm.Designer.cs">
+      <DependentUpon>PathReplaceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RapidAccessForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RapidAccessForm.Designer.cs">
+      <DependentUpon>RapidAccessForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataAnanysis\TropProductsCompForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataAnanysis\TropProductsCompForm.Designer.cs">
+      <DependentUpon>TropProductsCompForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataPrepare\Download\ObsFileDownloadForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataPrepare\Download\ObsFileDownloadForm.Designer.cs">
+      <DependentUpon>ObsFileDownloadForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataPrepare\Download\NaviFileDownloadForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataPrepare\Download\NaviFileDownloadForm.Designer.cs">
+      <DependentUpon>NaviFileDownloadForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataPrepare\GLoggerFileConvertForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataPrepare\GLoggerFileConvertForm.Designer.cs">
+      <DependentUpon>GLoggerFileConvertForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataPrepare\Rinex\OFileFixingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataPrepare\Rinex\OFileFixingForm.Designer.cs">
+      <DependentUpon>OFileFixingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataPrepare\Preprocess\CycleSlip\BufferedCycleSlipDetectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataPrepare\Preprocess\CycleSlip\BufferedCycleSlipDetectForm.Designer.cs">
+      <DependentUpon>BufferedCycleSlipDetectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataView\Other\DopDrawForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataView\Other\DopDrawForm.Designer.cs">
+      <DependentUpon>DopDrawForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataView\Other\Iono\GridIono\IonoServiceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataView\Other\Iono\GridIono\IonoServiceForm.Designer.cs">
+      <DependentUpon>IonoServiceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataView\Other\Iono\GridIono\IonoViewerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataView\Other\Iono\GridIono\IonoViewerForm.Designer.cs">
+      <DependentUpon>IonoViewerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Gpe\OptionRunnerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Gpe\OptionRunnerForm.Designer.cs">
+      <DependentUpon>OptionRunnerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\NetService\HttpUrlPositionerrForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\NetService\HttpUrlPositionerrForm.Designer.cs">
+      <DependentUpon>HttpUrlPositionerrForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\OptionForms\ObsFileFixOptionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\OptionForms\ObsFileFixOptionForm.Designer.cs">
+      <DependentUpon>ObsFileFixOptionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\OptionForms\ObsFileConvertOptionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\OptionForms\ObsFileConvertOptionForm.Designer.cs">
+      <DependentUpon>ObsFileConvertOptionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\OptionForms\VizardPages\CorrectionOptionPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Service\OptionForms\VizardPages\CorrectionOptionPage.Designer.cs">
+      <DependentUpon>CorrectionOptionPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\OptionForms\VizardPages\ObsAndApproxOptionPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Service\OptionForms\VizardPages\ObsAndApproxOptionPage.Designer.cs">
+      <DependentUpon>ObsAndApproxOptionPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\OptionForms\VizardPages\IndicateDataSourceOptionPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Service\OptionForms\VizardPages\IndicateDataSourceOptionPage.Designer.cs">
+      <DependentUpon>IndicateDataSourceOptionPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\OptionForms\VizardPages\OptionVizardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\OptionForms\VizardPages\StateTransferModelOptionPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Service\OptionForms\VizardPages\StateTransferModelOptionPage.Designer.cs">
+      <DependentUpon>StateTransferModelOptionPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\OptionForms\VizardPages\PsuedoRangeSmoothOptionPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Service\OptionForms\VizardPages\PsuedoRangeSmoothOptionPage.Designer.cs">
+      <DependentUpon>PsuedoRangeSmoothOptionPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\OptionForms\VizardPages\OutputOptionPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Service\OptionForms\VizardPages\OutputOptionPage.Designer.cs">
+      <DependentUpon>OutputOptionPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\OptionForms\VizardPages\BaseGnssProcessOptionPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Service\OptionForms\VizardPages\BaseGnssProcessOptionPage.Designer.cs">
+      <DependentUpon>BaseGnssProcessOptionPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\OptionForms\VizardPages\CycleSlipOptionPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Service\OptionForms\VizardPages\CycleSlipOptionPage.Designer.cs">
+      <DependentUpon>CycleSlipOptionPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\OptionForms\VizardPages\StreamOptionPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Service\OptionForms\VizardPages\StreamOptionPage.Designer.cs">
+      <DependentUpon>StreamOptionPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\OptionForms\VizardPages\SiteReceiverOptionPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Service\OptionForms\VizardPages\SiteReceiverOptionPage.Designer.cs">
+      <DependentUpon>SiteReceiverOptionPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\OptionForms\VizardPages\SatelliteOptionPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Service\OptionForms\VizardPages\SatelliteOptionPage.Designer.cs">
+      <DependentUpon>SatelliteOptionPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\OptionForms\VizardPages\GnssCaculatorOptionPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Service\OptionForms\VizardPages\GnssCaculatorOptionPage.Designer.cs">
+      <DependentUpon>GnssCaculatorOptionPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\OptionForms\VizardPages\DataSourceOptionPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Service\OptionForms\VizardPages\DataSourceOptionPage.Designer.cs">
+      <DependentUpon>DataSourceOptionPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Orbit\DopForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Orbit\DopForm.Designer.cs">
+      <DependentUpon>DopForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.Extension.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataView\Other\WhuFcb\WhuFcbComparerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataView\Other\WhuFcb\WhuFcbComparerForm.Designer.cs">
+      <DependentUpon>WhuFcbComparerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataView\Other\WhuFcb\WhuFcbViewerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataView\Other\WhuFcb\WhuFcbViewerForm.Designer.cs">
+      <DependentUpon>WhuFcbViewerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PppAmbiguity\Common\EpochSatValue.cs" />
+    <Compile Include="PppAmbiguity\Common\SatDifferNameBuilder.cs" />
+    <Compile Include="PppAmbiguity\IO\DifferFcbManager.cs" />
+    <Compile Include="PppAmbiguity\IO\DifferFcbOfSatDcbItem.cs" />
+    <Compile Include="PppAmbiguity\IO\DifferFcbOfSatDcbReader.cs" />
+    <Compile Include="PppAmbiguity\IO\DifferFcbOfSatDcbWriter.cs" />
+    <Compile Include="PppAmbiguity\NarrowLane\EpochNarrowLaneSolver.cs" />
+    <Compile Include="PppAmbiguity\NarrowLane\MultiSiteNarrowLaneSolver.cs" />
+    <Compile Include="PppAmbiguity\NarrowLane\MultiSiteNarrowLineSolver.cs" />
+    <Compile Include="PppAmbiguity\NarrowLane\NarrowLineSolverForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PppAmbiguity\NarrowLane\NarrowLineSolverForm.Designer.cs">
+      <DependentUpon>NarrowLineSolverForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PppAmbiguity\NewMethod\BaseBsdProductSolver.cs" />
+    <Compile Include="PppAmbiguity\NewMethod\MultiPeriodBsdProductSolver.cs" />
+    <Compile Include="PppAmbiguity\NewMethod\MultiPeriodBsdProductSolverForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PppAmbiguity\NewMethod\MultiPeriodBsdProductSolverForm.Designer.cs">
+      <DependentUpon>MultiPeriodBsdProductSolverForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PppAmbiguity\NewMethod\MultiPeriodlWideLaneOfBsdSolverForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PppAmbiguity\NewMethod\MultiPeriodlWideLaneOfBsdSolverForm.Designer.cs">
+      <DependentUpon>MultiPeriodlWideLaneOfBsdSolverForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PppAmbiguity\NewMethod\MultiPeriodNarrowLaneOfBsdSolver.cs" />
+    <Compile Include="PppAmbiguity\NewMethod\MultiPeriodNarrowLaneOfBsdSolverForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PppAmbiguity\NewMethod\MultiPeriodNarrowLaneOfBsdSolverForm.Designer.cs">
+      <DependentUpon>MultiPeriodNarrowLaneOfBsdSolverForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PppAmbiguity\NewMethod\MultiPeriodWideLaneOfBsdSolver.cs" />
+    <Compile Include="PppAmbiguity\NewMethod\NarrowLaneOfBsdSolver.cs" />
+    <Compile Include="PppAmbiguity\NewMethod\WideLaneOfBsdSolver.cs" />
+    <Compile Include="PppAmbiguity\NewMethod\WideLaneOfBsdSolverForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PppAmbiguity\NewMethod\WideLaneOfBsdSolverForm.Designer.cs">
+      <DependentUpon>WideLaneOfBsdSolverForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PppAmbiguity\PPPAmbiguityVizardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PppAmbiguity\PPPAmbiguityVizardForm.Designer.cs">
+      <DependentUpon>PPPAmbiguityVizardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PppAmbiguity\WideLane\EpochMwWideLaneSolver.cs" />
+    <Compile Include="PppAmbiguity\WideLane\MultiSiteMwWideLaneProcesser.cs" />
+    <Compile Include="PppAmbiguity\WideLane\MultiSiteMwWideLaneSolver.cs" />
+    <Compile Include="PppAmbiguity\WideLane\MultiSiteMwWideLaneStreamSolver.cs" />
+    <Compile Include="PppAmbiguity\WideLane\MwWideLaneSolverForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PppAmbiguity\WideLane\MwWideLaneSolverForm.Designer.cs">
+      <DependentUpon>MwWideLaneSolverForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataPrepare\SiteInfo\SiteInfoManagerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataPrepare\SiteInfo\SiteInfoManagerForm.Designer.cs">
+      <DependentUpon>SiteInfoManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataView\Other\SphericalHarmonicsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataView\Other\SphericalHarmonicsForm.Designer.cs">
+      <DependentUpon>SphericalHarmonicsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataAnanysis\SmoothRangeAccruceSolverForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataAnanysis\SmoothRangeAccruceSolverForm.Designer.cs">
+      <DependentUpon>SmoothRangeAccruceSolverForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Suvey\InitConfigAngleTheodoliteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Suvey\InitConfigAngleTheodoliteForm.Designer.cs">
+      <DependentUpon>InitConfigAngleTheodoliteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\Config\OptionConfigFileEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\Config\OptionConfigFileEditForm.Designer.cs">
+      <DependentUpon>OptionConfigFileEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\NetService\HttpOptRequesterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\NetService\HttpOptRequesterForm.Designer.cs">
+      <DependentUpon>HttpOptRequesterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\GnssTimeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\GnssTimeForm.Designer.cs">
+      <DependentUpon>GnssTimeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Clock\BNCSSRExportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Clock\BNCSSRExportForm.designer.cs">
+      <DependentUpon>BNCSSRExportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Clock\SSRExportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Clock\SSRExportForm.designer.cs">
+      <DependentUpon>SSRExportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataAnanysis\MwTableBuilder.cs" />
+    <Compile Include="Service\DataAnanysis\MwFractionTableBuilderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataAnanysis\MwFractionTableBuilderForm.Designer.cs">
+      <DependentUpon>MwFractionTableBuilderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataPrepare\TableToOFileForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataPrepare\TableToOFileForm.Designer.cs">
+      <DependentUpon>TableToOFileForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataPrepare\Rinex\OFileToTableForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataPrepare\Rinex\OFileToTableForm.Designer.cs">
+      <DependentUpon>OFileToTableForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataPrepare\SiteInfo\StationInfoExctracterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataPrepare\SiteInfo\StationInfoExctracterForm.Designer.cs">
+      <DependentUpon>StationInfoExctracterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Ephemeris\BroadcastEphemerisExportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Ephemeris\BroadcastEphemerisExportForm.designer.cs">
+      <DependentUpon>BroadcastEphemerisExportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Ephemeris\IGU\IGUEphemerisExportSp3BasedOnIgsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Ephemeris\IGU\IGUEphemerisExportSp3BasedOnIgsForm.designer.cs">
+      <DependentUpon>IGUEphemerisExportSp3BasedOnIgsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Ephemeris\IGU\RTEphemerisCombinationExportSp3Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Ephemeris\IGU\RTEphemerisCombinationExportSp3Form.Designer.cs">
+      <DependentUpon>RTEphemerisCombinationExportSp3Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Ephemeris\IGU\RTEphemerisExportSp3Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Ephemeris\IGU\RTEphemerisExportSp3Form.Designer.cs">
+      <DependentUpon>RTEphemerisExportSp3Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Ephemeris\SatEevationSolverForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Ephemeris\SatEevationSolverForm.Designer.cs">
+      <DependentUpon>SatEevationSolverForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Ephemeris\SatelliteSelectorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Ephemeris\SatelliteSelectorForm.Designer.cs">
+      <DependentUpon>SatelliteSelectorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Testing\MatrixSpeedTest.cs" />
+    <Compile Include="Testing\ArraySpeedTest.cs" />
+    <Compile Include="Tools\Coords\AveragingXyzForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\Coords\AveragingXyzForm.Designer.cs">
+      <DependentUpon>AveragingXyzForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\Coords\CombinationXyzForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\Coords\CombinationXyzForm.Designer.cs">
+      <DependentUpon>CombinationXyzForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\Coords\XyzCompareForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\Coords\XyzCompareForm.Designer.cs">
+      <DependentUpon>XyzCompareForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\Coords\XyzTimeSeriesCompareForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\Coords\XyzTimeSeriesCompareForm.designer.cs">
+      <DependentUpon>XyzTimeSeriesCompareForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\FtpDownloaderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\FtpDownloaderForm.Designer.cs">
+      <DependentUpon>FtpDownloaderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Adjustment\NetAdjustment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Adjustment\NetAdjustment.designer.cs">
+      <DependentUpon>NetAdjustment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataPrepare\Rinex\ObsDataAnanasisForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataPrepare\Rinex\ObsDataAnanasisForm.Designer.cs">
+      <DependentUpon>ObsDataAnanasisForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataPrepare\Rinex\ObsFileSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataPrepare\Rinex\ObsFileSelectForm.Designer.cs">
+      <DependentUpon>ObsFileSelectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataView\Other\KeyNameFileSelectorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataView\Other\KeyNameFileSelectorForm.Designer.cs">
+      <DependentUpon>KeyNameFileSelectorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataView\Rinex\RangeSmootherForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataView\Rinex\RangeSmootherForm.Designer.cs">
+      <DependentUpon>RangeSmootherForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataPrepare\Rinex\OFileFormaterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataPrepare\Rinex\OFileFormaterForm.Designer.cs">
+      <DependentUpon>OFileFormaterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataView\WideLaneGpsBiasViewerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataView\WideLaneGpsBiasViewerForm.Designer.cs">
+      <DependentUpon>WideLaneGpsBiasViewerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataPrepare\Preprocess\CycleSlip\CycleSlipDetectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataPrepare\Preprocess\CycleSlip\CycleSlipDetectForm.Designer.cs">
+      <DependentUpon>CycleSlipDetectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseForm\ObsFileAdjustStreamForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseForm\ObsFileAdjustStreamForm.Designer.cs">
+      <DependentUpon>ObsFileAdjustStreamForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\OptionForms\ObsFileSelectOptionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\OptionForms\ObsFileSelectOptionForm.Designer.cs">
+      <DependentUpon>ObsFileSelectOptionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Clock\ClockEstimationResultCompareForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Clock\ClockEstimationResultCompareForm.designer.cs">
+      <DependentUpon>ClockEstimationResultCompareForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Clock\ClockPredictionBasedonClockFileExportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Clock\ClockPredictionBasedonClockFileExportForm.designer.cs">
+      <DependentUpon>ClockPredictionBasedonClockFileExportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Clock\ClockPredictionBasedonSp3Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Clock\ClockPredictionBasedonSp3Form.Designer.cs">
+      <DependentUpon>ClockPredictionBasedonSp3Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Clock\ClockPredictionBasedonSp3ExportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Clock\ClockPredictionBasedonSp3ExportForm.designer.cs">
+      <DependentUpon>ClockPredictionBasedonSp3ExportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Ephemeris\IGU\IGUEphemerisExportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Ephemeris\IGU\IGUEphemerisExportForm.Designer.cs">
+      <DependentUpon>IGUEphemerisExportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Ephemeris\IGU\IGUEphemerisExportSp3Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Ephemeris\IGU\IGUEphemerisExportsp3Form.Designer.cs">
+      <DependentUpon>IGUEphemerisExportSp3Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\MultiGnssFileFormateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\MultiGnssFileFormateForm.Designer.cs">
+      <DependentUpon>MultiGnssFileFormateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataPrepare\Rinex\ObsFileCoordUpdaterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataPrepare\Rinex\ObsFileCoordUpdaterForm.Designer.cs">
+      <DependentUpon>ObsFileCoordUpdaterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\SingleGnssFileFormateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\SingleGnssFileFormateForm.Designer.cs">
+      <DependentUpon>SingleGnssFileFormateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\SingleGnssFileSolveForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\SingleGnssFileSolveForm.Designer.cs">
+      <DependentUpon>SingleGnssFileSolveForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Orbit\KelplerOrbitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Orbit\KelplerOrbitForm.Designer.cs">
+      <DependentUpon>KelplerOrbitForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\AngleConverter\DegForamatConvertForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\AngleConverter\DegForamatConvertForm.Designer.cs">
+      <DependentUpon>DegForamatConvertForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\AngleConverter\DegRadConvertForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\AngleConverter\DegRadConvertForm.Designer.cs">
+      <DependentUpon>DegRadConvertForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\EnumSelectControls\GnssSolverSelectionControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\EnumSelectControls\GnssSolverSelectionControl.Designer.cs">
+      <DependentUpon>GnssSolverSelectionControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Clock\ClockPredictionBasedonClockFileForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Clock\ClockPredictionBasedonClockFileForm.Designer.cs">
+      <DependentUpon>ClockPredictionBasedonClockFileForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\IntegralGnssFileSolveForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\IntegralGnssFileSolveForm.Designer.cs">
+      <DependentUpon>IntegralGnssFileSolveForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\CaculateAntenaHeightForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\CaculateAntenaHeightForm.Designer.cs">
+      <DependentUpon>CaculateAntenaHeightForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\EnumSelectControls\SatApproxDataTypeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\EnumSelectControls\SatObsDataTypeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\EnumSelectControls\SatObsDataTypeControl.Designer.cs">
+      <DependentUpon>SatObsDataTypeControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\GnssSystemSelectControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\GnssSystemSelectControl.Designer.cs">
+      <DependentUpon>GnssSystemSelectControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MultiGnssSystemSelectControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\MultiGnssSystemSelectControl.Designer.cs">
+      <DependentUpon>MultiGnssSystemSelectControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PositionOutputControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\PositionOutputControl.Designer.cs">
+      <DependentUpon>PositionOutputControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataView\Antenna\AntennaViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataView\Antenna\AntennaViewForm.Designer.cs">
+      <DependentUpon>AntennaViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataView\GnsserFiles\GnsserDataFileViewerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataView\GnsserFiles\GnsserDataFileViewerForm.Designer.cs">
+      <DependentUpon>GnsserDataFileViewerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataView\Rinex\ObsSatViewerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataView\Rinex\ObsSatViewerForm.Designer.cs">
+      <DependentUpon>ObsSatViewerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Distribute\Domain\Entity\Site.cs" />
+    <Compile Include="Distribute\Domain\Entity\GofTask.cs" />
+    <Compile Include="Distribute\Domain\SiteMgr.cs" />
+    <Compile Include="Distribute\Domain\GofTaskMgr.cs" />
+    <Compile Include="Distribute\UI\Gof\GofComputeNodeMgrForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Distribute\UI\Gof\GofComputeNodeMgrForm.Designer.cs">
+      <DependentUpon>GofComputeNodeMgrForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Distribute\UI\Gof\GofClientRunnerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Distribute\UI\Gof\GofClientRunnerForm.Designer.cs">
+      <DependentUpon>GofClientRunnerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Distribute\UI\Gof\GofDistributeControlForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Distribute\UI\Gof\GofDistributeControlForm.Designer.cs">
+      <DependentUpon>GofDistributeControlForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Distribute\UI\Gof\GofTaskMgrForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Distribute\UI\Gof\GofTaskMgrForm.Designer.cs">
+      <DependentUpon>GofTaskMgrForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\PlanXyLineViewerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\PlanXyLineViewerForm.Designer.cs">
+      <DependentUpon>PlanXyLineViewerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\TotalStaionAdjustFileForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\TotalStaionAdjustFileForm.Designer.cs">
+      <DependentUpon>TotalStaionAdjustFileForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\UnitConvertForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\UnitConvertForm.Designer.cs">
+      <DependentUpon>UnitConvertForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VectorInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VectorInfoForm.Designer.cs">
+      <DependentUpon>VectorInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\NetSolveBaseLineForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizards\NetSolveBaseLineForm.Designer.cs">
+      <DependentUpon>NetSolveBaseLineForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\AdvancedBaseLineNetSolverForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizards\AdvancedBaseLineNetSolverForm.Designer.cs">
+      <DependentUpon>AdvancedBaseLineNetSolverForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\BaselineSolver\BaselineSolverVizardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizards\Common\GroupRinexFileWizardPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\Common\GroupRinexFileWizardPage.Designer.cs">
+      <DependentUpon>GroupRinexFileWizardPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\Common\SiteInfoSetingPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\Common\SiteInfoSetingPage.Designer.cs">
+      <DependentUpon>SiteInfoSetingPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\Common\SelectEphFilePageControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\Common\SelectEphFilePageControl.Designer.cs">
+      <DependentUpon>SelectEphFilePageControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\BaseLineNetSolverForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Wizards\BaseLineNetSolverForm.Designer.cs">
+      <DependentUpon>BaseLineNetSolverForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Other\ComonSourceSettingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Other\ComonSourceSettingForm.Designer.cs">
+      <DependentUpon>ComonSourceSettingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project\Operations\OperationInfoCreationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Project\Operations\OperationInfoCreationForm.Designer.cs">
+      <DependentUpon>OperationInfoCreationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Map\TimePeriodToLayerBuilder.cs" />
+    <Compile Include="Project\Operations\ParamEditControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Project\Operations\ParamEditControl.Designer.cs">
+      <DependentUpon>ParamEditControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project\ParamFileMamagerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Project\ParamFileMamagerForm.Designer.cs">
+      <DependentUpon>ParamFileMamagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project\ProjectInfoControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Project\ProjectInfoControl.Designer.cs">
+      <DependentUpon>ProjectInfoControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project\ProjectEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Project\ProjectEditForm.Designer.cs">
+      <DependentUpon>ProjectEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project\Operations\WorkflowEditControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Project\Operations\WorkflowEditControl.Designer.cs">
+      <DependentUpon>WorkflowEditControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project\Operations\OperationInfoEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Project\Operations\OperationInfoEditForm.Designer.cs">
+      <DependentUpon>OperationInfoEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project\Operations\OperationFlowEditControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Project\Operations\OperationFlowEditControl.Designer.cs">
+      <DependentUpon>OperationFlowEditControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project\ProjectCreationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Project\ProjectCreationForm.Designer.cs">
+      <DependentUpon>ProjectCreationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project\ProjectWorkViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Project\ProjectWorkViewForm.Designer.cs">
+      <DependentUpon>ProjectWorkViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Ephemeris\ClockExportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Ephemeris\ClockExportForm.Designer.cs">
+      <DependentUpon>ClockExportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Ephemeris\EphemerisExportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Ephemeris\EphemerisExportForm.Designer.cs">
+      <DependentUpon>EphemerisExportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaseForm\MultiFileStreamerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseForm\MultiFileStreamerForm.Designer.cs">
+      <DependentUpon>MultiFileStreamerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\CmdCallerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\CmdCallerForm.Designer.cs">
+      <DependentUpon>CmdCallerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\TropCaculateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\TropCaculateForm.Designer.cs">
+      <DependentUpon>TropCaculateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\Common\SelectRinexFileWizardPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Wizards\Common\SelectRinexFileWizardPage.Designer.cs">
+      <DependentUpon>SelectRinexFileWizardPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Gpe\WorkflowRunnerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Gpe\WorkflowRunnerForm.Designer.cs">
+      <DependentUpon>WorkflowRunnerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Gpe\ParamFileViewerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Gpe\ParamFileViewerForm.Designer.cs">
+      <DependentUpon>ParamFileViewerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Gpe\GofRunnerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Gpe\GofRunnerForm.Designer.cs">
+      <DependentUpon>GofRunnerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interoperability\Rtklib\RtkpostCallerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interoperability\Rtklib\RtkpostCallerForm.designer.cs">
+      <DependentUpon>RtkpostCallerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interoperability\Rtklib\RtkrcvCallerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interoperability\Rtklib\RtkrcvCallerForm.designer.cs">
+      <DependentUpon>RtkrcvCallerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interoperability\TEQC\Batch\BATForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interoperability\TEQC\Batch\BATForm.Designer.cs">
+      <DependentUpon>BATForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interoperability\TEQC\Batch\BATScreeningForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interoperability\TEQC\Batch\BATScreeningForm.Designer.cs">
+      <DependentUpon>BATScreeningForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interoperability\TEQC\Editing\SystemSelectionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interoperability\TEQC\Editing\SystemSelectionForm.Designer.cs">
+      <DependentUpon>SystemSelectionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interoperability\TEQC\TeqcSet.cs" />
+    <Compile Include="Interoperability\TEQC\Translation\TrsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interoperability\TEQC\Translation\TrsForm.Designer.cs">
+      <DependentUpon>TrsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Map\PostionResultLayerBuilder.cs" />
+    <Compile Include="Service\Other\C1P2_Exclude.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Other\C1P2_Exclude.Designer.cs">
+      <DependentUpon>C1P2_Exclude.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Other\CombinationSatNL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Other\CombinationSatNL.Designer.cs">
+      <DependentUpon>CombinationSatNL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Other\CombinationWL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Other\CombinationWL.Designer.cs">
+      <DependentUpon>CombinationWL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Other\DeleteData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Other\DeleteData.Designer.cs">
+      <DependentUpon>DeleteData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Other\ExtractSinexSite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Other\ExtractSinexSite.Designer.cs">
+      <DependentUpon>ExtractSinexSite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Other\FileSize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Other\FileSize.Designer.cs">
+      <DependentUpon>FileSize.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Other\SinexCoord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Other\SinexCoord.Designer.cs">
+      <DependentUpon>SinexCoord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Positioning\MultiBaseLinePositionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Positioning\MultiBaseLinePositionForm.Designer.cs">
+      <DependentUpon>MultiBaseLinePositionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Positioning\PointPositioningAR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Positioning\PointPositioningAR.Designer.cs">
+      <DependentUpon>PointPositioningAR.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\IgsProductDownloadForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\IgsProductDownloadForm.Designer.cs">
+      <DependentUpon>IgsProductDownloadForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Orbit\OrbitToolsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Orbit\OrbitToolsForm.Designer.cs">
+      <DependentUpon>OrbitToolsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Orbit\TwoLineEleOrbitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Orbit\TwoLineEleOrbitForm.Designer.cs">
+      <DependentUpon>TwoLineEleOrbitForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Orbit\OrbitDeterminationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Orbit\OrbitDeterminationForm.Designer.cs">
+      <DependentUpon>OrbitDeterminationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataPrepare\BlockingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataPrepare\BlockingForm.Designer.cs">
+      <DependentUpon>BlockingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Ephemeris\NaviFileConvertForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Ephemeris\NaviFileConvertForm.Designer.cs">
+      <DependentUpon>NaviFileConvertForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataView\Rinex\ClockComparingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataView\Rinex\ClockComparingForm.Designer.cs">
+      <DependentUpon>ClockComparingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataView\Rinex\ObsFileMetaViewerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataView\Rinex\ObsFileMetaViewerForm.Designer.cs">
+      <DependentUpon>ObsFileMetaViewerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataView\Rinex\RinexFileNameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataView\Rinex\RinexFileNameForm.Designer.cs">
+      <DependentUpon>RinexFileNameForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataView\Sinex\MultiSinexViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataView\Sinex\MultiSinexViewForm.Designer.cs">
+      <DependentUpon>MultiSinexViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\Interfaces\IShowLayer.cs" />
+    <Compile Include="Service\DataPrepare\Preprocess\QualityCheckForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataPrepare\Preprocess\QualityCheckForm.Designer.cs">
+      <DependentUpon>QualityCheckForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Adjustment\BlockAdjustForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Adjustment\BlockAdjustForm.Designer.cs">
+      <DependentUpon>BlockAdjustForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Adjustment\AmbizapForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Adjustment\AmbizapForm.Designer.cs">
+      <DependentUpon>AmbizapForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Adjustment\GnssNetworkAdjustment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Adjustment\GnssNetworkAdjustment.Designer.cs">
+      <DependentUpon>GnssNetworkAdjustment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Adjustment\GnssNetworkRobustBayes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Adjustment\GnssNetworkRobustBayes.Designer.cs">
+      <DependentUpon>GnssNetworkRobustBayes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\CoordEpochReductionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\CoordEpochReductionForm.Designer.cs">
+      <DependentUpon>CoordEpochReductionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataPrepare\Sinex\MergeSinexForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataPrepare\Sinex\MergeSinexForm.Designer.cs">
+      <DependentUpon>MergeSinexForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interoperability\BernesePrepare\BerFileFormFactory.cs" />
+    <Compile Include="Distribute\Bernese\BerneseRunnerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Distribute\Bernese\BerneseRunnerForm.Designer.cs">
+      <DependentUpon>BerneseRunnerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Distribute\Bernese\TaskRunnerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Distribute\Bernese\TaskRunnerForm.Designer.cs">
+      <DependentUpon>TaskRunnerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interoperability\BernesePrepare\BerFileGenForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interoperability\BernesePrepare\BerFileGenForm.Designer.cs">
+      <DependentUpon>BerFileGenForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interoperability\BernesePrepare\BerFileMergeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interoperability\BernesePrepare\BerFileMergeForm.Designer.cs">
+      <DependentUpon>BerFileMergeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataPrepare\Rinex\OFileSelectorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataPrepare\Rinex\OFileSelectorForm.Designer.cs">
+      <DependentUpon>OFileSelectorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataView\Sinex\SinexCompareForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataView\Sinex\SinexCompareForm.Designer.cs">
+      <DependentUpon>SinexCompareForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Adjustment\SubNetUnionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Adjustment\SubNetUnionForm.Designer.cs">
+      <DependentUpon>SubNetUnionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Distribute\Domain\GnssTaskRunner.cs" />
+    <Compile Include="Distribute\Domain\Entity\Task.cs" />
+    <Compile Include="Distribute\UI\Edit\ComputeNodeEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Distribute\UI\Edit\ComputeNodeEditForm.Designer.cs">
+      <DependentUpon>ComputeNodeEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interoperability\BerneseView\BerCrdViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interoperability\BerneseView\BerCrdViewForm.Designer.cs">
+      <DependentUpon>BerCrdViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataView\Rinex\ClockViewerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataView\Rinex\ClockViewerForm.Designer.cs">
+      <DependentUpon>ClockViewerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataView\Sinex\SinexViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataView\Sinex\SinexViewForm.Designer.cs">
+      <DependentUpon>SinexViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Distribute\Domain\Entity\ComputeNode.cs" />
+    <Compile Include="Distribute\Domain\ComputeNodeMgr.cs" />
+    <Compile Include="Distribute\UI\Bernese\DistributeControlForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Distribute\UI\Bernese\DistributeControlForm.Designer.cs">
+      <DependentUpon>DistributeControlForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Distribute\Bernese\BerControlForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Distribute\Bernese\BerControlForm.Designer.cs">
+      <DependentUpon>BerControlForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Distribute\UI\Bernese\TaskClientForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Distribute\UI\Bernese\TaskClientForm.Designer.cs">
+      <DependentUpon>TaskClientForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Distribute\Domain\TaskRunner.cs" />
+    <Compile Include="Distribute\UI\Bernese\TaskClientExecutorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Distribute\UI\Bernese\TaskClientExecutorForm.Designer.cs">
+      <DependentUpon>TaskClientExecutorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Distribute\UI\Bernese\TaskMgrForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Distribute\UI\Bernese\TaskMgrForm.Designer.cs">
+      <DependentUpon>TaskMgrForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Distribute\Domain\TaskMgr.cs" />
+    <Compile Include="Distribute\UI\Bernese\TaskEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Distribute\UI\Bernese\TaskEditForm.Designer.cs">
+      <DependentUpon>TaskEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Distribute\Domain\Entity\TelMsg.cs" />
+    <Compile Include="Service\DataView\Rinex\GnssFormFactory.cs" />
+    <Compile Include="Distribute\UI\Bernese\ComputeNodeMgrForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Distribute\UI\Bernese\ComputeNodeMgrForm.Designer.cs">
+      <DependentUpon>ComputeNodeMgrForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataPrepare\Download\SiteNameMgrForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataPrepare\Download\SiteNameMgrForm.Designer.cs">
+      <DependentUpon>SiteNameMgrForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Other\PathSettingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Other\PathSettingForm.Designer.cs">
+      <DependentUpon>PathSettingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataPrepare\Format\OFileFormatForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataPrepare\Format\OFileFormatForm.Designer.cs">
+      <DependentUpon>OFileFormatForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Distribute\UI\Bernese\BuildtBaseLineStakForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Distribute\UI\Bernese\BuildtBaseLineStakForm.Designer.cs">
+      <DependentUpon>BuildtBaseLineStakForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Other\MatrixMemoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Other\MatrixMemoForm.Designer.cs">
+      <DependentUpon>MatrixMemoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataPrepare\Sinex\MergeMultiSinexForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataPrepare\Sinex\MergeMultiSinexForm.Designer.cs">
+      <DependentUpon>MergeMultiSinexForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Ephemeris\SingleFileEphemerisServiceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Ephemeris\SingleFileEphemerisServiceForm.Designer.cs">
+      <DependentUpon>SingleFileEphemerisServiceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Positioning\BaseLinePositionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Positioning\BaseLinePositionForm.Designer.cs">
+      <DependentUpon>BaseLinePositionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Ephemeris\EphemerisComparingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Ephemeris\EphemerisComparingForm.Designer.cs">
+      <DependentUpon>EphemerisComparingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setting.cs" />
+    <Compile Include="Service\DataPrepare\Download\FileProcess.cs" />
+    <Compile Include="Service\DataPrepare\DataPrepare.cs" />
+    <Compile Include="Service\DataPrepare\DataPrepareForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataPrepare\DataPrepareForm.Designer.cs">
+      <DependentUpon>DataPrepareForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataPrepare\GpsTimeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataPrepare\GpsTimeForm.Designer.cs">
+      <DependentUpon>GpsTimeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataPrepare\Decompress\DecompactRinexForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataPrepare\Decompress\DecompactRinexForm.Designer.cs">
+      <DependentUpon>DecompactRinexForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataPrepare\Download\BuildAndDownFileForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataPrepare\Download\BuildAndDownFileForm.Designer.cs">
+      <DependentUpon>BuildAndDownFileForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataPrepare\Format\TeqcFormatRinexForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataPrepare\Format\TeqcFormatRinexForm.Designer.cs">
+      <DependentUpon>TeqcFormatRinexForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataView\Rinex\ViewObsTimePeriodForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataView\Rinex\ViewObsTimePeriodForm.Designer.cs">
+      <DependentUpon>ViewObsTimePeriodForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Ephemeris\SatPosCaculateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Ephemeris\SatPosCaculateForm.designer.cs">
+      <DependentUpon>SatPosCaculateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\DataView\Rinex\ObsFileViewerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataView\Rinex\ObsFileViewerForm.Designer.cs">
+      <DependentUpon>ObsFileViewerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataView\Rinex\SP3ViewerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataView\Rinex\SP3ViewerForm.Designer.cs">
+      <DependentUpon>SP3ViewerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Ephemeris\EphemerisServiceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Ephemeris\EphemerisServiceForm.Designer.cs">
+      <DependentUpon>EphemerisServiceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Interoperability\BerneseView\BerVelViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Interoperability\BerneseView\BerVelViewForm.Designer.cs">
+      <DependentUpon>BerVelViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataPrepare\Format\TeqcFormater.cs" />
+    <Compile Include="Service\DataPrepare\Format\UpLowFileName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataPrepare\Format\UpLowFileName.designer.cs">
+      <DependentUpon>UpLowFileName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataPrepare\Download\FileUrlGenForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataPrepare\Download\FileUrlGenForm.Designer.cs">
+      <DependentUpon>FileUrlGenForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\DataPrepare\Download\DownFilesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\DataPrepare\Download\DownFilesForm.Designer.cs">
+      <DependentUpon>DownFilesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service\Other\SunMoonForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Service\Other\SunMoonForm.Designer.cs">
+      <DependentUpon>SunMoonForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\Config\Sp3SourceConfigForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\Config\Sp3SourceConfigForm.Designer.cs">
+      <DependentUpon>Sp3SourceConfigForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NoticeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NoticeForm.Designer.cs">
+      <DependentUpon>NoticeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project\ProjectStartingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Project\ProjectStartingForm.Designer.cs">
+      <DependentUpon>ProjectStartingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Project\Operations\WorkOperationControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Project\Operations\WorkOperationControl.Designer.cs">
+      <DependentUpon>WorkOperationControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Wizards\PointPosition\PointPositionVizardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\Coords\XyzFrameFileConvertForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\Coords\XyzFrameFileConvertForm.Designer.cs">
+      <DependentUpon>XyzFrameFileConvertForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tools\Coords\XyzToGausssXyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tools\Coords\XyzToGausssXyForm.Designer.cs">
+      <DependentUpon>XyzToGausssXyForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Controls\MultiSolverOptionControl.resx">
+      <DependentUpon>MultiSolverOptionControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\TimePeriodUserControl.resx">
+      <DependentUpon>TimePeriodUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Ambiguity\IonoFreeAmbiguityFixserForm.resx">
+      <DependentUpon>IonoFreeAmbiguityFixserForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\OptionForms\VizardPages\ParamOptionPage.resx">
+      <DependentUpon>ParamOptionPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\SingleSitePointPositionSolverForm.resx">
+      <DependentUpon>SingleSitePointPositionSolverForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\MultiPeriodBaseLineSolverForm.resx">
+      <DependentUpon>MultiPeriodBaseLineSolverForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ObsFileChartEditForm.resx">
+      <DependentUpon>ObsFileChartEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataAnanysis\MultiPathAnanasisForm.resx">
+      <DependentUpon>MultiPathAnanasisForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\Md5CheckerForm.resx">
+      <DependentUpon>Md5CheckerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ObsPeriodDividerForm.resx">
+      <DependentUpon>ObsPeriodDividerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\BaseLineNetAdjust\LgoBaselineFileForm.resx">
+      <DependentUpon>LgoBaselineFileForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\BaseLineNetAdjust\BaselineNetAdjustForm.resx">
+      <DependentUpon>BaselineNetAdjustForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\BaseLineNetAdjust\GnssNetAccuracyForm.resx">
+      <DependentUpon>GnssNetAccuracyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\BaseLineNetAdjust\BaselineNetClosureErrorForm.resx">
+      <DependentUpon>BaselineNetClosureErrorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataAnanysis\IonoFreeDoubleDifferAmbiFixerForm.resx">
+      <DependentUpon>IonoFreeDoubleDifferAmbiFixerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataAnanysis\MwDifferTableBuilderForm.resx">
+      <DependentUpon>MwDifferTableBuilderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataAnanysis\AmbiguityFileBuilderForm.resx">
+      <DependentUpon>AmbiguityFileBuilderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataAnanysis\AmbiguityCombineerForm.resx">
+      <DependentUpon>AmbiguityCombineerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataPrepare\IgsProdctExtractorForm.resx">
+      <DependentUpon>IgsProdctExtractorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interoperability\Rtklib\RtkPositionViewForm.resx">
+      <DependentUpon>RtkPositionViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataPrepare\MultiCombineOFileForm.resx">
+      <DependentUpon>MultiCombineOFileForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataPrepare\SameSiteSelectForm.resx">
+      <DependentUpon>SameSiteSelectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataAnanysis\ConvergenceTimeCalculatorForm.resx">
+      <DependentUpon>ConvergenceTimeCalculatorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataPrepare\Rinex\ObsFileEditorForm.resx">
+      <DependentUpon>ObsFileEditorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataView\Other\Iono\IonoTrendCaculateForm.resx">
+      <DependentUpon>IonoTrendCaculateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataPrepare\Rinex\OFileSmoothRangeFormaterForm.resx">
+      <DependentUpon>OFileSmoothRangeFormaterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataView\Other\WhuFcb\WhuFcbServiceForm.resx">
+      <DependentUpon>WhuFcbServiceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\MultiSiteNetSolveForm.resx">
+      <DependentUpon>MultiSiteNetSolveForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\ClockLoseWeightForm.resx">
+      <DependentUpon>ClockLoseWeightForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\OptionForms\VizardPages\AccuracyEvaluationOptionPage.resx">
+      <DependentUpon>AccuracyEvaluationOptionPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\OptionForms\VizardPages\ResultCheckOptionPage.resx">
+      <DependentUpon>ResultCheckOptionPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\TwoSiteSolveForm.resx">
+      <DependentUpon>TwoSiteSolveForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Ephemeris\SatPolarForm.resx">
+      <DependentUpon>SatPolarForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\OptionForms\VizardPages\AmbiguityOptionPage.resx">
+      <DependentUpon>AmbiguityOptionPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\OptionForms\VizardPages\BaseLineOptionPage.resx">
+      <DependentUpon>BaseLineOptionPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\OptionForms\VizardPages\PreprocessOptionPage.resx">
+      <DependentUpon>PreprocessOptionPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\ClockJumpReviserForm.resx">
+      <DependentUpon>ClockJumpReviserForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\OptionForms\VizardPages\MutiGnssOptionPage.resx">
+      <DependentUpon>MutiGnssOptionPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataPrepare\SingleCombineOFileForm.resx">
+      <DependentUpon>SingleCombineOFileForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\BaseSatSelectingControl.resx">
+      <DependentUpon>BaseSatSelectingControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\EnumSelectControls\SingleSiteGnssSolverTypeSelectionControl.resx">
+      <DependentUpon>SingleSiteGnssSolverTypeSelectionControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseForm\ParalleledFileForm.resx">
+      <DependentUpon>ParalleledFileForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataView\Rinex\MultiObsFileViewerForm.resx">
+      <DependentUpon>MultiObsFileViewerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\CoordSelectForm.resx">
+      <DependentUpon>CoordSelectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\PathReplaceForm.resx">
+      <DependentUpon>PathReplaceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RapidAccessForm.resx">
+      <DependentUpon>RapidAccessForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataAnanysis\TropProductsCompForm.resx">
+      <DependentUpon>TropProductsCompForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataPrepare\Download\ObsFileDownloadForm.resx">
+      <DependentUpon>ObsFileDownloadForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataPrepare\Download\NaviFileDownloadForm.resx">
+      <DependentUpon>NaviFileDownloadForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataPrepare\GLoggerFileConvertForm.resx">
+      <DependentUpon>GLoggerFileConvertForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataPrepare\Rinex\OFileFixingForm.resx">
+      <DependentUpon>OFileFixingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataPrepare\Preprocess\CycleSlip\BufferedCycleSlipDetectForm.resx">
+      <DependentUpon>BufferedCycleSlipDetectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataView\Other\Iono\IonoSatServiceForm.resx">
+      <DependentUpon>IonoSatServiceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataView\Other\Iono\GridIono\IonoDcbViewerForm.resx">
+      <DependentUpon>IonoDcbViewerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataView\Other\DopDrawForm.resx">
+      <DependentUpon>DopDrawForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataView\Other\Iono\GridIono\IonoServiceForm.resx">
+      <DependentUpon>IonoServiceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataView\Other\Iono\GridIono\IonoViewerForm.resx">
+      <DependentUpon>IonoViewerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataView\Other\Iono\IonOfSphericalHarmonicsForm.resx">
+      <DependentUpon>IonOfSphericalHarmonicsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataView\Other\SphericalHarmonicsForm.resx">
+      <DependentUpon>SphericalHarmonicsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataView\Other\Iono\GridIono\IonoDcbSolveForm.resx">
+      <DependentUpon>IonoDcbSolveForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Ephemeris\IgsProducExtractorForm.resx">
+      <DependentUpon>IgsProducExtractorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Ephemeris\ClkFilemaintainForm.resx">
+      <DependentUpon>ClkFilemaintainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Gpe\OptionRunnerForm.resx">
+      <DependentUpon>OptionRunnerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\NetService\HttpUrlPositionerrForm.resx">
+      <DependentUpon>HttpUrlPositionerrForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\OptionForms\ObsFileFixOptionForm.resx">
+      <DependentUpon>ObsFileFixOptionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\OptionForms\ObsFileConvertOptionForm.resx">
+      <DependentUpon>ObsFileConvertOptionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\OptionForms\VizardPages\CorrectionOptionPage.resx">
+      <DependentUpon>CorrectionOptionPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\OptionForms\VizardPages\ObsAndApproxOptionPage.resx">
+      <DependentUpon>ObsAndApproxOptionPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\OptionForms\VizardPages\IndicateDataSourceOptionPage.resx">
+      <DependentUpon>IndicateDataSourceOptionPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\OptionForms\VizardPages\OptionVizardForm.resx">
+      <DependentUpon>OptionVizardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\OptionForms\VizardPages\StateTransferModelOptionPage.resx">
+      <DependentUpon>StateTransferModelOptionPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\OptionForms\VizardPages\PsuedoRangeSmoothOptionPage.resx">
+      <DependentUpon>PsuedoRangeSmoothOptionPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\OptionForms\VizardPages\OutputOptionPage.resx">
+      <DependentUpon>OutputOptionPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\OptionForms\VizardPages\BaseGnssProcessOptionPage.resx">
+      <DependentUpon>BaseGnssProcessOptionPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\OptionForms\VizardPages\CycleSlipOptionPage.resx">
+      <DependentUpon>CycleSlipOptionPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\OptionForms\VizardPages\StreamOptionPage.resx">
+      <DependentUpon>StreamOptionPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\OptionForms\VizardPages\SiteReceiverOptionPage.resx">
+      <DependentUpon>SiteReceiverOptionPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\OptionForms\VizardPages\SatelliteOptionPage.resx">
+      <DependentUpon>SatelliteOptionPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\OptionForms\VizardPages\GnssCaculatorOptionPage.resx">
+      <DependentUpon>GnssCaculatorOptionPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\OptionForms\VizardPages\DataSourceOptionPage.resx">
+      <DependentUpon>DataSourceOptionPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataView\Other\WhuFcb\WhuFcbComparerForm.resx">
+      <DependentUpon>WhuFcbComparerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataView\Other\WhuFcb\WhuFcbViewerForm.resx">
+      <DependentUpon>WhuFcbViewerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PppAmbiguity\NarrowLane\NarrowLineSolverForm.resx">
+      <DependentUpon>NarrowLineSolverForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PppAmbiguity\NewMethod\MultiPeriodBsdProductSolverForm.resx">
+      <DependentUpon>MultiPeriodBsdProductSolverForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PppAmbiguity\NewMethod\MultiPeriodlWideLaneOfBsdSolverForm.resx">
+      <DependentUpon>MultiPeriodlWideLaneOfBsdSolverForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PppAmbiguity\NewMethod\MultiPeriodNarrowLaneOfBsdSolverForm.resx">
+      <DependentUpon>MultiPeriodNarrowLaneOfBsdSolverForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PppAmbiguity\NewMethod\WideLaneOfBsdSolverForm.resx">
+      <DependentUpon>WideLaneOfBsdSolverForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PppAmbiguity\PPPAmbiguityVizardForm.resx">
+      <DependentUpon>PPPAmbiguityVizardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PppAmbiguity\WideLane\MwWideLaneSolverForm.resx">
+      <DependentUpon>MwWideLaneSolverForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Clock\BNCSSRExportForm.resx">
+      <DependentUpon>BNCSSRExportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Clock\SSRExportForm.resx">
+      <DependentUpon>SSRExportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataAnanysis\MwFractionTableBuilderForm.resx">
+      <DependentUpon>MwFractionTableBuilderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataPrepare\TableToOFileForm.resx">
+      <DependentUpon>TableToOFileForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataPrepare\Rinex\OFileToTableForm.resx">
+      <DependentUpon>OFileToTableForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataPrepare\SiteInfo\StationInfoExctracterForm.resx">
+      <DependentUpon>StationInfoExctracterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Ephemeris\BroadcastEphemerisExportForm.resx">
+      <DependentUpon>BroadcastEphemerisExportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Ephemeris\IGU\IGUEphemerisExportSp3BasedOnIgsForm.resx">
+      <DependentUpon>IGUEphemerisExportSp3BasedOnIgsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Ephemeris\IGU\RTEphemerisCombinationExportSp3Form.resx">
+      <DependentUpon>RTEphemerisCombinationExportSp3Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Ephemeris\IGU\RTEphemerisExportSp3Form.resx">
+      <DependentUpon>RTEphemerisExportSp3Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Ephemeris\SatEevationSolverForm.resx">
+      <DependentUpon>SatEevationSolverForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Ephemeris\SatelliteSelectorForm.resx">
+      <DependentUpon>SatelliteSelectorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Orbit\DopForm.resx">
+      <DependentUpon>DopForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataPrepare\SiteInfo\SiteInfoManagerForm.resx">
+      <DependentUpon>SiteInfoManagerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataAnanysis\SmoothRangeAccruceSolverForm.resx">
+      <DependentUpon>SmoothRangeAccruceSolverForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Suvey\InitConfigAngleTheodoliteForm.resx">
+      <DependentUpon>InitConfigAngleTheodoliteForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\Config\OptionConfigFileEditForm.resx">
+      <DependentUpon>OptionConfigFileEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\NetService\HttpOptRequesterForm.resx">
+      <DependentUpon>HttpOptRequesterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Ephemeris\Sp3FilemaintainForm.resx">
+      <DependentUpon>Sp3FilemaintainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\GnssTimeForm.resx">
+      <DependentUpon>GnssTimeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\Coords\AveragingXyzForm.resx">
+      <DependentUpon>AveragingXyzForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\Coords\CombinationXyzForm.resx">
+      <DependentUpon>CombinationXyzForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\Coords\XyzCompareForm.resx">
+      <DependentUpon>XyzCompareForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\Coords\XyzTimeSeriesCompareForm.resx">
+      <DependentUpon>XyzTimeSeriesCompareForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\FtpDownloaderForm.resx">
+      <DependentUpon>FtpDownloaderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Adjustment\NetAdjustment.resx">
+      <DependentUpon>NetAdjustment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataPrepare\Rinex\ObsDataAnanasisForm.resx">
+      <DependentUpon>ObsDataAnanasisForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataPrepare\Rinex\ObsFileSelectForm.resx">
+      <DependentUpon>ObsFileSelectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataView\Other\KeyNameFileSelectorForm.resx">
+      <DependentUpon>KeyNameFileSelectorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataView\Rinex\RangeSmootherForm.resx">
+      <DependentUpon>RangeSmootherForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataPrepare\Rinex\OFileFormaterForm.resx">
+      <DependentUpon>OFileFormaterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataView\WideLaneGpsBiasViewerForm.resx">
+      <DependentUpon>WideLaneGpsBiasViewerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataPrepare\Preprocess\CycleSlip\CycleSlipDetectForm.resx">
+      <DependentUpon>CycleSlipDetectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseForm\ObsFileAdjustStreamForm.resx">
+      <DependentUpon>ObsFileAdjustStreamForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\OptionForms\ObsFileSelectOptionForm.resx">
+      <DependentUpon>ObsFileSelectOptionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Clock\ClockEstimationResultCompareForm.resx">
+      <DependentUpon>ClockEstimationResultCompareForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Clock\ClockPredictionBasedonClockFileExportForm.resx">
+      <DependentUpon>ClockPredictionBasedonClockFileExportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Clock\ClockPredictionBasedonSp3Form.resx">
+      <DependentUpon>ClockPredictionBasedonSp3Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Clock\ClockPredictionBasedonSp3ExportForm.resx">
+      <DependentUpon>ClockPredictionBasedonSp3ExportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Ephemeris\IGU\IGUEphemerisExportForm.resx">
+      <DependentUpon>IGUEphemerisExportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Ephemeris\IGU\IGUEphemerisExportsp3Form.resx">
+      <DependentUpon>IGUEphemerisExportSp3Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\MultiGnssFileFormateForm.resx">
+      <DependentUpon>MultiGnssFileFormateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataPrepare\Rinex\ObsFileCoordUpdaterForm.resx">
+      <DependentUpon>ObsFileCoordUpdaterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\SingleGnssFileFormateForm.resx">
+      <DependentUpon>SingleGnssFileFormateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\SingleGnssFileSolveForm.resx">
+      <DependentUpon>SingleGnssFileSolveForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Orbit\KelplerOrbitForm.resx">
+      <DependentUpon>KelplerOrbitForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\AngleConverter\DegForamatConvertForm.resx">
+      <DependentUpon>DegForamatConvertForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\AngleConverter\DegRadConvertForm.resx">
+      <DependentUpon>DegRadConvertForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\EnumSelectControls\GnssSolverSelectionControl.resx">
+      <DependentUpon>GnssSolverSelectionControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Clock\ClockPredictionBasedonClockFileForm.resx">
+      <DependentUpon>ClockPredictionBasedonClockFileForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\IntegralGnssFileSolveForm.resx">
+      <DependentUpon>IntegralGnssFileSolveForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\CaculateAntenaHeightForm.resx">
+      <DependentUpon>CaculateAntenaHeightForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\EnumSelectControls\SatObsDataTypeControl.resx">
+      <DependentUpon>SatObsDataTypeControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\GnssSystemSelectControl.resx">
+      <DependentUpon>GnssSystemSelectControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MultiGnssSystemSelectControl.resx">
+      <DependentUpon>MultiGnssSystemSelectControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PositionOutputControl.resx">
+      <DependentUpon>PositionOutputControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataView\Antenna\AntennaViewForm.resx">
+      <DependentUpon>AntennaViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataView\GnsserFiles\GnsserDataFileViewerForm.resx">
+      <DependentUpon>GnsserDataFileViewerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataView\Rinex\ObsSatViewerForm.resx">
+      <DependentUpon>ObsSatViewerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Distribute\UI\Gof\GofComputeNodeMgrForm.resx">
+      <DependentUpon>GofComputeNodeMgrForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Distribute\UI\Gof\GofClientRunnerForm.resx">
+      <DependentUpon>GofClientRunnerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Distribute\UI\Gof\GofDistributeControlForm.resx">
+      <DependentUpon>GofDistributeControlForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Distribute\UI\Gof\GofTaskMgrForm.resx">
+      <DependentUpon>GofTaskMgrForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\PlanXyLineViewerForm.resx">
+      <DependentUpon>PlanXyLineViewerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\TotalStaionAdjustFileForm.resx">
+      <DependentUpon>TotalStaionAdjustFileForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\UnitConvertForm.resx">
+      <DependentUpon>UnitConvertForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VectorInfoForm.resx">
+      <DependentUpon>VectorInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\NetSolveBaseLineForm.resx">
+      <DependentUpon>NetSolveBaseLineForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\AdvancedBaseLineNetSolverForm.resx">
+      <DependentUpon>AdvancedBaseLineNetSolverForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\BaselineSolver\BaselineSolverVizardForm.resx">
+      <DependentUpon>BaselineSolverVizardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Common\GroupRinexFileWizardPage.resx">
+      <DependentUpon>GroupRinexFileWizardPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Common\SiteInfoSetingPage.resx">
+      <DependentUpon>SiteInfoSetingPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Common\SelectEphFilePageControl.resx">
+      <DependentUpon>SelectEphFilePageControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\BaseLineNetSolverForm.resx">
+      <DependentUpon>BaseLineNetSolverForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Other\ComonSourceSettingForm.resx">
+      <DependentUpon>ComonSourceSettingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project\Operations\OperationInfoCreationForm.resx">
+      <DependentUpon>OperationInfoCreationForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project\Operations\ParamEditControl.resx">
+      <DependentUpon>ParamEditControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project\ParamFileMamagerForm.resx">
+      <DependentUpon>ParamFileMamagerForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project\ProjectInfoControl.resx">
+      <DependentUpon>ProjectInfoControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project\ProjectEditForm.resx">
+      <DependentUpon>ProjectEditForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project\Operations\WorkflowEditControl.resx">
+      <DependentUpon>WorkflowEditControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project\Operations\OperationInfoEditForm.resx">
+      <DependentUpon>OperationInfoEditForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project\Operations\OperationFlowEditControl.resx">
+      <DependentUpon>OperationFlowEditControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project\ProjectCreationForm.resx">
+      <DependentUpon>ProjectCreationForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project\ProjectWorkViewForm.resx">
+      <DependentUpon>ProjectWorkViewForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Ephemeris\ClockExportForm.resx">
+      <DependentUpon>ClockExportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Ephemeris\EphemerisExportForm.resx">
+      <DependentUpon>EphemerisExportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaseForm\MultiFileStreamerForm.resx">
+      <DependentUpon>MultiFileStreamerForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\CmdCallerForm.resx">
+      <DependentUpon>CmdCallerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\TropCaculateForm.resx">
+      <DependentUpon>TropCaculateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\Common\SelectRinexFileWizardPage.resx">
+      <DependentUpon>SelectRinexFileWizardPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Gpe\WorkflowRunnerForm.resx">
+      <DependentUpon>WorkflowRunnerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Gpe\ParamFileViewerForm.resx">
+      <DependentUpon>ParamFileViewerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Gpe\GofRunnerForm.resx">
+      <DependentUpon>GofRunnerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interoperability\Rtklib\RtkpostCallerForm.resx">
+      <DependentUpon>RtkpostCallerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interoperability\Rtklib\RtkrcvCallerForm.resx">
+      <DependentUpon>RtkrcvCallerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interoperability\TEQC\Batch\BATForm.resx">
+      <DependentUpon>BATForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interoperability\TEQC\Batch\BATScreeningForm.resx">
+      <DependentUpon>BATScreeningForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interoperability\TEQC\Editing\SystemSelectionForm.resx">
+      <DependentUpon>SystemSelectionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interoperability\TEQC\Translation\TrsForm.resx">
+      <DependentUpon>TrsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Other\C1P2_Exclude.resx">
+      <DependentUpon>C1P2_Exclude.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Other\CombinationSatNL.resx">
+      <DependentUpon>CombinationSatNL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Other\CombinationWL.resx">
+      <DependentUpon>CombinationWL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Other\DeleteData.resx">
+      <DependentUpon>DeleteData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Other\ExtractSinexSite.resx">
+      <DependentUpon>ExtractSinexSite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Other\FileSize.resx">
+      <DependentUpon>FileSize.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Other\SinexCoord.resx">
+      <DependentUpon>SinexCoord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Positioning\MultiBaseLinePositionForm.resx">
+      <DependentUpon>MultiBaseLinePositionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Positioning\PointPositioningAR.resx">
+      <DependentUpon>PointPositioningAR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\IgsProductDownloadForm.resx">
+      <DependentUpon>IgsProductDownloadForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataPrepare\BlockingForm.resx">
+      <DependentUpon>BlockingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Ephemeris\NaviFileConvertForm.resx">
+      <DependentUpon>NaviFileConvertForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataView\Rinex\ClockComparingForm.resx">
+      <DependentUpon>ClockComparingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataView\Rinex\ObsFileMetaViewerForm.resx">
+      <DependentUpon>ObsFileMetaViewerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataView\Rinex\RinexFileNameForm.resx">
+      <DependentUpon>RinexFileNameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataView\Sinex\MultiSinexViewForm.resx">
+      <DependentUpon>MultiSinexViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataPrepare\Preprocess\QualityCheckForm.resx">
+      <DependentUpon>QualityCheckForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Adjustment\BlockAdjustForm.resx">
+      <DependentUpon>BlockAdjustForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Adjustment\AmbizapForm.resx">
+      <DependentUpon>AmbizapForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataPrepare\Sinex\MergeSinexForm.resx">
+      <DependentUpon>MergeSinexForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Adjustment\GnssNetworkAdjustment.resx">
+      <DependentUpon>GnssNetworkAdjustment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Adjustment\GnssNetworkRobustBayes.resx">
+      <DependentUpon>GnssNetworkRobustBayes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Distribute\Bernese\BerneseRunnerForm.resx">
+      <DependentUpon>BerneseRunnerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Distribute\Bernese\TaskRunnerForm.resx">
+      <DependentUpon>TaskRunnerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interoperability\BernesePrepare\BerFileGenForm.resx">
+      <DependentUpon>BerFileGenForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interoperability\BernesePrepare\BerFileMergeForm.resx">
+      <DependentUpon>BerFileMergeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataPrepare\Rinex\OFileSelectorForm.resx">
+      <DependentUpon>OFileSelectorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataView\Sinex\SinexCompareForm.resx">
+      <DependentUpon>SinexCompareForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Adjustment\SubNetUnionForm.resx">
+      <DependentUpon>SubNetUnionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Distribute\UI\Edit\ComputeNodeEditForm.resx">
+      <DependentUpon>ComputeNodeEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interoperability\BerneseView\BerCrdViewForm.resx">
+      <DependentUpon>BerCrdViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataView\Rinex\ClockViewerForm.resx">
+      <DependentUpon>ClockViewerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataView\Sinex\SinexViewForm.resx">
+      <DependentUpon>SinexViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataPrepare\Download\SiteNameMgrForm.resx">
+      <DependentUpon>SiteNameMgrForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Distribute\UI\Bernese\ComputeNodeMgrForm.resx">
+      <DependentUpon>ComputeNodeMgrForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Distribute\UI\Bernese\DistributeControlForm.resx">
+      <DependentUpon>DistributeControlForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Other\PathSettingForm.resx">
+      <DependentUpon>PathSettingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataPrepare\Format\OFileFormatForm.resx">
+      <DependentUpon>OFileFormatForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Distribute\Bernese\BerControlForm.resx">
+      <DependentUpon>BerControlForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Distribute\UI\Bernese\TaskClientExecutorForm.resx">
+      <DependentUpon>TaskClientExecutorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Distribute\UI\Bernese\TaskClientForm.resx">
+      <DependentUpon>TaskClientForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Distribute\UI\Bernese\TaskMgrForm.resx">
+      <DependentUpon>TaskMgrForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Distribute\UI\Bernese\TaskEditForm.resx">
+      <DependentUpon>TaskEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataPrepare\Download\BuildAndDownFileForm.resx">
+      <DependentUpon>BuildAndDownFileForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataPrepare\DataPrepareForm.resx">
+      <DependentUpon>DataPrepareForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataPrepare\GpsTimeForm.resx">
+      <DependentUpon>GpsTimeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataPrepare\Decompress\DecompactRinexForm.resx">
+      <DependentUpon>DecompactRinexForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataPrepare\Format\TeqcFormatRinexForm.resx">
+      <DependentUpon>TeqcFormatRinexForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataView\Rinex\ViewObsTimePeriodForm.resx">
+      <DependentUpon>ViewObsTimePeriodForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataPrepare\Sinex\MergeMultiSinexForm.resx">
+      <DependentUpon>MergeMultiSinexForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Distribute\UI\Bernese\BuildtBaseLineStakForm.resx">
+      <DependentUpon>BuildtBaseLineStakForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\CoordEpochReductionForm.resx">
+      <DependentUpon>CoordEpochReductionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Orbit\OrbitToolsForm.resx">
+      <DependentUpon>OrbitToolsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Orbit\TwoLineEleOrbitForm.resx">
+      <DependentUpon>TwoLineEleOrbitForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Orbit\OrbitDeterminationForm.resx">
+      <DependentUpon>OrbitDeterminationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Ephemeris\SatPosCaculateForm.resx">
+      <DependentUpon>SatPosCaculateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Other\MatrixMemoForm.resx">
+      <DependentUpon>MatrixMemoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataView\Rinex\ObsFileViewerForm.resx">
+      <DependentUpon>ObsFileViewerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Positioning\BaseLinePositionForm.resx">
+      <DependentUpon>BaseLinePositionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataView\Rinex\SP3ViewerForm.resx">
+      <DependentUpon>SP3ViewerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Ephemeris\EphemerisServiceForm.resx">
+      <DependentUpon>EphemerisServiceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interoperability\BerneseView\BerVelViewForm.resx">
+      <DependentUpon>BerVelViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataPrepare\Format\UpLowFileName.resx">
+      <DependentUpon>UpLowFileName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataPrepare\Download\FileUrlGenForm.resx">
+      <DependentUpon>FileUrlGenForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\DataPrepare\Download\DownFilesForm.resx">
+      <DependentUpon>DownFilesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Ephemeris\SingleFileEphemerisServiceForm.resx">
+      <DependentUpon>SingleFileEphemerisServiceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Ephemeris\EphemerisComparingForm.resx">
+      <DependentUpon>EphemerisComparingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Service\Other\SunMoonForm.resx">
+      <DependentUpon>SunMoonForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\Config\Sp3SourceConfigForm.resx">
+      <DependentUpon>Sp3SourceConfigForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NoticeForm.resx">
+      <DependentUpon>NoticeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project\ProjectStartingForm.resx">
+      <DependentUpon>ProjectStartingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Project\Operations\WorkOperationControl.resx">
+      <DependentUpon>WorkOperationControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Wizards\PointPosition\PointPositionVizardForm.resx">
+      <DependentUpon>PointPositionVizardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\Coords\XyzFrameFileConvertForm.resx">
+      <DependentUpon>XyzFrameFileConvertForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tools\Coords\XyzToGausssXyForm.resx">
+      <DependentUpon>XyzToGausssXyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bin\Debug\Data\GNSS\Common\gpt2_1wA.grd" />
+    <None Include="bin\Debug\Data\GNSS\Common\G_DOPS_at_2016.01.01.01.00.00.txt.xls" />
+    <None Include="bin\Debug\Data\GNSS\Common\igs08.atx" />
+    <None Include="bin\Debug\Data\GNSS\IgsProduct\brdm0010.16p" />
+    <None Include="bin\Debug\Data\GNSS\IgsProduct\igsg0010.13i" />
+    <None Include="bin\Debug\Data\GNSS\IgsProduct\igsg0010.18i" />
+    <None Include="bin\Debug\Data\GNSS\IgsProduct\Wide_lane_GPS_satellite_biais.wsb" />
+    <None Include="bin\Debug\Data\Sample\COD19821.ION" />
+    <None Include="bin\Debug\gnsser.conf" />
+    <None Include="bower.json" />
+    <None Include="packages.config" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Geo\Geo.Winform\Geo.Winform.csproj">
+      <Project>{4d249fdd-b0fb-4567-8d13-cd5ef3228a45}</Project>
+      <Name>Geo.Winform</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Geo\Geo\Geo.csproj">
+      <Project>{e82770d4-22d7-4e3b-8ec6-2583e39f0779}</Project>
+      <Name>Geo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Gnsser.Common\Gnsser.Core.csproj">
+      <Project>{8ed075c1-2f96-4ede-afe5-b0e44db44d5c}</Project>
+      <Name>Gnsser.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Gnsser.ico" />
+    <Content Include="Interoperability\TEQC\README.txt" />
+    <None Include="Resources\卫星计算器.png" />
+    <None Include="Resources\卫星轨道.png" />
+    <None Include="Resources\地图.png" />
+    <None Include="Resources\接收信号.png" />
+    <None Include="Resources\并行GNSS计算.png" />
+    <None Include="Resources\log.png" />
+    <None Include="Resources\Rtklib32.png" />
+    <None Include="Resources\测站地图.png" />
+    <None Include="Resources\测站查看.png" />
+    <None Include="Resources\convertObs.png" />
+    <None Include="Resources\baseline.png" />
+    <None Include="Resources\filter.png" />
+    <None Include="Resources\filter1.png" />
+    <None Include="Resources\analysis.png" />
+    <None Include="Resources\net32.png" />
+    <None Include="Resources\cloud.png" />
+    <None Include="Resources\cloud2.png" />
+    <None Include="Resources\chart.png" />
+    <None Include="Resources\saveas16x16.png" />
+    <None Include="Resources\cut.png" />
+    <None Include="Resources\GnssNet.png" />
+    <Content Include="Resources\search_16x16.png" />
+    <None Include="Resources\txtexcel.png" />
+    <None Include="Resources\trim.png" />
+    <Content Include="setuplogo.ico" />
+    <None Include="Resources\refresh_16x16.png" />
+    <None Include="Resources\view_txt_16x16.png" />
+    <None Include="Resources\edit_16x16.png" />
+    <None Include="Resources\edit_16x16.gif" />
+    <None Include="Resources\addnew_16x16.gif" />
+    <Content Include="Resources\map_obj.gif" />
+    <None Include="Resources\系统日志.gif" />
+    <None Include="Resources\RtkLib.gif" />
+    <None Include="Resources\并行单点定位.gif" />
+    <None Include="Resources\单星星历.gif" />
+    <None Include="Resources\world1.gif" />
+    <None Include="Resources\地球.gif" />
+    <None Include="Resources\单站查看.gif" />
+    <None Include="Resources\单点定位.gif" />
+    <None Include="Resources\PPP.gif" />
+    <None Include="Resources\测站地图显示.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Wizards\CycleSlipDetect\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

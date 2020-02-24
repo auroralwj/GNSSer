@@ -1,0 +1,189 @@
+2019-10-25 09:41:11.181	Info	程序启动	Program
+2019-10-25 09:41:11.456	Info	成功加载配置文件 gnsser.conf	Setting
+2019-10-25 09:41:11.495	Error	小心！服务路径为空！	FileBasedService`1
+2019-10-25 09:41:15.754	Info	保存了配置到文件 gnsser.conf	Setting
+2019-10-25 09:41:15.761	Info	程序正常退出	Program
+2019-10-25 09:45:00.553	Info	程序启动	Program
+2019-10-25 09:45:00.802	Info	检查新版本	Program
+2019-10-25 09:46:42.243	Info	程序启动	Program
+2019-10-25 09:46:42.339	Info	检查新版本	Program
+2019-10-25 09:46:42.373	Info	成功加载配置文件 gnsser.conf	Setting
+2019-10-25 09:46:42.396	Error	小心！服务路径为空！	FileBasedService`1
+2019-10-25 09:46:45.667	Info	保存了配置到文件 gnsser.conf	Setting
+2019-10-25 09:46:45.674	Info	程序正常退出	Program
+2019-10-25 09:48:00.286	Info	程序启动	Program
+2019-10-25 09:48:00.466	Info	检查新版本	Program
+2019-10-25 09:51:00.337	Info	程序启动	Program
+2019-10-25 09:51:00.423	Info	检查新版本	Program
+2019-10-25 10:04:00.658	Info	程序启动	Program
+2019-10-25 10:04:00.797	Info	检查新版本	Program
+2019-10-25 10:04:00.810	Info	成功加载配置文件 gnsser.conf	Setting
+2019-10-25 10:04:00.825	Error	小心！服务路径为空！	FileBasedService`1
+2019-10-25 10:04:56.500	Info	保存了配置到文件 gnsser.conf	Setting
+2019-10-25 10:04:56.508	Info	程序正常退出	Program
+2019-10-25 10:08:09.427	Info	程序启动	Program
+2019-10-25 10:08:09.627	Info	检查新版本	Program
+2019-10-25 10:08:09.745	Info	成功加载配置文件 gnsser.conf	Setting
+2019-10-25 10:08:09.780	Error	小心！服务路径为空！	FileBasedService`1
+2019-10-25 10:08:14.209	Info	输入文件，载入了： D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hers0010.18O	FileOpenControl
+2019-10-25 10:08:25.293	Info	输入文件，载入了： D:\Data\GNSS\Rinex\algo0010.13o	FileOpenControl
+2019-10-25 10:10:42.544	Info	程序启动	Program
+2019-10-25 10:10:42.785	Info	成功加载配置文件 gnsser.conf	Setting
+2019-10-25 10:10:42.810	Error	小心！服务路径为空！	FileBasedService`1
+2019-10-25 10:10:42.834	Info	检查新版本	Program
+2019-10-25 10:10:53.421	Info	输入文件，载入了： D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hers0010.18O	FileOpenControl
+2019-10-25 10:10:57.461	Info	输入文件，载入了： D:\Data\GNSS\Rinex\algo0010.13o	FileOpenControl
+2019-10-25 10:11:38.198	Info	程序启动	Program
+2019-10-25 10:11:38.333	Info	检查新版本	Program
+2019-10-25 10:11:38.418	Info	成功加载配置文件 gnsser.conf	Setting
+2019-10-25 10:11:38.446	Error	小心！服务路径为空！	FileBasedService`1
+2019-10-25 10:12:20.087	Info	输入文件，载入了： D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hers0010.18O	FileOpenControl
+2019-10-25 10:12:23.819	Info	输入文件，载入了： D:\Data\GNSS\Rinex\algo0010.13o	FileOpenControl
+2019-10-25 10:19:49.670	Info	程序启动	Program
+2019-10-25 10:19:50.109	Info	检查新版本	Program
+2019-10-25 10:19:50.603	Info	成功加载配置文件 gnsser.conf	Setting
+2019-10-25 10:19:50.699	Error	小心！服务路径为空！	FileBasedService`1
+2019-10-25 10:19:56.057	Info	输入文件，载入 2 条项目：
+D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hers0010.18O
+D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hert0010.18O
+2条	FileOpenControl
+2019-10-25 10:19:59.635	Info	输入文件，载入了： D:\Data\GNSS\Rinex\algo0010.13o	FileOpenControl
+2019-10-25 10:20:06.341	Info	解析获取了 1 个文件	MultiFileStreamerForm
+2019-10-25 10:20:06.355	Info	开始初始化，加载资源等。。。	AbstractGnssStreamBackGroundRunner`3
+2019-10-25 10:20:06.442	Info	数据流缓存大小：60	BufferedStreamService`1
+2019-10-25 10:20:06.447	Info	algo0010.13o 起始处理编号: 0, 最大处理数量: 10000000	ObsFileEpochRunner`1
+2019-10-25 10:20:06.461	Info	-ALGO0CAC 1个数据源的公共时段为：2013-01-01 00:00:00>2013-01-02 00:00:00	MultiSiteObsStream
+2019-10-25 10:20:06.513	Info	当前历元2013-01-01 00:00:00可以获得IGS Final 产品	IgsEphemerisServiceAutoProvider
+2019-10-25 10:20:06.662	Warn	igs17212.sp3星历略过 EOF	AbstractTimedStreamReader`1
+2019-10-25 10:20:06.665	Info	完全加载了星历文件到内存 igs17212.sp3	AbstractTimedStreamReader`1
+2019-10-25 10:20:06.688	Info	成功载入 Sp3,D:\Data\IgsProduct\igs17212.sp3	AbstractIgsProductSourceProvider`2
+2019-10-25 10:20:06.692	Info	计算选项设置为不拼接 IGS 产品，因此只采用起始历元的产品。	AbstractIgsProductSourceProvider`2
+2019-10-25 10:20:06.720	Warn	不包含结束时间的 IEphemerisService 服务！2013-01-02 00:00:00	IgsServiceAutoProvider`1
+2019-10-25 10:20:06.739	Info	成功自动匹配星历文件 全局自动 IGS 精密星历服务, 1980-01-06 00:00:00->2079-12-31 00:00:00, G,C,R,E	EphemerisServiceProvider
+2019-10-25 10:20:06.744	Info	成功自动匹配钟差文件 全局自动 IGS 精密钟差服务, 1980-01-06 00:00:00->2079-12-31 00:00:00	ClockServiceProvider
+2019-10-25 10:20:06.747	Info	成功自动匹配 ERP 文件 全局自动 IGS ERP 服务, 1980-01-06 00:00:00->2079-12-31 00:00:00	ClockServiceProvider
+2019-10-25 10:20:06.771	Info	成功采用自动 IGS 格网电离层服务 	DataSourceContext
+2019-10-25 10:20:06.784	Info	将移除非 G 系统的观测值	EpochInfoReviser
+2019-10-25 10:20:06.786	Info	将移除观测值为 0 的卫星	EpochInfoReviser
+2019-10-25 10:20:06.787	Info	将删除不稳定的或有故障的卫星	EpochInfoReviser
+2019-10-25 10:20:06.788	Info	启用 移除不能组成无电离层组合的卫星数据	EpochInfoReviser
+2019-10-25 10:20:06.791	Info	将删除高度截止角低于 7 的卫星。	EpochInfoReviser
+2019-10-25 10:20:06.793	Info	将删除受太阳阴影影响的卫星。	EpochInfoReviser
+2019-10-25 10:20:06.795	Info	将过滤连续历元不足 30 的数据。	EpochInfoReviser
+2019-10-25 10:20:06.820	Info	采用了指定的周跳探测方法。	EpochInfoReviseManager
+2019-10-25 10:20:06.827	Info	伪距 DCB 距离改正， 目前只会改正GPS系统的DCB！	AbstractRangeCorrector
+2019-10-25 10:20:06.880	Info	启用结果检核。	GnssResultChecker
+2019-10-25 10:20:06.902	Info	algo0010.13o 初始化完毕。	PointPositionBackGroundRunner
+2019-10-25 10:20:06.917	Info	algo0010.13o 开始计算。	AbstractGnssStreamBackGroundRunner`3
+2019-10-25 10:22:38.518	Info	程序启动	Program
+2019-10-25 10:22:38.803	Info	检查新版本	Program
+2019-10-25 10:22:38.924	Info	成功加载配置文件 gnsser.conf	Setting
+2019-10-25 10:22:39.016	Error	小心！服务路径为空！	FileBasedService`1
+2019-10-25 10:22:48.082	Info	输入文件，载入了： D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hers0010.18O	FileOpenControl
+2019-10-25 10:22:53.018	Info	输入文件，载入了： D:\Data\GNSS\Rinex\algo0010.13o	FileOpenControl
+2019-10-25 12:58:48.144	Info	程序启动	Program
+2019-10-25 12:58:48.269	Info	成功加载配置文件 gnsser.conf	Setting
+2019-10-25 12:58:48.284	Error	小心！服务路径为空！	FileBasedService`1
+2019-10-25 12:58:48.410	Info	检查新版本	Program
+2019-10-25 13:00:45.621	Info	输入文件，载入了： D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hers0010.18O	FileOpenControl
+2019-10-25 13:00:49.409	Info	输入文件，载入了： D:\Data\GNSS\Rinex\algo0010.13o	FileOpenControl
+2019-10-25 13:02:13.967	Info	程序启动	Program
+2019-10-25 13:02:14.107	Info	成功加载配置文件 gnsser.conf	Setting
+2019-10-25 13:02:14.122	Error	小心！服务路径为空！	FileBasedService`1
+2019-10-25 13:02:14.227	Info	检查新版本	Program
+2019-10-25 13:02:18.524	Info	输入文件，载入了： D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hers0010.18O	FileOpenControl
+2019-10-25 13:02:21.333	Info	输入文件，载入了： D:\Data\GNSS\Rinex\algo0010.13o	FileOpenControl
+2019-10-25 15:35:23.288	Info	程序启动	Program
+2019-10-25 15:35:23.482	Info	检查新版本	Program
+2019-10-25 15:35:23.501	Info	成功加载配置文件 gnsser.conf	Setting
+2019-10-25 15:35:23.533	Error	小心！服务路径为空！	FileBasedService`1
+2019-10-25 15:35:31.051	Info	输入文件，载入了： D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hers0010.18O	FileOpenControl
+2019-10-25 15:35:34.829	Info	输入文件，载入了： D:\Data\GNSS\Rinex\algo0010.13o	FileOpenControl
+2019-10-25 15:42:28.386	Info	程序启动	Program
+2019-10-25 15:42:28.636	Info	成功加载配置文件 gnsser.conf	Setting
+2019-10-25 15:42:28.641	Info	检查新版本	Program
+2019-10-25 15:42:28.666	Error	小心！服务路径为空！	FileBasedService`1
+2019-10-25 15:42:35.659	Info	输入文件，载入了： D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hers0010.18O	FileOpenControl
+2019-10-25 15:42:40.414	Info	输入文件，载入了： D:\Data\GNSS\Rinex\algo0010.13o	FileOpenControl
+2019-10-25 15:53:19.993	Info	程序启动	Program
+2019-10-25 15:53:20.202	Info	成功加载配置文件 gnsser.conf	Setting
+2019-10-25 15:53:20.215	Info	检查新版本	Program
+2019-10-25 15:53:20.234	Error	小心！服务路径为空！	FileBasedService`1
+2019-10-25 15:53:31.358	Info	输入文件，载入了： D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hers0010.18O	FileOpenControl
+2019-10-25 15:53:35.403	Info	输入文件，载入了： D:\Data\GNSS\Rinex\algo0010.13o	FileOpenControl
+2019-10-25 15:55:54.630	Info	程序启动	Program
+2019-10-25 15:55:54.853	Info	成功加载配置文件 gnsser.conf	Setting
+2019-10-25 15:55:54.859	Info	检查新版本	Program
+2019-10-25 15:55:54.882	Error	小心！服务路径为空！	FileBasedService`1
+2019-10-25 15:56:03.660	Info	输入文件，载入了： D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hers0010.18O	FileOpenControl
+2019-10-25 15:56:08.154	Info	输入文件，载入了： D:\Data\GNSS\Rinex\algo0010.13o	FileOpenControl
+2019-10-25 16:05:13.990	Info	程序启动	Program
+2019-10-25 16:05:14.140	Info	检查新版本	Program
+2019-10-25 16:05:14.211	Info	成功加载配置文件 gnsser.conf	Setting
+2019-10-25 16:05:14.235	Error	小心！服务路径为空！	FileBasedService`1
+2019-10-25 16:05:24.649	Info	输入文件，载入了： D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hers0010.18O	FileOpenControl
+2019-10-25 16:05:29.490	Info	输入文件，载入了： D:\Data\GNSS\Rinex\algo0010.13o	FileOpenControl
+2019-10-25 16:05:57.730	Info	程序启动	Program
+2019-10-25 16:05:57.869	Info	检查新版本	Program
+2019-10-25 16:05:57.971	Info	成功加载配置文件 gnsser.conf	Setting
+2019-10-25 16:05:57.994	Error	小心！服务路径为空！	FileBasedService`1
+2019-10-25 16:06:04.332	Info	输入文件，载入了： D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hers0010.18O	FileOpenControl
+2019-10-25 16:06:08.903	Info	输入文件，载入了： D:\Data\GNSS\Rinex\algo0010.13o	FileOpenControl
+2019-10-25 16:06:34.682	Info	程序启动	Program
+2019-10-25 16:06:34.840	Info	检查新版本	Program
+2019-10-25 16:06:35.352	Info	成功加载配置文件 gnsser.conf	Setting
+2019-10-25 16:06:35.585	Error	小心！服务路径为空！	FileBasedService`1
+2019-10-25 16:06:42.237	Info	输入文件，载入了： D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hers0010.18O	FileOpenControl
+2019-10-25 16:06:46.536	Info	输入文件，载入了： D:\Data\GNSS\Rinex\algo\algo0010.13o	FileOpenControl
+2019-10-25 16:07:43.816	Info	程序启动	Program
+2019-10-25 16:07:44.256	Info	检查新版本	Program
+2019-10-25 16:07:44.643	Info	成功加载配置文件 gnsser.conf	Setting
+2019-10-25 16:07:44.692	Error	小心！服务路径为空！	FileBasedService`1
+2019-10-25 16:07:50.020	Info	输入文件，载入了： D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hers0010.18O	FileOpenControl
+2019-10-25 16:07:54.130	Info	输入文件，载入了： D:\Data\GNSS\Rinex\algo\algo0010.13o	FileOpenControl
+2019-10-25 16:09:28.505	Info	程序启动	Program
+2019-10-25 16:09:28.595	Info	检查新版本	Program
+2019-10-25 16:09:28.740	Info	成功加载配置文件 gnsser.conf	Setting
+2019-10-25 16:09:28.767	Error	小心！服务路径为空！	FileBasedService`1
+2019-10-25 16:09:42.100	Info	输入文件，载入了： D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hers0010.18O	FileOpenControl
+2019-10-25 16:09:45.528	Info	输入文件，载入了： D:\Data\GNSS\Rinex\algo\algo0010.13o	FileOpenControl
+2019-10-25 16:10:32.750	Info	程序启动	Program
+2019-10-25 16:10:32.890	Info	检查新版本	Program
+2019-10-25 16:10:33.023	Info	成功加载配置文件 gnsser.conf	Setting
+2019-10-25 16:10:33.044	Error	小心！服务路径为空！	FileBasedService`1
+2019-10-25 16:10:39.198	Info	输入文件，载入了： D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hers0010.18O	FileOpenControl
+2019-10-25 16:10:42.664	Info	输入文件，载入了： D:\Data\GNSS\Rinex\algo\algo0010.13o	FileOpenControl
+2019-10-25 16:11:37.989	Info	程序启动	Program
+2019-10-25 16:11:38.147	Info	检查新版本	Program
+2019-10-25 16:11:38.237	Info	成功加载配置文件 gnsser.conf	Setting
+2019-10-25 16:11:38.259	Error	小心！服务路径为空！	FileBasedService`1
+2019-10-25 16:11:44.217	Info	输入文件，载入了： D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hers0010.18O	FileOpenControl
+2019-10-25 16:11:47.289	Info	输入文件，载入了： D:\Data\GNSS\Rinex\algo\algo0010.13o	FileOpenControl
+2019-10-25 16:13:59.295	Info	保存了配置到文件 gnsser.conf	Setting
+2019-10-25 16:13:59.303	Info	程序正常退出	Program
+2019-10-25 16:14:39.018	Info	程序启动	Program
+2019-10-25 16:14:39.200	Info	检查新版本	Program
+2019-10-25 16:14:39.369	Info	成功加载配置文件 gnsser.conf	Setting
+2019-10-25 16:14:39.402	Error	小心！服务路径为空！	FileBasedService`1
+2019-10-25 16:14:45.313	Info	输入文件，载入了： D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hers0010.18O	FileOpenControl
+2019-10-25 16:14:48.600	Info	输入文件，载入了： D:\Data\GNSS\Rinex\algo\algo0010.13o	FileOpenControl
+2019-10-25 16:15:41.873	Info	程序启动	Program
+2019-10-25 16:15:42.090	Info	检查新版本	Program
+2019-10-25 16:15:42.201	Info	成功加载配置文件 gnsser.conf	Setting
+2019-10-25 16:15:42.234	Error	小心！服务路径为空！	FileBasedService`1
+2019-10-25 16:15:48.622	Info	输入文件，载入了： D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hers0010.18O	FileOpenControl
+2019-10-25 16:15:52.049	Info	输入文件，载入了： D:\Data\GNSS\Rinex\algo\algo0010.13o	FileOpenControl
+2019-10-25 16:18:10.302	Info	程序启动	Program
+2019-10-25 16:18:10.472	Info	检查新版本	Program
+2019-10-25 16:18:10.577	Info	成功加载配置文件 gnsser.conf	Setting
+2019-10-25 16:18:10.607	Error	小心！服务路径为空！	FileBasedService`1
+2019-10-25 16:18:17.064	Info	输入文件，载入了： D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hers0010.18O	FileOpenControl
+2019-10-25 16:18:20.691	Info	输入文件，载入了： D:\Data\GNSS\Rinex\algo\algo0010.13o	FileOpenControl
+2019-10-25 16:18:48.300	Info	保存了配置到文件 gnsser.conf	Setting
+2019-10-25 16:18:48.307	Info	程序正常退出	Program
+2019-10-25 22:38:59.488	Info	程序启动	Program
+2019-10-25 22:38:59.764	Info	成功加载配置文件 gnsser.conf	Setting
+2019-10-25 22:38:59.791	Error	小心！服务路径为空！	FileBasedService`1
+2019-10-25 22:39:00.367	Info	检查新版本	Program
+2019-10-25 22:39:08.567	Info	输入文件，载入了： D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hers0010.18O	FileOpenControl
+2019-10-25 22:39:14.033	Info	输入文件，载入了： D:\Data\GNSS\Rinex\algo\algo0010.13o	FileOpenControl

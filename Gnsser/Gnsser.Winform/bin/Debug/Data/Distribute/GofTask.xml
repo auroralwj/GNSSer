@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tasks>
+  <Task>
+    <Id>1</Id>
+    <Name>NewOperationName.gof</Name>
+    <OperationInfos>
+      <OperationInfo>
+        <Name>ppp</Name>
+        <OperationName>PointPosition</OperationName>
+        <DependsString />
+        <ParamFilePath>D:\GnsserTemp\Script\\Param\ppp.PointPositionParam.param</ParamFilePath>
+      </OperationInfo>
+    </OperationInfos>
+    <Params>
+      <Param>
+        <Name>ppp.PointPositionParam.param</Name>
+        <Content>..\..\Observation	..\..\Output	G	True	3.02	True	4		
+</Content>
+      </Param>
+    </Params>
+  </Task>
+  <Task>
+    <Id>1</Id>
+    <Name>NewOperationName.gof</Name>
+    <OperationInfos>
+      <OperationInfo>
+        <Name>ppp</Name>
+        <OperationName>PointPosition</OperationName>
+        <DependsString />
+        <ParamFilePath>D:\GnsserTemp\Script\\Param\ppp.PointPositionParam.param</ParamFilePath>
+      </OperationInfo>
+    </OperationInfos>
+    <Params>
+      <Param>
+        <Name>ppp.PointPositionParam.param</Name>
+        <Content>..\..\Observation	..\..\Output	G	True	3.02	True	4		
+</Content>
+      </Param>
+    </Params>
+  </Task>
+</Tasks>

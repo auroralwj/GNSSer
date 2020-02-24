@@ -1,0 +1,132 @@
+2019-05-14 10:59:17.443	Info	程序启动	Program
+2019-05-14 10:59:17.890	Error	读取工程配置文件出错！未能找到路径“D:\GnsserTemp\ProjectName.Gproj”的一部分。	AbstractBaseDictionary`2
+2019-05-14 10:59:18.247	Info	成功加载配置文件 gnsser.conf	Setting
+2019-05-14 10:59:18.335	Error	小心！服务路径为空！	FileBasedService`1
+2019-05-14 11:11:14.545	Info	保存了配置到文件 gnsser.conf	Setting
+2019-05-14 11:11:14.553	Info	程序正常退出	Program
+2019-05-14 19:59:53.267	Info	程序启动	Program
+2019-05-14 19:59:53.534	Error	读取工程配置文件出错！未能找到路径“D:\GnsserTemp\ProjectName.Gproj”的一部分。	AbstractBaseDictionary`2
+2019-05-14 19:59:53.605	Info	成功加载配置文件 gnsser.conf	Setting
+2019-05-14 19:59:53.623	Error	小心！服务路径为空！	FileBasedService`1
+2019-05-14 19:59:53.757	Info	检查新版本	Program
+2019-05-14 20:00:57.770	Info	输入文件，载入 2 条项目：
+D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hers0010.18O
+D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hert0010.18O
+2条	FileOpenControl
+2019-05-14 20:04:42.421	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/1982/igs19827.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs19827.erp.Z	NetUtil
+2019-05-14 20:04:44.634	Error	下载失败! ftp://igs.gnsswhu.cn/pub/gps/products/1982/igs19827.erp.Z 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。	NetUtil
+2019-05-14 20:04:44.641	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/1983/igs19837.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs19837.erp.Z	NetUtil
+2019-05-14 20:04:47.663	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/1983/igs19837.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs19837.erp.Z	NetUtil
+2019-05-14 20:04:47.666	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/1984/igs19847.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs19847.erp.Z	NetUtil
+2019-05-14 20:04:49.441	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/1984/igs19847.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs19847.erp.Z	NetUtil
+2019-05-14 20:04:49.443	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/1985/igs19857.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs19857.erp.Z	NetUtil
+2019-05-14 20:04:50.330	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/1985/igs19857.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs19857.erp.Z	NetUtil
+2019-05-14 20:04:50.333	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/1986/igs19867.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs19867.erp.Z	NetUtil
+2019-05-14 20:04:51.641	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/1986/igs19867.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs19867.erp.Z	NetUtil
+2019-05-14 20:04:51.643	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/1987/igs19877.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs19877.erp.Z	NetUtil
+2019-05-14 20:04:52.328	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/1987/igs19877.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs19877.erp.Z	NetUtil
+2019-05-14 20:04:52.331	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/1988/igs19887.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs19887.erp.Z	NetUtil
+2019-05-14 20:04:53.347	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/1988/igs19887.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs19887.erp.Z	NetUtil
+2019-05-14 20:04:53.351	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/1989/igs19897.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs19897.erp.Z	NetUtil
+2019-05-14 20:04:54.804	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/1989/igs19897.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs19897.erp.Z	NetUtil
+2019-05-14 20:04:54.807	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/1990/igs19907.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs19907.erp.Z	NetUtil
+2019-05-14 20:04:56.109	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/1990/igs19907.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs19907.erp.Z	NetUtil
+2019-05-14 20:04:56.112	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/1991/igs19917.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs19917.erp.Z	NetUtil
+2019-05-14 20:04:56.732	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/1991/igs19917.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs19917.erp.Z	NetUtil
+2019-05-14 20:04:56.736	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/1992/igs19927.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs19927.erp.Z	NetUtil
+2019-05-14 20:04:59.052	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/1992/igs19927.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs19927.erp.Z	NetUtil
+2019-05-14 20:04:59.055	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/1993/igs19937.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs19937.erp.Z	NetUtil
+2019-05-14 20:05:00.444	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/1993/igs19937.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs19937.erp.Z	NetUtil
+2019-05-14 20:05:00.587	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/1994/igs19947.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs19947.erp.Z	NetUtil
+2019-05-14 20:05:02.625	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/1994/igs19947.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs19947.erp.Z	NetUtil
+2019-05-14 20:05:02.628	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/1995/igs19957.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs19957.erp.Z	NetUtil
+2019-05-14 20:05:03.960	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/1995/igs19957.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs19957.erp.Z	NetUtil
+2019-05-14 20:05:03.964	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/1996/igs19967.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs19967.erp.Z	NetUtil
+2019-05-14 20:05:04.951	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/1996/igs19967.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs19967.erp.Z	NetUtil
+2019-05-14 20:05:05.051	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/1997/igs19977.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs19977.erp.Z	NetUtil
+2019-05-14 20:05:05.839	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/1997/igs19977.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs19977.erp.Z	NetUtil
+2019-05-14 20:05:05.853	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/1998/igs19987.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs19987.erp.Z	NetUtil
+2019-05-14 20:05:06.567	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/1998/igs19987.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs19987.erp.Z	NetUtil
+2019-05-14 20:05:06.570	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/1999/igs19997.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs19997.erp.Z	NetUtil
+2019-05-14 20:05:07.312	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/1999/igs19997.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs19997.erp.Z	NetUtil
+2019-05-14 20:05:07.319	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/2000/igs20007.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20007.erp.Z	NetUtil
+2019-05-14 20:05:09.802	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/2000/igs20007.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20007.erp.Z	NetUtil
+2019-05-14 20:05:09.806	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/2001/igs20017.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20017.erp.Z	NetUtil
+2019-05-14 20:05:10.538	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/2001/igs20017.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20017.erp.Z	NetUtil
+2019-05-14 20:05:10.542	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/2002/igs20027.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20027.erp.Z	NetUtil
+2019-05-14 20:05:11.539	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/2002/igs20027.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20027.erp.Z	NetUtil
+2019-05-14 20:05:11.554	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/2003/igs20037.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20037.erp.Z	NetUtil
+2019-05-14 20:05:12.303	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/2003/igs20037.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20037.erp.Z	NetUtil
+2019-05-14 20:05:12.307	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/2004/igs20047.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20047.erp.Z	NetUtil
+2019-05-14 20:05:12.989	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/2004/igs20047.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20047.erp.Z	NetUtil
+2019-05-14 20:05:12.993	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/2005/igs20057.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20057.erp.Z	NetUtil
+2019-05-14 20:05:13.599	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/2005/igs20057.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20057.erp.Z	NetUtil
+2019-05-14 20:05:13.603	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/2006/igs20067.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20067.erp.Z	NetUtil
+2019-05-14 20:05:14.876	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/2006/igs20067.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20067.erp.Z	NetUtil
+2019-05-14 20:05:14.880	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/2007/igs20077.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20077.erp.Z	NetUtil
+2019-05-14 20:05:17.144	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/2007/igs20077.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20077.erp.Z	NetUtil
+2019-05-14 20:05:17.159	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/2008/igs20087.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20087.erp.Z	NetUtil
+2019-05-14 20:05:17.718	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/2008/igs20087.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20087.erp.Z	NetUtil
+2019-05-14 20:05:17.721	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/2009/igs20097.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20097.erp.Z	NetUtil
+2019-05-14 20:05:18.334	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/2009/igs20097.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20097.erp.Z	NetUtil
+2019-05-14 20:05:18.338	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/2010/igs20107.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20107.erp.Z	NetUtil
+2019-05-14 20:05:19.031	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/2010/igs20107.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20107.erp.Z	NetUtil
+2019-05-14 20:05:19.035	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/2011/igs20117.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20117.erp.Z	NetUtil
+2019-05-14 20:05:19.762	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/2011/igs20117.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20117.erp.Z	NetUtil
+2019-05-14 20:05:19.766	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/2012/igs20127.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20127.erp.Z	NetUtil
+2019-05-14 20:05:20.651	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/2012/igs20127.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20127.erp.Z	NetUtil
+2019-05-14 20:05:21.380	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/2013/igs20137.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20137.erp.Z	NetUtil
+2019-05-14 20:05:22.662	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/2013/igs20137.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20137.erp.Z	NetUtil
+2019-05-14 20:05:22.665	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/2014/igs20147.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20147.erp.Z	NetUtil
+2019-05-14 20:05:23.284	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/2014/igs20147.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20147.erp.Z	NetUtil
+2019-05-14 20:05:23.613	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/2015/igs20157.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20157.erp.Z	NetUtil
+2019-05-14 20:05:24.262	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/2015/igs20157.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20157.erp.Z	NetUtil
+2019-05-14 20:05:24.274	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/2016/igs20167.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20167.erp.Z	NetUtil
+2019-05-14 20:05:25.062	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/2016/igs20167.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20167.erp.Z	NetUtil
+2019-05-14 20:05:25.068	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/2017/igs20177.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20177.erp.Z	NetUtil
+2019-05-14 20:05:25.892	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/2017/igs20177.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20177.erp.Z	NetUtil
+2019-05-14 20:05:25.897	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/2018/igs20187.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20187.erp.Z	NetUtil
+2019-05-14 20:05:26.643	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/2018/igs20187.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20187.erp.Z	NetUtil
+2019-05-14 20:05:26.647	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/2019/igs20197.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20197.erp.Z	NetUtil
+2019-05-14 20:05:27.379	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/2019/igs20197.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20197.erp.Z	NetUtil
+2019-05-14 20:05:27.915	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/2020/igs20207.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20207.erp.Z	NetUtil
+2019-05-14 20:05:30.835	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/2020/igs20207.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20207.erp.Z	NetUtil
+2019-05-14 20:05:30.843	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/2021/igs20217.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20217.erp.Z	NetUtil
+2019-05-14 20:05:31.332	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/2021/igs20217.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20217.erp.Z	NetUtil
+2019-05-14 20:05:31.337	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/2022/igs20227.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20227.erp.Z	NetUtil
+2019-05-14 20:05:32.796	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/2022/igs20227.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20227.erp.Z	NetUtil
+2019-05-14 20:05:32.803	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/2023/igs20237.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20237.erp.Z	NetUtil
+2019-05-14 20:05:33.445	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/2023/igs20237.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20237.erp.Z	NetUtil
+2019-05-14 20:05:33.449	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/2024/igs20247.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20247.erp.Z	NetUtil
+2019-05-14 20:05:34.074	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/2024/igs20247.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20247.erp.Z	NetUtil
+2019-05-14 20:05:34.078	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/2025/igs20257.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20257.erp.Z	NetUtil
+2019-05-14 20:05:34.692	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/2025/igs20257.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20257.erp.Z	NetUtil
+2019-05-14 20:05:34.696	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/2026/igs20267.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20267.erp.Z	NetUtil
+2019-05-14 20:05:35.451	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/2026/igs20267.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20267.erp.Z	NetUtil
+2019-05-14 20:05:35.456	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/2027/igs20277.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20277.erp.Z	NetUtil
+2019-05-14 20:05:37.503	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/2027/igs20277.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20277.erp.Z	NetUtil
+2019-05-14 20:05:37.507	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/2028/igs20287.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20287.erp.Z	NetUtil
+2019-05-14 20:05:39.974	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/2028/igs20287.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20287.erp.Z	NetUtil
+2019-05-14 20:05:39.979	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/2029/igs20297.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20297.erp.Z	NetUtil
+2019-05-14 20:05:40.953	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/2029/igs20297.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20297.erp.Z	NetUtil
+2019-05-14 20:05:40.956	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/2030/igs20307.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20307.erp.Z	NetUtil
+2019-05-14 20:05:42.265	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/2030/igs20307.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20307.erp.Z	NetUtil
+2019-05-14 20:05:42.272	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/2031/igs20317.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20317.erp.Z	NetUtil
+2019-05-14 20:05:44.920	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/2031/igs20317.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20317.erp.Z	NetUtil
+2019-05-14 20:05:44.925	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/2032/igs20327.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20327.erp.Z	NetUtil
+2019-05-14 20:05:45.685	Error	下载失败! ftp://igs.gnsswhu.cn/pub/gps/products/2032/igs20327.erp.Z 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。	NetUtil
+2019-05-14 20:05:45.690	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/2033/igs20337.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20337.erp.Z	NetUtil
+2019-05-14 20:05:46.208	Error	下载失败! ftp://igs.gnsswhu.cn/pub/gps/products/2033/igs20337.erp.Z 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。	NetUtil
+2019-05-14 20:05:46.212	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/2034/igs20347.erp.Z 到 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Temp\igs20347.erp.Z	NetUtil
+2019-05-14 20:05:46.751	Error	下载失败! ftp://igs.gnsswhu.cn/pub/gps/products/2034/igs20347.erp.Z 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。	NetUtil
+2019-05-14 20:06:05.262	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/1982/igs19827.erp.Z 到 C:\Download\igs19827.erp.Z	NetUtil
+2019-05-14 20:06:06.019	Error	下载失败! ftp://igs.gnsswhu.cn/pub/gps/products/1982/igs19827.erp.Z 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。	NetUtil
+2019-05-14 20:06:06.021	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/2032/igs20327.erp.Z 到 C:\Download\igs20327.erp.Z	NetUtil
+2019-05-14 20:06:06.989	Error	下载失败! ftp://igs.gnsswhu.cn/pub/gps/products/2032/igs20327.erp.Z 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。	NetUtil
+2019-05-14 20:06:06.993	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/2033/igs20337.erp.Z 到 C:\Download\igs20337.erp.Z	NetUtil
+2019-05-14 20:06:07.644	Error	下载失败! ftp://igs.gnsswhu.cn/pub/gps/products/2033/igs20337.erp.Z 远程服务器返回错误: (550) 文件不可用(例如，未找到文件，无法访问文件)。	NetUtil
+2019-05-14 20:06:07.646	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/2034/igs20347.erp.Z 到 C:\Download\igs20347.erp.Z	NetUtil
+2019-05-14 20:06:10.588	Error	下载失败! ftp://igs.gnsswhu.cn/pub/gps/products/2034/igs20347.erp.Z 远程服务器返回错误: 227 Entering passive mode (123,57,234,5,174,181).
+。	NetUtil
+2019-05-14 21:40:15.850	Info	保存了配置到文件 gnsser.conf	Setting
+2019-05-14 21:40:15.856	Info	程序正常退出	Program

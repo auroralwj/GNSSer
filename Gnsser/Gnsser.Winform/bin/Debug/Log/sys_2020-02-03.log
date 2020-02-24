@@ -1,0 +1,22 @@
+2020-02-03 10:04:01.317	Info	程序启动	Program
+2020-02-03 10:04:01.488	Info	检查新版本	Program
+2020-02-03 10:04:01.739	Info	成功加载配置文件 gnsser.conf	Setting
+2020-02-03 10:04:01.829	Error	小心！服务路径为空！	FileBasedService`1
+2020-02-03 10:07:27.376	Info	保存了配置到文件 gnsser.conf	Setting
+2020-02-03 10:07:27.379	Info	程序正常退出	Program
+2020-02-03 16:47:25.689	Info	程序启动	Program
+2020-02-03 16:47:25.820	Info	检查新版本	Program
+2020-02-03 16:47:25.914	Info	成功加载配置文件 gnsser.conf	Setting
+2020-02-03 16:47:25.939	Error	小心！服务路径为空！	FileBasedService`1
+2020-02-03 16:47:28.999	Info	输入文件，载入 2 条项目：
+D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hers0010.18O
+D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hert0010.18O
+2条	FileOpenControl
+2020-02-03 16:47:33.456	Info	输入文件，载入了： D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hers0010.18O	FileOpenControl
+2020-02-03 16:47:39.424	Info	输入文件，载入了： D:\Data\GNSS\Rinex\2018001\abmf0010.18o	FileOpenControl
+2020-02-03 16:47:52.842	Info	输入文件，载入了： D:\Data\GNSS\Rinex\algo0010.13o	FileOpenControl
+2020-02-03 16:48:55.293	Info	RINEX O文件，载入了： D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hers0010.18O	FileOpenControl
+2020-02-03 16:48:59.044	Info	RINEX O文件，载入了： D:\Data\GNSS\Rinex\algo0010.13o	FileOpenControl
+2020-02-03 18:04:44.542	Info	本地WSB文件，载入了： D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\GNSS\Common\Wide_lane_GPS_satellite_biais.wsb	FileOpenControl
+2020-02-03 18:50:05.510	Info	保存了配置到文件 gnsser.conf	Setting
+2020-02-03 18:50:05.516	Info	程序正常退出	Program

@@ -1,0 +1,388 @@
+ACOR 13434M001 A Coruna                            Spain
+AJAC 10077M005 Ajaccio                             France
+ALAC 13433M001 Alicante                            Spain
+ALBA 13452M001 Albacete                            Spain
+ALCI 12371S001 Alchevsk/Mikhailovka                Ukraine
+ALME 13437M001 Almeria                             Spain
+AMMN 22201M001 Amman                               Jordan
+ANKR 20805M002 Ankara                              Turkey
+AQUI 12757M001 L&#39;Aquila                        Italy
+ARGI 10117M002 Argir, Torshavn                     Faroe Islands
+ARJ6 10428M002 Arjeplog                            Sweden
+AUT1 12619M002 Thessaloniki                        Greece
+AUTN 10080M001 Autun                               France
+AXPV 10057M001 Aix En Provence                     France
+BACA 11405M001 Bacau                               Romania
+BADH 14288M001 Bad Homburg                         Germany
+BAIA 11406M001 Baia Mare                           Romania
+BBYS 11514M001 Banska Bystrica                     Slovak Republic
+BELF 13240M001 Belfast                             United Kingdom
+BELL 13431M001 Bellmunt de Segarra                 Spain
+BISK 11520M001 Zlate Hory                          Czech Republic
+BOGI 12207M003 Borowa Gora                         Poland
+BOGO 12207M002 Borowa Gora                         Poland
+BOLG 12771M001 Bologna                             Italy
+BOR1 12205M002 Borowiec                            Poland
+BORJ 14268M002 Borkum (Island of Borkum)           Germany
+BORK 14268M001 Borkum                              Germany
+BORR 13480M001 Borriana                            Spain
+BPDL 12223M001 Biala Podlaska                      Poland
+BRON 19686M001 Bron                                France
+BRST 10004M004 Brest                               France
+BRUS 13101M004 Brussels                            Belgium
+BRUX 13101M010 Brussels                            Belgium
+BSCN 10028M007 Besan&ccedil;on                     France
+BUCU 11401M001 Bucuresti                           Romania
+BUDP 10101M003 Kobenhavn                           Denmark
+BUTE 11209M001 Budapest                            Hungary
+BYDG 12224M001 Bydgoszcz                           Poland
+BZRG 12751M001 Bolzano - Bozen                     Italy
+CACE 13447M001 Caceres                             Spain
+CAEN 19994M001 Caen                                France
+CAG1 12702M002 Cagliari                            Italy
+CAGL 12725M003 Cagliari                            Italy
+CAGZ 12725M004 Capoterra                           Italy
+CAKO 11906M001 Cakovec                             Croatia
+CAME 12754M001 Camerino -Rocca Di Varano-          Italy
+CANT 13438M001 Santander                           Spain
+CASB 13619M002 CastleBar                           Ireland
+CASC 13909S001 Cascais                             Portugal
+CEBR 13408M001 Cebreros                            Spain
+CEU1 13449M002 Ceuta                               Spain
+CEUT 13449M001 Ceuta                               Spain
+CFRM 11525M001 Frydek Mistek                       Czech Republic
+CHIZ 10020M001 Chize                               France
+CLIB 11526M001 Liberec                             Czech Republic
+CNIV 15501M001 Chernihiv                           Ukraine
+COBA 13453M001 Cordoba                             Spain
+COMO 12761M001 Como                                Italy
+COST 11407M001 Constanta                           Romania
+CPAR 11527M001 Pardubice                           Czech Republic
+CRAK 11528M001 Rakovnik                            Czech Republic
+CREI 10016M001 Creil                               France
+CREU 13432M001 Cadaques                            Spain
+CTAB 11529M001 Tabor                               Czech Republic
+DARE 13208S001 Daresbury                           United Kingdom
+DELF 13502M004 Delft                               Netherlands
+DENT 13112M001 Dentergem                           Belgium
+DEVA 11408M001 Deva                                Romania
+DOUR 13113M001 Dourbes                             Belgium
+DRAG 20710S001 Metzoki dragot                      Israel
+DRES 14108M001 Dresden                             Germany
+DUB2 11901M002 Dubrovnik                           Croatia
+DUBR 11901M001 Dubrovnik                           Croatia
+DUTH 12621M001 Xanthi                              Greece
+DYNG 12602M006 DIONYSOS                            Greece
+EBRE 13410M001 Roquetes                            Spain
+EGLT 10032M001 Egletons                            France
+EIJS 13533M001 Eijsden                             Netherlands
+ELBA 12721M002 San Piero Campo Nell&#39;Elba - Elba Italy
+ENIS 13246M001 Enniskillen                         United Kingdom
+ENTZ 10014M002 Entzheim                            France
+ESCO 13435M001 Naut Aran                           Spain
+EUSK 14258M003 Euskirchen                          Germany
+EVPA 12344M001 Evpatoria                           Ukraine
+FATA 12773M001 Taranto                             Italy
+FLRS 31907M001 Santa Cruz das Flores               Portugal
+FOYL 13241M001 Londonderry                         United Kingdom
+FUNC 13911S001 Funchal                             Portugal
+GAIA 13902M001 Gaia                                Portugal
+GANP 11515M001 Ganovce - Poprad                    Slovak Republic
+GARI 19517M001 Porto Garibaldi                     Italy
+GENO 12712M002 Genova                              Italy
+GLSV 12356M001 Kiev                                Ukraine
+GOPE 11502M002 Ondrejov                            Czech Republic
+GRAS 10002M006 Caussols                            France
+GRAZ 11001M002 Graz                                Austria
+GSR1 14501M001 Ljubljana                           Slovenia
+GUIP 10004M501 Guipavas                            France
+GWWL 12225M001 Gorzow Wielkopolski                 Poland
+HAS6 10429M002 Hassleholm                          Sweden
+HELG 14264M001 Helgoland Island                    Germany
+HERS 13212M007 Hailsham                            United Kingdom
+HERT 13212M010 Hailsham                            United Kingdom
+HFL2 11006M003 Innsbruck                           Austria
+HFLK 11006S003 Innsbruck                           Austria
+HOBU 14202M003 Hohenbuenstorf, Eschenberg          Germany
+HOE2 14284M002 Hoernum / Island Sylt               Germany
+HOER 14284M001 Hoernum / Island Sylt               Germany
+HOFN 10204M002 Hoefn                               Iceland
+HUEL 13451M001 Huelva                              Spain
+IAVH 35001M001 Rabat                               Morocco
+IENG 12724S001 Torino                              Italy
+IGD1 12605M001 Athens                              Greece
+IGEO 15101M001 Chisinau                            Republic of Moldova
+IGMI 12701M003 Firenze                             Italy
+ILDX 19724M001 Ile d&#39;Aix                       France
+INVE 13221S001 Inverness                           United Kingdom
+INVR 13221M001 Inverness                           United Kingdom
+ISTA 20807M001 Istanbul                            Turkey
+IZAN 31309M002 Guimar                              Spain
+JOEN 10512M001 Joensuu                             Finland
+JON6 10430M002 Jonkoping                           Sweden
+JOZ2 12204M002 Jozefoslaw                          Poland
+JOZE 12204M001 Jozefoslaw                          Poland
+KAD6 10431M002 Karlstad                            Sweden
+KARL 14216M001 Karlsruhe                           Germany
+KATO 12219S001 Katowice                            Poland
+KELY 43005M002 Kangerlussuaq                       Greenland
+KHAR 12314M001 Kharkiv                             Ukraine
+KIR0 10422M001 Kiruna                              Sweden
+KIR8 10422M002 Kiruna                              Sweden
+KIRU 10403M002 Kiruna                              Sweden
+KLOP 14214M002 Kloppenheim / Frankfurt             Germany
+KNJA 12113M001 Knjazevac                           Serbia
+KOSG 13504M003 Kootwijk                            Netherlands
+KRA1 12218M002 Krakow                              Poland
+KRAW 12218M001 Krakow                              Poland
+KTVL 12337M003 Katzively, Greater Yalta            Ukraine
+KUNZ 11524M001 Kunzak                              Czech Republic
+KURE 10604S001 Kuressaare                          Estonia
+LAGO 13903M001 Lagos                               Portugal
+LAMA 12209M001 Olsztyn                             Poland
+LAMP 12706M002 Lampedusa                           Italy
+LARM 12610M002 Larisa                              Greece
+LEK6 10433M002 Leksand                             Sweden
+LEON 13475M001 Leon                                Spain
+LIL2 10051M003 Lille                               France
+LILL 10051M001 Villeneuve d&#39;Ascq               France
+LINZ 11033S001 Linz                                Austria
+LLIV 13436M001 Llivia                              Spain
+LODZ 12226M001 Lodz                                Poland
+LOV6 10434M002 Lovo                                Sweden
+LPAL 81701M001 Roque de los Muchachos              Spain
+LROC 10023M001 La Rochelle                         France
+M0SE 12772M001 Roma                                Italy
+MAD2 13407S012 Robledo                             Spain
+MADR 13407S012 Robledo                             Spain
+MALA 13443M001 Malaga                              Spain
+MALL 13444M001 Palma de Mallorca                   Spain
+MAN2 10091M002 Le Mans                             France
+MANS 10091M001 Le Mans                             France
+MAR6 10405M002 Maartsbo                            Sweden
+MAR7 10405M003 Gavle                               Sweden
+MARJ 11517M001 Jachymov                            Czech Republic
+MARS 10073M008 Marseille                           France
+MAS1 31303M002 Maspalomas                          Spain
+MATE 12734M008 Matera                              Italy
+MDOR 10018M001 Saint-Didier-au-Mont-d&#39;Or       France
+MDVJ 12309M005 Mendeleevo                          Russian Federation
+MDVO 12309M002 Mendeleevo                          Russian Federation
+MEDI 12711M003 Medicina                            Italy
+MELI 19379M001 Melilla                             Spain
+METS 10503S011 Kirkkonummi                         Finland
+MIKL 12335M001 Mykolaiv                            Ukraine
+MILO 12758M001 Trapani - Milo                      Italy
+MLVL 10092M001 Marne-la-Vallee                     France
+MOP2 11507M002 Modra-Piesok                        Slovak Republic
+MOPI 11507M001 Modra-Piesok                        Slovak Republic
+MOPS 12791M001 Modena                              Italy
+MORP 13299S001 Morpeth                             United Kingdom
+MSEL 12711M008 Medicina                            Italy
+NEWL 13273M103 Newlyn                              United Kingdom
+NICO 14302M001 Nicosia                             Cyprus
+NOA1 12620M001 Athens                              Greece
+NOR7 10410M003 Norrkoping                          Sweden
+NOT1 12717M004 Noto                                Italy
+NOTO 12717M003 Noto                                Italy
+NPAZ 12110M001 Novi Pazar                          Serbia
+NPLD 13234M003 Teddington                          United Kingdom
+NSSP 12312M001 Yerevan                             Armenia
+NYA1 10317M003 Ny-Alesund                          Norway
+NYAL 10317M001 Ny-Alesund                          Norway
+NYIR 11208M001 Nyirbator                           Hungary
+OBE2 14208M003 Oberpfaffenhofen                    Germany
+OBE4 14208M007 Oberpfaffenhofen                    Germany
+OBER 14208M001 Oberpfaffenhofen                    Germany
+OBET 14208M004 Wessling                            Germany
+ONS1 10402M007 Onsala                              Sweden
+ONSA 10402M004 Onsala                              Sweden
+ORID 15601M001 Ohrid                               Macedonia
+OROS 11207M001 Oroshaza                            Hungary
+OSJE 11902M001 Osijek                              Croatia
+OSK6 10435M002 Oskarshamn                          Sweden
+OSLO 10307M001 Oslo                                Norway
+OSLS 10307M001 Oslo                                Norway
+OST6 10436M002 Ostersund                           Sweden
+OVE6 10437M002 Overkalix                           Sweden
+PADO 12750S001 Padova                              Italy
+PAT0 12622M001 Patras                              Greece
+PDEL 31906M004 Ponta Delgada                       Portugal
+PEN2 11206M007 Penc                                Hungary
+PENC 11206M006 Penc                                Hungary
+PFA2 11005M003 Bregenz                             Austria
+PFAN 11005S002 Bregenz                             Austria
+ADAR 19161M001 Aberdaron                           United Kingdom
+PLYM 13229S001 Plymouth                            United Kingdom
+POLV 12336M001 Poltava                             Ukraine
+PORE 11907M001 Porec                               Croatia
+POTS 14106M003 Potsdam                             Germany
+POUS 11518M001 Poustka                             Czech Republic
+POZE 11908M001 Pozega                              Croatia
+PRAT 12760M001 Prato                               Italy
+PTBB 14234M001 Braunschweig                        Germany
+PULA 11903S001 Pula                                Croatia
+PULK 12305M001 ST.PETERSBURG                       Russian Federation
+PUYV 10065M001 Le Puy en Velay                     France
+QAQ1 43007M001 Qaqortoq / Julianehaab              Greenland
+RABT 35001M002 Rabat                               Morocco
+RAMO 20703S001 Mitzpe Ramon                        Israel
+RANT 10914M001 Rantum / Island Sylt                Germany
+REDU 13102M001 Redu                                Belgium
+REDZ 12227M001 Redzikowo                           Poland
+REYK 10202M001 Reykjavik                           Iceland
+RIGA 12302M002 Riga                                Latvia
+RIO1 13448M002 Logrono                             Spain
+RIOJ 13448M001 Logrono                             Spain
+ROVE 12774M001 Rovereto                            Italy
+SABA 12112M001 Sabac                               Serbia
+SALA 13469M001 Salamanca                           Spain
+SASS 14281M001 Sassnitz Island of Ruegen           Germany
+SBG2 11031M002 Salzburg                            Austria
+SBGZ 11031S001 Salzburg                            Austria
+SCOA 10088M002 Ciboure                             France
+SCOR 43006M002 Scoresbysund/Ittoqqoormiit          Greenland
+SFER 13402M004 San Fernando                        Spain
+SJDV 10090M001 Saint Jean des Vignes               France
+SKE0 10426M001 Skellefteaa                         Sweden
+SKE8 10426M002 Skellefteaa                         Sweden
+SMID 10114M001 Smidstrup, Vejle                    Denmark
+SMLA 15503M001 Smila                               Ukraine
+SMNE 10001M007 Saint-Mand&eacute;                  France
+SNEC 11519M001 Pec (Pod Snezkou)                   Czech Republic
+SODA 10513M001 Sodankyla                           Finland
+SOFI 11101M002 Sofia                               Bulgaria
+SONS 13446M001 Sonseca                             Spain
+SPRN 11227M001 Sopron                              Hungary
+SPT0 10425M001 Boras                               Sweden
+SRJV 11801S001 Sarajevo                            Bosnia and Herzegovina
+STAS 10330M001 Stavanger                           Norway
+STAV 10330M001 Stavanger                           Norway
+SULD 10113M001 Suldrup                             Denmark
+SULP 12366M001 Lviv                                Ukraine
+SUN6 10440M002 Sundsvall                           Sweden
+SUR4 10601M002 Tallinn                             Estonia
+SUUR 10601M001 Tallinn                             Estonia
+SVE6 10441M002 Sveg                                Sweden
+SVTL 12350M001 Svetloe                             Russian Federation
+SWKI 12228M001 Suwalki                             Poland
+TARS 12773S001 Taranto                             Italy
+TERC 31909M001 Angra do Heroismo                   Portugal
+TERS 13534M001 West-Terschelling                   Netherlands
+TERU 13487M001 Teruel                              Spain
+THU1 43001M001 Thule                               Greenland
+THU3 43001M002 Thule Airbase                       Greenland
+TLLG 13630M001 Dublin                              Ireland
+TLMF 10003M010 Toulouse                            France
+TLSE 10003M009 Toulouse                            France
+TOIL 10605S001 Toila                               Estonia
+TOR2 10602M001 T&otilde;ravere                     Estonia
+TORA 10602S001 T?ravere                            Estonia
+TORI 12724M002 Torino                              Italy
+TOUL 10003M004 Toulouse                            France
+TRAB 20808M001 Trabzon                             Turkey
+TRDS 10331M001 Trondheim                           Norway
+TRF2 11047M002 Pernitz                             Austria
+TRFB 11047M001 Pernitz                             Austria
+TRO1 10302M006 Tromsoe                             Norway
+TROM 10302M003 Tromsoe                             Norway
+TRON 10331M001 Trondheim                           Norway
+TUBI 20806M001 Gebze                               Turkey
+TUBO 11503M001 Brno                                Czech Republic
+TUC2 12617M003 Chania                              Greece
+UME6 10442M002 Umea                                Sweden
+UNPG 12752M001 Perugia                             Italy
+UNTR 12785M001 Terni                               Italy
+UPAD 12750M002 Padova                              Italy
+USAL 19527M001 Lecce                               Italy
+USDL 12229M001 Ustrzyki Dolne                      Poland
+UZHL 12301M001 Uzhgorod                            Ukraine
+VAAS 10511M001 Vaasa                               Finland
+VACO 11516M001 Vacov                               Czech Republic
+VAE6 10443M002 Vanersborg                          Sweden
+VALA 13463M002 Valladolid                          Spain
+VALE 13439M001 Valencia                            Spain
+VARD 10322M002 Vardoe                              Norway
+VARS 10322M002 Vardoe                              Norway
+VEN1 19513M001 Venezia                             Italy
+VENE 12741M001 Venezia                             Italy
+VFCH 10046M001 Villefranche-sur-Cher               France
+VIGO 13450M001 Vigo                                Spain
+VIL0 10424M001 Vilhelmina                          Sweden
+VIL6 10424M002 Vilhelmina                          Sweden
+VILL 13406M001 Villafranca                         Spain
+VIS0 10423M001 Visby                               Sweden
+VIS6 10423M002 Visby                               Sweden
+VLNS 10801M001 Vilnius                             Lithuania
+WARE 13114M001 Waremme                             Belgium
+WARN 14277M002 Rostock-Warnemuende                 Germany
+WETT 14201M009 Koetzting                           Germany
+WROC 12217M001 Wroclaw                             Poland
+WSRT 13506M005 Westerbork                          Netherlands
+WTZR 14201M010 Bad Koetzting                       Germany
+YEBE 13420M001 Yebes                               Spain
+ZADA 11905M001 Zadar                               Croatia
+ZARA 13462M001 Zaragoza                            Spain
+ZECK 12351M001 Zelenchukskaya                      Russian Federation
+ZIM2 14001M008 Zimmerwald                          Switzerland
+ZIMM 14001M004 Zimmerwald                          Switzerland
+ZOUF 12763M001 Cercivento                          Italy
+ZWEN 12330M001 Zwenigorod                          Russian Federation
+ZYWI 12220S001 Zywiec                              Poland
+GOP6 11502M006 Ondrejov                            Czech Republic
+BRMF 19686M002 Bron                                France
+DLF1 13502M009 Delft                               Netherlands
+PASA 19351S001 Pasaia                              Spain
+BCLN 13412M001 Sant Vicenc dels Horts              Spain
+TARI 19350M001 Tarifa                              Spain
+CARG 19412M001 Cartagena                           Spain
+IBIZ 13454S001 Ibiza                               Spain
+MATG 12734M010 Matera                              Italy
+UCAG 12702M003 Cagliari                            Italy
+GRAC 10002M010 Caussols                            France
+ARIS 19190M001 Arisaig                             United Kingdom
+CHIO 19194M001 Chilbolton                          United Kingdom
+EDIN 13217S001 Edinburgh                           United Kingdom
+LERI 19159M003 Lerwick                             United Kingdom
+PMTH 13229M001 Plymouth                            United Kingdom
+SCIL 19201M001 Hugh Town                           United Kingdom
+SHOE 19197M001 Shoeburyness                        United Kingdom
+SNEO 19135M002 St Neots                            United Kingdom
+SWAS 19193M001 Swansea                             United Kingdom
+KOS1 13504M005 Kootwijk                            Netherlands
+CASE 13494M001 Cassa de la Selva                   Spain
+IJMU 13537M001 Ijmuiden                            Netherlands
+VLIS 13538M001 Vlissingen                          Netherlands
+AUBG 10913M001 Augsburg                            Germany
+IRBE 10726M001 Irbene                              Latvia
+DIEP 14287M001 Diepholz                            Germany
+DILL 14286M001 Dillingen                           Germany
+GELL 10908M001 Gellin                              Germany
+GOR2 14115M002 Gorleben                            Germany
+HEL2 14264M002 Helgoland Island                    Germany
+HOFJ 14289M001 Hof                                 Germany
+LDB2 14114M002 Lindenberg                          Germany
+LEIJ 14267M001 Leipzig                             Germany
+SAS2 14281M002 Sassnitz Island of Ruegen           Germany
+WRLG 14201M024 Bad Koetzting                       Germany
+DNMU 12369M001 Dnipro                              Ukraine
+MARP 15556M001 Mariupol                            Ukraine
+PRYL 15502M001 Pryluky                             Ukraine
+FINS 10523M001 Finstrom                            Finland
+JOE2 10512M002 Joensuu                             Finland
+KEV2 10515M002 Utsjoki                             Finland
+KILP 10525M001 Kilpisjarvi                         Finland
+KIV2 10516M002 Aanekoski                           Finland
+MET3 10503M010 Kirkkonummi                         Finland
+MIK3 10526M001 Mikkeli                             Finland
+OLK2 10518M002 Rauma                               Finland
+OUL2 10519M002 Oulu                                Finland
+ROM2 10520M002 Kuhmo                               Finland
+SOD3 10513M002 Sodankyla                           Finland
+VAA2 10511M002 Vaasa                               Finland
+VIR2 10522M002 Virolahti                           Finland
+METG 10503M002 METSAHOVI                           Finland
+RAEG 31912M003 Sao Pedro                           Portugal
+KRRS 15597M001 Kropyvnytsky                        Ukraine
+MKRS 15599M001 Mukachevo                           Ukraine
+ZPRS 18102M001 Zaporizhzhia                        Ukraine

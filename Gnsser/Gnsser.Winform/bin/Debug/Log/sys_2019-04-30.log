@@ -1,0 +1,11 @@
+2019-04-30 07:26:13.609	Info	程序启动	Program
+2019-04-30 07:26:13.744	Info	检查新版本	Program
+2019-04-30 07:26:14.124	Error	读取工程配置文件出错！未能找到路径“D:\GnsserTemp\ProjectName.Gproj”的一部分。	AbstractBaseDictionary`2
+2019-04-30 07:26:14.215	Info	成功加载配置文件 gnsser.conf	Setting
+2019-04-30 07:26:14.230	Error	小心！服务路径为空！	FileBasedService`1
+2019-04-30 07:26:47.802	Info	输入文件，载入 2 条项目：
+D:\Codes\Csharp\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hers0010.18O
+D:\Codes\Csharp\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hert0010.18O
+2条	FileOpenControl
+2019-04-30 07:26:55.040	Info	保存了配置到文件 gnsser.conf	Setting
+2019-04-30 07:26:55.043	Info	程序正常退出	Program

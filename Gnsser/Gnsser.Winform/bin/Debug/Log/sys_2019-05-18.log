@@ -1,0 +1,27 @@
+2019-05-16 22:34:59.111	Info	程序启动	Program
+2019-05-16 22:34:59.251	Error	读取工程配置文件出错！未能找到路径“D:\GnsserTemp\ProjectName.Gproj”的一部分。	AbstractBaseDictionary`2
+2019-05-16 22:34:59.280	Info	检查新版本	Program
+2019-05-16 22:34:59.356	Info	成功加载配置文件 gnsser.conf	Setting
+2019-05-16 22:34:59.373	Error	小心！服务路径为空！	FileBasedService`1
+2019-05-16 22:44:56.314	Info	程序启动	Program
+2019-05-16 22:44:56.437	Info	检查新版本	Program
+2019-05-16 22:44:56.478	Error	读取工程配置文件出错！未能找到路径“D:\GnsserTemp\ProjectName.Gproj”的一部分。	AbstractBaseDictionary`2
+2019-05-16 22:44:56.564	Info	成功加载配置文件 gnsser.conf	Setting
+2019-05-16 22:44:56.579	Error	小心！服务路径为空！	FileBasedService`1
+2019-05-16 22:46:10.689	Info	程序启动	Program
+2019-05-16 22:46:10.832	Error	读取工程配置文件出错！未能找到路径“D:\GnsserTemp\ProjectName.Gproj”的一部分。	AbstractBaseDictionary`2
+2019-05-16 22:46:10.927	Info	成功加载配置文件 gnsser.conf	Setting
+2019-05-16 22:46:10.948	Error	小心！服务路径为空！	FileBasedService`1
+2019-05-16 22:46:11.078	Info	检查新版本	Program
+2019-05-16 22:52:23.744	Info	程序启动	Program
+2019-05-16 22:52:23.817	Info	检查新版本	Program
+2019-05-16 22:52:23.849	Error	读取工程配置文件出错！未能找到路径“D:\GnsserTemp\ProjectName.Gproj”的一部分。	AbstractBaseDictionary`2
+2019-05-16 22:52:23.945	Info	成功加载配置文件 gnsser.conf	Setting
+2019-05-16 22:52:23.967	Error	小心！服务路径为空！	FileBasedService`1
+2019-05-16 23:39:06.924	Info	程序启动	Program
+2019-05-16 23:39:07.104	Info	检查新版本	Program
+2019-05-16 23:39:07.104	Error	读取工程配置文件出错！未能找到路径“D:\GnsserTemp\ProjectName.Gproj”的一部分。	AbstractBaseDictionary`2
+2019-05-16 23:39:07.214	Info	成功加载配置文件 gnsser.conf	Setting
+2019-05-16 23:39:07.237	Error	小心！服务路径为空！	FileBasedService`1
+2019-05-16 23:40:09.722	Info	保存了配置到文件 gnsser.conf	Setting
+2019-05-16 23:40:09.727	Info	程序正常退出	Program

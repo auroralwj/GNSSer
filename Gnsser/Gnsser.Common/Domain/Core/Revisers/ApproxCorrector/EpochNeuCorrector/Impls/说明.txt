@@ -1,0 +1,8 @@
+﻿这些都是针对测站的改正，改正值都是NEU格式。
+
+OceanTides: 海洋负荷改正
+PoleTides:极潮改正
+SolidTides：固体潮改正
+ReceiverAntennaPCO:接收机天线PCO改正，对L1、L2频率的改正
+
+此处EpochNeuCorrector的改正值均是NEU格式，对每个卫星观测值，这些量前期都是相同的NEU，后期再根据测站与卫星位置的距离换算成以米为单位的距离改正值。

@@ -1,0 +1,122 @@
+2019-05-22 09:38:05.603	Info	程序启动	Program
+2019-05-22 09:38:05.701	Error	读取工程配置文件出错！未能找到路径“D:\GnsserTemp\ProjectName.Gproj”的一部分。	AbstractBaseDictionary`2
+2019-05-22 09:38:05.728	Info	检查新版本	Program
+2019-05-22 09:38:05.800	Info	成功加载配置文件 gnsser.conf	Setting
+2019-05-22 09:38:05.818	Error	小心！服务路径为空！	FileBasedService`1
+2019-05-22 10:39:58.167	Info	输入文件，载入 2 条项目：
+D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hers0010.18O
+D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hert0010.18O
+2条	FileOpenControl
+2019-05-22 10:39:58.170	Info	坐标服务文件，载入了： D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\GNSS\Common\igs18P19821_all_CoordOnly.snx	FileOpenControl
+2019-05-22 10:59:19.482	Info	保存了配置到文件 gnsser.conf	Setting
+2019-05-22 10:59:19.488	Info	程序正常退出	Program
+2019-05-22 19:26:15.509	Info	程序启动	Program
+2019-05-22 19:26:15.711	Error	读取工程配置文件出错！未能找到路径“D:\GnsserTemp\ProjectName.Gproj”的一部分。	AbstractBaseDictionary`2
+2019-05-22 19:26:15.780	Info	成功加载配置文件 gnsser.conf	Setting
+2019-05-22 19:26:15.799	Error	小心！服务路径为空！	FileBasedService`1
+2019-05-22 19:26:15.882	Info	检查新版本	Program
+2019-05-22 19:26:20.095	Info	输入文件，载入 2 条项目：
+D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hers0010.18O
+D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hert0010.18O
+2条	FileOpenControl
+2019-05-22 19:26:22.840	Info	文件A，载入了： D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\GNSS\Common\igs18P19821_all_CoordOnly.snx	FileOpenControl
+2019-05-22 19:26:22.841	Info	默认坐标基准文件：D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\GNSS\Common\igs18P19821_all_CoordOnly.snx	XyzCompareForm
+2019-05-22 19:26:22.842	Info	文件B，载入了： D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\GNSS\Common\PppCoordResult.Coord.xls	FileOpenControl
+2019-05-22 19:26:22.848	Info	采用了默认的坐标文件：D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\GNSS\Common\PppCoordResult.Coord.xls	XyzCompareForm
+2019-05-22 19:26:32.844	Info	文件A，载入了： D:\Data\Rinex\总站对算\DD\gamit-004DD.txt	FileOpenControl
+2019-05-22 19:26:35.279	Info	文件B，载入了： D:\Data\Rinex\总站对算\DD\gnsser-004DD.txt	FileOpenControl
+2019-05-22 19:26:38.119	Info	参数	平均误差	互差中误差	系统偏差	系统差中误差
+X	4.054E+05	9.091E+05	4.054E+05	8.217E+05
+Y	2.241E+05	5.682E+05	2.241E+05	5.274E+05
+Z	3.49E+05	6.491E+05	3.49E+05	5.527E+05
+E	1.493E+05	3.844E+05	-6.513E+04	3.826E+05
+N	2.797E+05	4.279E+05	5.738E+04	4.283E+05
+U	6.373E+05	1.113E+06	6.373E+05	9.221E+05
+Len	7.913E+05	1.253E+06	7.913E+05	9.815E+05
+	XyzCompareForm
+2019-05-22 19:28:50.098	Info	参数	平均误差	互差中误差	系统偏差	系统差中误差
+X	2.265E+05	4.736E+05	2.265E+05	4.2E+05
+Y	3.004E+05	6.542E+05	3.004E+05	5.869E+05
+Z	2.91E+05	7.402E+05	2.91E+05	6.873E+05
+E	1.493E+05	3.844E+05	6.513E+04	3.826E+05
+N	2.829E+05	4.351E+05	-8.998E+04	4.3E+05
+U	5.393E+05	9.289E+05	5.393E+05	7.639E+05
+Len	6.997E+05	1.095E+06	6.997E+05	8.513E+05
+	XyzCompareForm
+2019-05-22 19:32:15.053	Info	参数	平均误差	互差中误差	系统偏差	系统差中误差
+X	0.00443	0.006621	-0.0006318	0.006656
+Y	0.01098	0.0177	0.001805	0.01779
+Z	0.006642	0.01121	0.0009824	0.01127
+E	0.008209	0.01265	-0.001069	0.01274
+N	0.01035	0.01697	0.002331	0.01698
+U	0.003394	0.005889	7.561E-05	0.005948
+Len	0.01453	0.02197	0.01453	0.01665
+	XyzCompareForm
+2019-05-22 19:56:05.082	Info	文件A，载入了： D:\Data\Rinex\总站对算\DD\008\gamit-008DD.txt	FileOpenControl
+2019-05-22 19:56:07.146	Info	文件B，载入了： D:\Data\Rinex\总站对算\DD\008\gnsser-008DD.txt	FileOpenControl
+2019-05-22 19:56:09.867	Info	参数	平均误差	互差中误差	系统偏差	系统差中误差
+X	0.004061	0.006569	-0.0007263	0.006601
+Y	0.01051	0.01727	0.001146	0.01742
+Z	0.006092	0.01047	-4.587E-05	0.01059
+E	0.0083	0.01346	-0.0005416	0.0136
+N	0.009199	0.01557	0.0007251	0.01572
+U	0.003532	0.005247	-0.0001183	0.005304
+Len	0.0139	0.02124	0.0139	0.01623
+	XyzCompareForm
+2019-05-22 20:09:31.394	Info	文件A，载入了： D:\Data\Rinex\总站对算\DD\009\gamit-009DD.txt	FileOpenControl
+2019-05-22 20:09:33.398	Info	文件B，载入了： D:\Data\Rinex\总站对算\DD\009\gnsser-009DD.txt	FileOpenControl
+2019-05-22 20:09:37.028	Info	参数	平均误差	互差中误差	系统偏差	系统差中误差
+X	0.004752	0.007851	-0.001548	0.007778
+Y	0.009671	0.01654	0.002917	0.01645
+Z	0.006179	0.01096	0.001367	0.01099
+E	0.007987	0.01348	0.001245	0.01356
+N	0.008668	0.01592	0.002464	0.01589
+U	0.002978	0.00449	-0.0006974	0.004483
+Len	0.01343	0.02133	0.01343	0.01675
+	XyzCompareForm
+2019-05-22 20:21:09.508	Info	文件A，载入了： D:\Data\Rinex\总站对算\DD\010\gamit-010DD.txt	FileOpenControl
+2019-05-22 20:21:12.428	Info	文件B，载入了： D:\Data\Rinex\总站对算\DD\010\gnsser-010DD.txt	FileOpenControl
+2019-05-22 20:21:14.783	Info	参数	平均误差	互差中误差	系统偏差	系统差中误差
+X	0.009891	0.01586	0.0001811	0.01601
+Y	0.01227	0.02026	-0.002304	0.02032
+Z	0.009887	0.01487	-0.0008189	0.01499
+E	0.01023	0.01555	-0.002441	0.01551
+N	0.01465	0.02354	-0.003518	0.02349
+U	0.005134	0.009338	-0.0009307	0.00938
+Len	0.02086	0.02971	0.02086	0.02136
+	XyzCompareForm
+2019-05-22 20:27:57.259	Info	文件A，载入了： D:\Data\Rinex\总站对算\DD\011\gamit-011DD.txt	FileOpenControl
+2019-05-22 20:27:59.239	Info	文件B，载入了： D:\Data\Rinex\总站对算\DD\011\gnsser-011DD.txt	FileOpenControl
+2019-05-22 20:28:01.500	Info	参数	平均误差	互差中误差	系统偏差	系统差中误差
+X	0.007998	0.01346	-0.0006961	0.01357
+Y	0.0099	0.01773	-0.0005157	0.0179
+Z	0.007876	0.01377	-0.001653	0.01381
+E	0.008576	0.01366	-0.0001807	0.01379
+N	0.01108	0.0191	-0.0004193	0.01929
+U	0.005559	0.01155	-0.0003221	0.01166
+Len	0.01676	0.02617	0.01676	0.0203
+	XyzCompareForm
+2019-05-22 20:34:15.818	Info	文件A，载入了： D:\Data\Rinex\总站对算\DD\012\gamit-012DD.txt	FileOpenControl
+2019-05-22 20:34:17.686	Info	文件B，载入了： D:\Data\Rinex\总站对算\DD\012\gnsser-012DD.txt	FileOpenControl
+2019-05-22 20:34:19.558	Info	参数	平均误差	互差中误差	系统偏差	系统差中误差
+X	0.003478	0.006282	-0.0007108	0.006328
+Y	0.009027	0.01705	0.003486	0.01692
+Z	0.005611	0.0111	0.002054	0.01106
+E	0.007595	0.01432	-0.001009	0.01448
+N	0.007746	0.01505	0.003602	0.01481
+U	0.002634	0.004694	-0.001067	0.004634
+Len	0.01194	0.0213	0.01194	0.01788
+	XyzCompareForm
+2019-05-22 20:54:49.243	Info	文件A，载入了： D:\Data\Rinex\总站对算\2017-DD\GAMIT-BDS.txt	FileOpenControl
+2019-05-22 20:54:51.700	Info	文件B，载入了： D:\Data\Rinex\总站对算\2017-DD\GNSSer-BDS.txt	FileOpenControl
+2019-05-22 20:54:54.442	Info	参数	平均误差	互差中误差	系统偏差	系统差中误差
+X	0.006427	0.008341	-0.002048	0.008122
+Y	0.01688	0.0223	-0.0005188	0.02239
+Z	0.01061	0.01409	-0.001436	0.01408
+E	0.004952	0.006634	0.002737	0.00607
+N	0.005404	0.007934	-0.00113	0.007889
+U	0.02001	0.02566	-0.0002928	0.02578
+Len	0.02251	0.02767	0.02251	0.01615
+	XyzCompareForm
+2019-05-22 21:42:43.018	Info	保存了配置到文件 gnsser.conf	Setting
+2019-05-22 21:42:43.025	Info	程序正常退出	Program

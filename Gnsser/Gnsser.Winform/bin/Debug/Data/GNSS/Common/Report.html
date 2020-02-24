@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>${Title}</title>
+    <style>
+        td {
+            border: solid 1px #808080;
+            text-align: center;
+            font-size:smaller;
+            padding:1px;
+        }
+
+        tr {
+            line-height: 1.1em;
+        }
+
+        th {
+            line-height: 1.5em;
+            font: bold;
+            background: #bfcffa;
+        }
+		.red{
+		color:red;
+		}
+		.orange{
+		color:orange;
+		}
+    </style>
+</head>
+
+<body>
+    <header>
+        <h3>${Title} </h3>
+        <hr />
+        <p>计算时间：${CalculationTime}，计算软件： <a href="http://gnsser.com"> GNSSer </a> </p>
+    </header>
+    <content>
+        <h4>计算配置信息</h4>
+        <pre style="background-color:#e2dede">
+         ${ConfigInfo}
+        </pre>
+        <h4>简要结果汇总</h4>
+        <table style="border:solid 1px #808080; width:100%" cellpadding="0" cellspacing="0">
+            ${FirstTable}
+        </table>
+         
+        <br />
+        <h4>${SecondTableTitle}</h4>
+        <table style="border:solid 1px #808080; width:100%" cellpadding="0" cellspacing="0">
+            ${SecondTable}
+        </table>
+
+        <h4>详细信息</h4>
+        <pre style="background-color:#e2dddd">
+         ${Content}
+        </pre>
+        <hr />
+    </content>
+    <footer>
+        <a href="http://gnsser.com"> www.gnsser.com </a>
+    </footer>
+</body>
+</html>

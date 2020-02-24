@@ -1,0 +1,43 @@
+
+Our clk files (gr2 and grg files since GPS week 1686) contain specail additional comment lines
+giving the wsb values used to build our clocks solution. 
+
+The WL COMMENT line format contains (in fortran notation):
+format("WL ",a1,i0.2,1x,1x,i4,4(i3),f10.6,i3,3x,e13.6,2x,i0.2,i0.2,1x,'COMMENT')
+a1         : 'G' for GPS
+i0.2       : prn
+i4 , 4(i3) : yyyy mm day hh min  (mm = month)
+f10.6      : sec
+Note       : hh  min sec equals always '12  0  0.000000'  (middle of the current day)
+i3         : always one (some unused validity code)
+e13.6      : value of the wide lane bias (WSB in unit of WL cycles) 
+             used for this particular clock solution.
+i0.2, i0.2 : frequency channel (1 and 2 for GPS L1, L2; 
+             this can be used to define other combinations, e.g. 1,5 for Galileo)
+
+Normally these values should be the one used for the processing and should be identical to the values
+    given in the wsb fileftp://ftpsedr.cls.fr/pub/igsac/Wide_lane_GPS_satellite_biais.wsb.  
+But, this is not exactly the case for grg products, since the current procedure (inspired by the initial
+    weekly processing) is as follow:
+  1. to process a particular day we use the predicted WSB values (the one of the previous day)
+  2. we compute corrections for the current day
+  3. then we update the file with the computed corrections
+  4. We finally insert the corrected values in our clk file for the igs submission.
+This procedure is not ideal since the exactly used values are not insured to be the one indicated in the clk file.
+  
+The one exactly used are the values of the previous day. We should correct that in the future.
+In practice, variations from one day to the other are so tiny that the fixed WL ambiguities are the 
+same using the predicted or the corrected values. But this may be no more the case when rapid variations 
+of this bias occur.
+
+Grg 30s clocks are available since  week 1686 (and clk file contains the WSB used since this date). 
+Changes have been made, in particular in the clock alignment procedure, since this particular week making 
+grg products  not fully  homogeneous over the all period.
+gr2 products:
+-------------
+For a better consistency in the past it is recommended to use gr2 products
+(integer clocks products from 04/2000 to 31/12/2013) available at cddis under the names: 
+      ftp://cddis.gsfc.nasa.gov/pub/gps/products/WWWW/repro2/gr2....
+These gr2 products do not suffer from the discrepancy between used and indicated WSB values described above.
+The WSB values indicated in the gr2...clk files are in that case exactly the same as the one used.
+

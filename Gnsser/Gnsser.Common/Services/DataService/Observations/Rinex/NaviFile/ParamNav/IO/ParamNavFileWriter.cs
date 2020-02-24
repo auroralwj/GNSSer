@@ -1,0 +1,302 @@
+﻿using System;
+using Gnsser.Times;
+using System.Collections.Generic;
+using Geo.Times; 
+using System.Text;
+using System.IO;
+using Geo.Coordinates;
+using Geo.Utils;
+using Geo.IO;
+
+namespace Gnsser.Data.Rinex
+{
+    /// <summary>
+    /// Rinex 观测文件读取器
+    /// </summary>
+    public class ParamNavFileWriter : IDisposable
+    {
+        ILog log = new Log(typeof(ParamNavFileWriter));
+        /// <summary>
+        /// 构造函数。
+        /// </summary>
+        /// <param name="filePath">文件路径</param>
+        /// <param name="NavFileHeader">头部信息</param>
+        public ParamNavFileWriter(string filePath, NavFileHeader NavFileHeader = null)
+        {
+            Geo.Utils.FileUtil.CheckOrCreateDirectory(System.IO.Path.GetDirectoryName(filePath));
+            this.FilePath = filePath;
+            this.NavFileHeader = NavFileHeader;
+            if (NavFileHeader == null)
+            {
+                this.NavFileHeader = new NavFileHeader
+                {
+                    CreationDate = DateTime.UtcNow.ToString() + "/UTC",
+                    FileType = RinexFileType.N,
+                    SatelliteType = SatelliteType.G,
+                    LeapSeconds = 0,//？？？2015.05.07
+                    Version = 3.02,
+                    CreationAgence = "Gnsser",
+                    CreationProgram = "Gnsser"
+                };
+            }
+            this.StringBuilder = new StringBuilder();
+            this.StringBuilder.Append(BuildHeaderString(this.NavFileHeader));
+            this.LatestNavEphDic = new Dictionary<SatelliteNumber, Time>();
+        }
+
+        /// <summary>
+        /// 存储最新星历信息。不重复存储。
+        /// </summary>
+        Dictionary<SatelliteNumber, Time> LatestNavEphDic { get; set; }
+
+        /// <summary>
+        /// 导航头文件。
+        /// </summary>
+        public NavFileHeader NavFileHeader { get; set; }
+
+        public string FilePath { get; set; }
+
+        /// <summary>
+        /// 数据流
+        /// </summary>
+        protected StringBuilder StringBuilder { get; set; }
+        /// <summary>
+        /// 检查，如果该星历步存在，则添加星历参数并返回true。
+        /// </summary>
+        /// <param name="para"></param>
+        public bool CheckAndAppendEphemerisParam(EphemerisParam para)
+        {
+            if (!LatestNavEphDic.ContainsKey(para.Prn) || !LatestNavEphDic[para.Prn].Equals(para.Time))
+            {
+                LatestNavEphDic[para.Prn] = para.Time;
+
+                AppendEphemerisParam(para);
+                return true;
+            }
+
+            log.Debug("缓存星历已存在，略过了 " + para.Prn + ", " + para.Time); 
+            return false;
+        }
+        /// <summary>
+        /// 添加星历参数
+        /// </summary>
+        /// <param name="para"></param>
+        public void AppendEphemerisParam(EphemerisParam para)
+        {
+            StringBuilder.Append(BuildRinexRecordV3(para));
+        }
+        /// <summary>
+        /// 保存到文件，并清空缓存。此处采用追加的方式保存，可以多次调用此方法。
+        /// </summary>
+        public void SaveToFile()
+        {
+            File.AppendAllText( FilePath, StringBuilder.ToString());
+            StringBuilder.Clear();
+        }  
+
+
+        #region 工具方法
+        /// <summary>
+        /// 将指定的导航文件转换成 RINEX V3.0字符串。
+        /// </summary>
+        /// <param name="file"></param>
+        /// <returns></returns>
+        public static string BuidRinexV3String(ParamNavFile file)
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.Append(BuildHeaderString(file.Header));
+            foreach (var prn in file.Prns)
+            {
+                foreach (var item in file.GetEphemerisParams(prn))
+                {
+                    sb.Append(BuildRinexRecordV3(item));
+                }
+            }
+            return sb.ToString();
+        }
+
+
+        #region 导航文件的的写
+        /// <summary>
+        /// 构建头部字符串。
+        /// </summary>
+        /// <param name="header"></param>
+        /// <returns></returns>
+        public static string BuildHeaderString(NavFileHeader header)
+        {
+            StringBuilder sb = new StringBuilder();
+
+            sb.Append(StringUtil.FillSpace(header.Version.ToString("0.0#"), 9, false));
+            sb.Append(StringUtil.FillSpace("", 11));
+            sb.Append("N");
+            sb.Append(StringUtil.FillSpace("", 19));
+            sb.Append(header.SatelliteType);
+            sb.Append(StringUtil.FillSpace("", 19));
+            sb.Append(StringUtil.FillSpace(RinexHeaderLabel.RINEX_VERSION_TYPE, 20, true));
+            sb.AppendLine();
+
+            sb.Append(StringUtil.FillSpace("Gnsser Workgroup", 20, true));
+            sb.Append(StringUtil.FillSpace("Gnsser", 20, true));
+            sb.Append(StringUtil.FillSpace(DateTime.UtcNow.ToString("yyyyMMdd hhmmss UTC"), 20, true));
+            sb.Append(StringUtil.FillSpace(RinexHeaderLabel.PGM_RUN_BY_DATE, 20, true));
+            sb.AppendLine();
+            header.Comments.Add("this file is generated by Gnsser " + DateTime.Now.Year);
+            foreach (var item in header.Comments)
+            {
+                if (item.Trim().Length == 0) continue;
+                sb.Append(StringUtil.FillSpace(item, 60, true));
+                sb.Append(StringUtil.FillSpace(RinexHeaderLabel.COMMENT, 20, true));
+                sb.AppendLine();
+            }
+
+            string line = StringUtil.FillSpace(header.LeapSeconds + "", 6, false);
+            sb.Append(StringUtil.FillSpace(line, 60, true));
+            sb.Append(StringUtil.FillSpace(RinexHeaderLabel.LEAP_SECONDS, 20, true));
+            sb.AppendLine();
+            sb.AppendLine(StringUtil.FillSpace("", 60, true) + "END OF HEADER");
+
+            return sb.ToString();
+        }
+
+        /// <summary>
+        /// 构建第一行
+        /// </summary>
+        /// <param name="record"></param>
+        /// <returns></returns>
+        public static string BuildFirstLineV3(SatClockBias record)
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.Append(record.Prn.ToString());
+            sb.Append(" ");
+            sb.Append(TimeIoUtil.ToRinexV3String(record.Time));
+            sb.Append(DoubleUtil.ScientificFomate(record.ClockBias, "E19.12", false));
+            sb.Append(DoubleUtil.ScientificFomate(record.ClockDrift, "E19.12", false));
+            sb.Append(DoubleUtil.ScientificFomate(record.DriftRate, "E19.12", false));
+            return sb.ToString();
+        }
+
+        /// <summary>
+        /// 构建历元数据
+        /// </summary>
+        /// <param name="record"></param>
+        /// <returns></returns>
+        public static string BuildRinexRecordV3(EphemerisParam record)
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine(BuildFirstLineV3(record));
+
+            sb.Append("    ");
+            sb.Append(DoubleUtil.ScientificFomate(record.IODE, "E19.12", false));
+            sb.Append(DoubleUtil.ScientificFomate(record.Crs, "E19.12", false));
+            sb.Append(DoubleUtil.ScientificFomate(record.DeltaN, "E19.12", false));
+            sb.Append(DoubleUtil.ScientificFomate(record.MeanAnomaly, "E19.12", false));
+            sb.AppendLine();
+
+            sb.Append("    ");
+            sb.Append(DoubleUtil.ScientificFomate(record.Cuc, "E19.12", false));
+            sb.Append(DoubleUtil.ScientificFomate(record.Eccentricity, "E19.12", false));
+            sb.Append(DoubleUtil.ScientificFomate(record.Cus, "E19.12", false));
+            sb.Append(DoubleUtil.ScientificFomate(record.SqrtA, "E19.12", false));
+            sb.AppendLine();
+
+            sb.Append("    ");
+            sb.Append(DoubleUtil.ScientificFomate(record.Toe, "E19.12", false));
+            sb.Append(DoubleUtil.ScientificFomate(record.Cic, "E19.12", false));
+            sb.Append(DoubleUtil.ScientificFomate(record.LongOfAscension, "E19.12", false));
+            sb.Append(DoubleUtil.ScientificFomate(record.Cis, "E19.12", false));
+            sb.AppendLine();
+
+            sb.Append("    ");
+            sb.Append(DoubleUtil.ScientificFomate(record.Inclination, "E19.12", false));
+            sb.Append(DoubleUtil.ScientificFomate(record.Crc, "E19.12", false));
+            sb.Append(DoubleUtil.ScientificFomate(record.ArgumentOfPerigee, "E19.12", false));
+            sb.Append(DoubleUtil.ScientificFomate(record.OmegaDot, "E19.12", false));
+            sb.AppendLine();
+
+            sb.Append("    ");
+            sb.Append(DoubleUtil.ScientificFomate(record.EyeDot, "E19.12", false));
+            sb.Append(DoubleUtil.ScientificFomate(record.CodesL2, "E19.12", false));
+            sb.Append(DoubleUtil.ScientificFomate(record.GPSWeeks, "E19.12", false));
+            sb.Append(DoubleUtil.ScientificFomate(record.L2PDataFlag?1:0, "E19.12", false));
+            sb.AppendLine();
+
+            sb.Append("    ");
+            sb.Append(DoubleUtil.ScientificFomate(record.SVAccuracy, "E19.12", false));
+            sb.Append(DoubleUtil.ScientificFomate(record.SVHealth, "E19.12", false));
+            sb.Append(DoubleUtil.ScientificFomate(record.TGD, "E19.12", false));
+            sb.Append(DoubleUtil.ScientificFomate(record.IODC, "E19.12", false));
+            sb.AppendLine();
+
+            sb.Append("    ");
+            sb.Append(DoubleUtil.ScientificFomate(record.TTM, "E19.12", false));
+            sb.Append(DoubleUtil.ScientificFomate(0, "E19.12", false));
+            sb.Append(DoubleUtil.ScientificFomate(0, "E19.12", false));
+            sb.Append(DoubleUtil.ScientificFomate(0, "E19.12", false));
+            sb.AppendLine();
+
+            return sb.ToString();
+        }
+
+
+        #endregion
+
+        #region 工具
+        /// <summary>
+        /// 读取并返回 RINEX 内容行。如果有注释行，则读取注释，继续读取，返回新的内容行。
+        /// </summary>
+        /// <param name="r">StreamReader</param>
+        /// <param name="comments">注释</param>
+        /// <returns></returns>
+        private static string ReadContentLine(StreamReader r, List<String> comments)
+        {
+            string line = r.ReadLine();
+            if (line == null) return line;
+            //判断是否是注释行
+
+            while (IsCommentLine(line))
+            {
+                comments.Add(GetCommenValue(line));
+                line = r.ReadLine();
+            }
+            return line;
+        }
+        /// <summary>
+        /// 判断本行是否是注释行。即，在60列时，具有COMMENT标识。
+        /// </summary>
+        /// <param name="line">输入行</param>
+        /// <returns></returns>
+        private static bool IsCommentLine(string line)
+        {
+            if (line.Length >= 67)
+            {
+                if (line.Substring(60, 7) == RinexHeaderLabel.COMMENT)
+                    return true;
+            }
+            return false;
+        }
+        /// <summary>
+        /// 获取注释行的内容。
+        /// </summary>
+        /// <param name="line">输入行</param>
+        /// <returns></returns>
+        private static string GetCommenValue(string line)
+        {
+            return StringUtil.SubString(line, 0, 60).Trim();
+        }
+
+
+        private static string SubString(string line, int nonAscCount, int fromIndex, int len)
+        {
+            return line.Substring(fromIndex, len - nonAscCount).Trim();
+        }
+        #endregion
+        #endregion
+
+
+
+        public void Dispose()
+        {
+            SaveToFile();
+        }
+    }
+}

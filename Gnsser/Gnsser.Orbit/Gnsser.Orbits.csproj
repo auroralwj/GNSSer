@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{45021429-345C-4713-B209-9F1C3E6E88D4}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Gnsser.Orbits</RootNamespace>
+    <AssemblyName>Gnsser.Orbits</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Core\AccelerationCalculator.cs" />
+    <Compile Include="Core\DeIntegrator.cs" />
+    <Compile Include="Core\ExtendedKalmanFilter.cs" />
+    <Compile Include="Core\Force.cs" />
+    <Compile Include="Core\GaussJackson4OrderPredictor.cs" />
+    <Compile Include="Core\GravityModel.cs" />
+    <Compile Include="Core\IERS.cs" />
+    <Compile Include="Core\Kepler.cs" />
+    <Compile Include="Core\LsqEstimater.cs" />
+    <Compile Include="Core\MultiDimChebshevFitter.cs" />
+    <Compile Include="Core\RungeKutta4StepIntegrator.cs" />
+    <Compile Include="Applications\Exersise2.1_OrbitPromotion.cs" />
+    <Compile Include="Applications\Exersise2.2_KelplerEqualtion.cs" />
+    <Compile Include="Applications\Exersise2.3_OrbitParam.cs" />
+    <Compile Include="Applications\Exersise2.4_TopocentricSatelliteMotion.cs" />
+    <Compile Include="Applications\Exersise2.5_SunsynchronousRepeatOrbits.cs" />
+    <Compile Include="Applications\Exersise2.6_InitialOrbitDetermination.cs" />
+    <Compile Include="Applications\Exersise3.1_GravityFieldComputation.cs" />
+    <Compile Include="Applications\Exersise3.2_LunarEphemerides.cs" />
+    <Compile Include="Applications\Exersise3.3_Accelerations.cs" />
+    <Compile Include="Applications\Exersise3.4_OrbitPerturbations.cs" />
+    <Compile Include="Applications\Exersise4.1_Runge-Kutta4th-orderIntegration.cs" />
+    <Compile Include="Applications\Exersise4.2_Gauss-Jackson4th-orderPredictor.cs" />
+    <Compile Include="Applications\Exersise4.3_StepSizeControlOfDeMultistepMethod.cs" />
+    <Compile Include="Applications\Exersise5.1_TransformationFromCelestialToTerrestrialReferenceSystem.cs" />
+    <Compile Include="Applications\Exersise5.2_ VelocityInTheEarth-fixedFrame.cs" />
+    <Compile Include="Applications\Exersise5.3_GeodeticCoordinates.cs" />
+    <Compile Include="Applications\Exersise6.1_LightTimeIteration.cs" />
+    <Compile Include="Applications\Exersise6.2_RangeRateModelling.cs" />
+    <Compile Include="Applications\Exersise6.3_UserClockErrorFromGpsPseudorange.cs" />
+    <Compile Include="Applications\Exersise6.4_TroposphericRefraction.cs" />
+    <Compile Include="Applications\Exersise7.1_StateTransitionMatrix.cs" />
+    <Compile Include="Applications\Exersise7.1_StateTransitionMatrixOld.cs" />
+    <Compile Include="Applications\Exersise8.1_Least-squaresFitUsingGivensRotations.cs" />
+    <Compile Include="Applications\Exersise8.2_Least-squaresOrbitDetermination.cs" />
+    <Compile Include="Applications\Exersise8.3_OrbitDeterminationUsingExtendedKalmanFilter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Geo\Geo.Winform\Geo.Winform.csproj">
+      <Project>{4d249fdd-b0fb-4567-8d13-cd5ef3228a45}</Project>
+      <Name>Geo.Winform</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Geo\Geo\Geo.csproj">
+      <Project>{e82770d4-22d7-4e3b-8ec6-2583e39f0779}</Project>
+      <Name>Geo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Gnsser.Common\Gnsser.Core.csproj">
+      <Project>{8ed075c1-2f96-4ede-afe5-b0e44db44d5c}</Project>
+      <Name>Gnsser.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

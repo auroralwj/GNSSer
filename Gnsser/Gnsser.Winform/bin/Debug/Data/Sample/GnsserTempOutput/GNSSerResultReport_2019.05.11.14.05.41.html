@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>计算结果报表</title>
+    <style>
+        td {
+            border: solid 1px #808080;
+            text-align: center;
+            font-size:smaller;
+            padding:1px;
+        }
+
+        tr {
+            line-height: 1.1em;
+        }
+
+        th {
+            line-height: 1.5em;
+            font: bold;
+            background: #bfcffa;
+        }
+		.red{
+		color:red;
+		}
+		.orange{
+		color:orange;
+		}
+    </style>
+</head>
+
+<body>
+    <header>
+        <h3>计算结果报表 </h3>
+        <hr />
+        <p>计算时间：2019-05-11 14:06:07，计算软件： <a href="http://gnsser.com"> GNSSer </a> </p>
+    </header>
+    <content>
+        <h4>计算配置信息</h4>
+        <pre style="background-color:#e2dede">
+         ------------------------ 计算配置信息 --------------------- 
+共：1 个计算结果。
+平差方法：卡尔曼滤波
+定位类型：静态定位
+近似数据：IonoFreeApproxPhaseRange
+观测数据：IonoFreePhaseRange
+最大均方差限差：100
+周跳探测方法：MW组合, LI组合, 
+
+
+        </pre>
+        <h4>简要结果汇总</h4>
+        <table style="border:solid 1px #808080; width:100%" cellpadding="0" cellspacing="0">
+            <tr><th>Num</th><th>Name</th><th>StdDev</th><th>ResultType</th><th>X</th><th>Y</th><th>Z</th><th>Lon</th><th>Lat</th><th>Height</th><th>RmsE</th><th>RmsN</th><th>RmsU</th><th>Epoch</th></tr><tr><td>1</td><td>hers0010.18O-hert0010.18O</td><td>0.018748</td><td>Fixed</td><td>4033460.7503</td><td>23538.01597</td><td>4924318.38487</td><td>0°20'03.683262˝</td><td>50°52'02.932983˝</td><td>83.32632</td><td>0.0001184</td><td>2.2376E-05</td><td>0.0003113</td><td>2018-01-01 23:59:30</td></tr>
+
+        </table>
+         
+        <br />
+        <h4>精度估算(mm)</h4>
+        <table style="border:solid 1px #808080; width:100%" cellpadding="0" cellspacing="0">
+            <tr><th>Num</th><th>Name</th><th>Du</th><th>Dn</th><th>De</th></tr><tr><td>1</td><td>hers0010.18O-hert0010.18O</td><td>1.017</td><td>0.855</td><td>0.629</td></tr>
+        </table>
+
+        <h4>详细信息</h4>
+        <pre style="background-color:#e2dddd">
+         ------------------------ 测站信息 --------------------- 
+1
+数据源：HERT-HERS
+最终估值坐标：：4033460.75030, 23538.01597, 4924318.38487
+最终估值坐标RMS：： 4E-06, 2.24E-06, 4.26E-06
+大地坐标：：0.334356461596867,50.8674813842955,83.326323164627
+
+参数收敛时间与精度估计：
+IsOK, ParamName, ConvergenceMinutes , MaxAbsDiffer, RmsValue(Count) , ConvergenceTimePeriod 
+Good,Du, 38, 0.0086177, 0.0010169(2803), 2018-01-01 00:00:00>2018-01-01 00:38:00
+Good,Dn, 40, 0.0092339, 0.00085528(2799), 2018-01-01 00:00:00>2018-01-01 00:40:00
+Good,De, 69, 0.0097262, 0.00062855(2741), 2018-01-01 00:00:00>2018-01-01 01:09:00
+
+
+        </pre>
+        <hr />
+    </content>
+    <footer>
+        <a href="http://gnsser.com"> www.gnsser.com </a>
+    </footer>
+</body>
+</html>

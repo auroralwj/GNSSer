@@ -1,0 +1,8 @@
+2020-02-07 09:41:35.520	Info	程序启动	Program
+2020-02-07 09:41:35.687	Info	检查新版本	Program
+2020-02-07 09:41:35.722	Info	成功加载配置文件 gnsser.conf	Setting
+2020-02-07 09:41:35.741	Error	小心！服务路径为空！	FileBasedService`1
+2020-02-07 09:41:49.847	Info	输入文件，载入了： D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hers0010.18O	FileOpenControl
+2020-02-07 09:41:57.150	Info	输入文件，载入了： D:\Data\GNSS\Rinex\2013001\2013001\ankr0010.13o	FileOpenControl
+2020-02-07 10:00:00.469	Info	保存了配置到文件 gnsser.conf	Setting
+2020-02-07 10:00:00.475	Info	程序正常退出	Program

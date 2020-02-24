@@ -1,0 +1,17 @@
+D:\Codes\CSharp\Gnsser2019.04.25\Geo\Geo\bin\Debug\Geo.xml
+D:\Codes\CSharp\Gnsser2019.04.25\Geo\Geo\bin\Debug\Geo.dll
+D:\Codes\CSharp\Gnsser2019.04.25\Geo\Geo\bin\Debug\Geo.pdb
+D:\Codes\CSharp\Gnsser2019.04.25\Geo\Geo\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Codes\CSharp\Gnsser2019.04.25\Geo\Geo\obj\Debug\Geo.csprojAssemblyReference.cache
+D:\Codes\CSharp\Gnsser2019.04.25\Geo\Geo\obj\Debug\Geo.csproj.CoreCompileInputs.cache
+D:\Codes\CSharp\Gnsser2019.04.25\Geo\Geo\obj\Debug\Geo.csproj.CopyComplete
+D:\Codes\CSharp\Gnsser2019.04.25\Geo\Geo\obj\Debug\Geo.dll
+D:\Codes\CSharp\Gnsser2019.04.25\Geo\Geo\obj\Debug\Geo.pdb
+D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Geo\Geo\bin\Debug\Geo.xml
+D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Geo\Geo\bin\Debug\Geo.dll
+D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Geo\Geo\bin\Debug\Geo.pdb
+D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Geo\Geo\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Geo\Geo\obj\Debug\Geo.csprojAssemblyReference.cache
+D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Geo\Geo\obj\Debug\Geo.csproj.CopyComplete
+D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Geo\Geo\obj\Debug\Geo.dll
+D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Geo\Geo\obj\Debug\Geo.pdb

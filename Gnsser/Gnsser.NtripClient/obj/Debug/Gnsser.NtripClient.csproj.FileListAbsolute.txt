@@ -1,0 +1,226 @@
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.01[PPP速度优化版]\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Ntrip.exe.config
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.01[PPP速度优化版]\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Ntrip.XML
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.01[PPP速度优化版]\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Ntrip.exe
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.01[PPP速度优化版]\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Ntrip.pdb
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.01[PPP速度优化版]\Gnsser\Gnsser.NtripClient\bin\Debug\GeoSolution.dll
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.01[PPP速度优化版]\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Core.dll
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.01[PPP速度优化版]\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.exe
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.01[PPP速度优化版]\Gnsser\Gnsser.NtripClient\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.01[PPP速度优化版]\Gnsser\Gnsser.NtripClient\bin\Debug\AnyInfo.dll
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.01[PPP速度优化版]\Gnsser\Gnsser.NtripClient\bin\Debug\GeoSolution.pdb
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.01[PPP速度优化版]\Gnsser\Gnsser.NtripClient\bin\Debug\GeoSolution.xml
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.01[PPP速度优化版]\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.pdb
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.01[PPP速度优化版]\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Core.pdb
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.01[PPP速度优化版]\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Core.xml
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.01[PPP速度优化版]\Gnsser\Gnsser.NtripClient\bin\Debug\AnyInfo.pdb
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.01[PPP速度优化版]\Gnsser\Gnsser.NtripClient\bin\Debug\AnyInfo.xml
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.01[PPP速度优化版]\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.NtripClient.csprojResolveAssemblyReference.cache
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.01[PPP速度优化版]\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.WinForms.LocalDataReceiverForm.resources
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.01[PPP速度优化版]\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.WinForms.DataReceiverForm.resources
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.01[PPP速度优化版]\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.WinForms.MainlyForm.resources
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.01[PPP速度优化版]\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.OptionsDialog.resources
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.01[PPP速度优化版]\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.Properties.Resources.resources
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.01[PPP速度优化版]\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.NTRIPDialog.resources
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.01[PPP速度优化版]\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.SerialDialog.resources
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.01[PPP速度优化版]\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.WinForms.SourceTableForm.resources
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.01[PPP速度优化版]\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.NtripClient.csproj.GenerateResource.Cache
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.01[PPP速度优化版]\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.exe
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.01[PPP速度优化版]\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.pdb
+D:\Codes\Gnsser2016.11.01[PPP速度优化版]给生哥2016.11.15.19\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Ntrip.exe.config
+D:\Codes\Gnsser2016.11.01[PPP速度优化版]给生哥2016.11.15.19\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Ntrip.XML
+D:\Codes\Gnsser2016.11.01[PPP速度优化版]给生哥2016.11.15.19\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Ntrip.exe
+D:\Codes\Gnsser2016.11.01[PPP速度优化版]给生哥2016.11.15.19\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Ntrip.pdb
+D:\Codes\Gnsser2016.11.01[PPP速度优化版]给生哥2016.11.15.19\Gnsser\Gnsser.NtripClient\bin\Debug\GeoSolution.dll
+D:\Codes\Gnsser2016.11.01[PPP速度优化版]给生哥2016.11.15.19\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Core.dll
+D:\Codes\Gnsser2016.11.01[PPP速度优化版]给生哥2016.11.15.19\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.exe
+D:\Codes\Gnsser2016.11.01[PPP速度优化版]给生哥2016.11.15.19\Gnsser\Gnsser.NtripClient\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Codes\Gnsser2016.11.01[PPP速度优化版]给生哥2016.11.15.19\Gnsser\Gnsser.NtripClient\bin\Debug\AnyInfo.dll
+D:\Codes\Gnsser2016.11.01[PPP速度优化版]给生哥2016.11.15.19\Gnsser\Gnsser.NtripClient\bin\Debug\GeoSolution.pdb
+D:\Codes\Gnsser2016.11.01[PPP速度优化版]给生哥2016.11.15.19\Gnsser\Gnsser.NtripClient\bin\Debug\GeoSolution.xml
+D:\Codes\Gnsser2016.11.01[PPP速度优化版]给生哥2016.11.15.19\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.pdb
+D:\Codes\Gnsser2016.11.01[PPP速度优化版]给生哥2016.11.15.19\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Core.pdb
+D:\Codes\Gnsser2016.11.01[PPP速度优化版]给生哥2016.11.15.19\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Core.xml
+D:\Codes\Gnsser2016.11.01[PPP速度优化版]给生哥2016.11.15.19\Gnsser\Gnsser.NtripClient\bin\Debug\AnyInfo.pdb
+D:\Codes\Gnsser2016.11.01[PPP速度优化版]给生哥2016.11.15.19\Gnsser\Gnsser.NtripClient\bin\Debug\AnyInfo.xml
+D:\Codes\Gnsser2016.11.01[PPP速度优化版]给生哥2016.11.15.19\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.NtripClient.csprojResolveAssemblyReference.cache
+D:\Codes\Gnsser2016.11.01[PPP速度优化版]给生哥2016.11.15.19\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.WinForms.LocalDataReceiverForm.resources
+D:\Codes\Gnsser2016.11.01[PPP速度优化版]给生哥2016.11.15.19\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.WinForms.DataReceiverForm.resources
+D:\Codes\Gnsser2016.11.01[PPP速度优化版]给生哥2016.11.15.19\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.WinForms.MainlyForm.resources
+D:\Codes\Gnsser2016.11.01[PPP速度优化版]给生哥2016.11.15.19\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.OptionsDialog.resources
+D:\Codes\Gnsser2016.11.01[PPP速度优化版]给生哥2016.11.15.19\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.Properties.Resources.resources
+D:\Codes\Gnsser2016.11.01[PPP速度优化版]给生哥2016.11.15.19\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.NTRIPDialog.resources
+D:\Codes\Gnsser2016.11.01[PPP速度优化版]给生哥2016.11.15.19\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.SerialDialog.resources
+D:\Codes\Gnsser2016.11.01[PPP速度优化版]给生哥2016.11.15.19\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.WinForms.SourceTableForm.resources
+D:\Codes\Gnsser2016.11.01[PPP速度优化版]给生哥2016.11.15.19\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.NtripClient.csproj.GenerateResource.Cache
+D:\Codes\Gnsser2016.11.01[PPP速度优化版]给生哥2016.11.15.19\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.exe
+D:\Codes\Gnsser2016.11.01[PPP速度优化版]给生哥2016.11.15.19\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.pdb
+E:\Gnsser代码-2016.10.01以后\Gnsser\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Ntrip.exe.config
+E:\Gnsser代码-2016.10.01以后\Gnsser\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Ntrip.XML
+E:\Gnsser代码-2016.10.01以后\Gnsser\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Ntrip.exe
+E:\Gnsser代码-2016.10.01以后\Gnsser\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Ntrip.pdb
+E:\Gnsser代码-2016.10.01以后\Gnsser\Gnsser\Gnsser.NtripClient\bin\Debug\GeoSolution.dll
+E:\Gnsser代码-2016.10.01以后\Gnsser\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Core.dll
+E:\Gnsser代码-2016.10.01以后\Gnsser\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.exe
+E:\Gnsser代码-2016.10.01以后\Gnsser\Gnsser\Gnsser.NtripClient\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\Gnsser代码-2016.10.01以后\Gnsser\Gnsser\Gnsser.NtripClient\bin\Debug\AnyInfo.dll
+E:\Gnsser代码-2016.10.01以后\Gnsser\Gnsser\Gnsser.NtripClient\bin\Debug\GeoSolution.pdb
+E:\Gnsser代码-2016.10.01以后\Gnsser\Gnsser\Gnsser.NtripClient\bin\Debug\GeoSolution.xml
+E:\Gnsser代码-2016.10.01以后\Gnsser\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.pdb
+E:\Gnsser代码-2016.10.01以后\Gnsser\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Core.pdb
+E:\Gnsser代码-2016.10.01以后\Gnsser\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Core.xml
+E:\Gnsser代码-2016.10.01以后\Gnsser\Gnsser\Gnsser.NtripClient\bin\Debug\AnyInfo.pdb
+E:\Gnsser代码-2016.10.01以后\Gnsser\Gnsser\Gnsser.NtripClient\bin\Debug\AnyInfo.xml
+E:\Gnsser代码-2016.10.01以后\Gnsser\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.NtripClient.csprojResolveAssemblyReference.cache
+E:\Gnsser代码-2016.10.01以后\Gnsser\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.WinForms.LocalDataReceiverForm.resources
+E:\Gnsser代码-2016.10.01以后\Gnsser\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.WinForms.DataReceiverForm.resources
+E:\Gnsser代码-2016.10.01以后\Gnsser\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.WinForms.MainlyForm.resources
+E:\Gnsser代码-2016.10.01以后\Gnsser\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.OptionsDialog.resources
+E:\Gnsser代码-2016.10.01以后\Gnsser\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.Properties.Resources.resources
+E:\Gnsser代码-2016.10.01以后\Gnsser\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.NTRIPDialog.resources
+E:\Gnsser代码-2016.10.01以后\Gnsser\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.SerialDialog.resources
+E:\Gnsser代码-2016.10.01以后\Gnsser\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.WinForms.SourceTableForm.resources
+E:\Gnsser代码-2016.10.01以后\Gnsser\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.NtripClient.csproj.GenerateResource.Cache
+E:\Gnsser代码-2016.10.01以后\Gnsser\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.exe
+E:\Gnsser代码-2016.10.01以后\Gnsser\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.pdb
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Ntrip.exe.config
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Ntrip.XML
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Ntrip.exe
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Ntrip.pdb
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\bin\Debug\GeoSolution.dll
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Core.dll
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.exe
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\bin\Debug\AnyInfo.dll
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\bin\Debug\GeoSolution.pdb
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\bin\Debug\GeoSolution.xml
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.pdb
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Core.pdb
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Core.xml
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\bin\Debug\AnyInfo.pdb
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\bin\Debug\AnyInfo.xml
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.NtripClient.csprojResolveAssemblyReference.cache
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.WinForms.LocalDataReceiverForm.resources
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.WinForms.DataReceiverForm.resources
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.WinForms.MainlyForm.resources
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.OptionsDialog.resources
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.Properties.Resources.resources
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.NTRIPDialog.resources
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.SerialDialog.resources
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.WinForms.SourceTableForm.resources
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.NtripClient.csproj.GenerateResource.Cache
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.exe
+E:\Gnsser代码-2016.10.01以后\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.pdb
+D:\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Ntrip.exe.config
+D:\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Ntrip.XML
+D:\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.exe
+D:\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.pdb
+D:\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Ntrip.exe
+D:\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Ntrip.pdb
+D:\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\bin\Debug\GeoSolution.dll
+D:\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Core.dll
+D:\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.exe
+D:\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\bin\Debug\AnyInfo.dll
+D:\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\bin\Debug\GeoSolution.pdb
+D:\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\bin\Debug\GeoSolution.xml
+D:\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.pdb
+D:\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Core.pdb
+D:\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Core.xml
+D:\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\bin\Debug\AnyInfo.pdb
+D:\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\bin\Debug\AnyInfo.xml
+D:\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.NtripClient.csprojResolveAssemblyReference.cache
+D:\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.WinForms.LocalDataReceiverForm.resources
+D:\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.WinForms.DataReceiverForm.resources
+D:\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.WinForms.MainlyForm.resources
+D:\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.OptionsDialog.resources
+D:\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.Properties.Resources.resources
+D:\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.NTRIPDialog.resources
+D:\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.SerialDialog.resources
+D:\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.WinForms.SourceTableForm.resources
+D:\Gnsser2016.11.21.01[给大双调试PPP精度]\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.NtripClient.csproj.GenerateResource.Cache
+E:\Gnsser代码-2016.10.01以后\Gnsser 2016.12.13.20\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Ntrip.exe.config
+E:\Gnsser代码-2016.10.01以后\Gnsser 2016.12.13.20\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Ntrip.XML
+E:\Gnsser代码-2016.10.01以后\Gnsser 2016.12.13.20\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.exe
+E:\Gnsser代码-2016.10.01以后\Gnsser 2016.12.13.20\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.pdb
+E:\Gnsser代码-2016.10.01以后\Gnsser 2016.12.13.20\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Ntrip.exe
+E:\Gnsser代码-2016.10.01以后\Gnsser 2016.12.13.20\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Ntrip.pdb
+E:\Gnsser代码-2016.10.01以后\Gnsser 2016.12.13.20\Gnsser\Gnsser.NtripClient\bin\Debug\GeoSolution.dll
+E:\Gnsser代码-2016.10.01以后\Gnsser 2016.12.13.20\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Core.dll
+E:\Gnsser代码-2016.10.01以后\Gnsser 2016.12.13.20\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.exe
+E:\Gnsser代码-2016.10.01以后\Gnsser 2016.12.13.20\Gnsser\Gnsser.NtripClient\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\Gnsser代码-2016.10.01以后\Gnsser 2016.12.13.20\Gnsser\Gnsser.NtripClient\bin\Debug\AnyInfo.dll
+E:\Gnsser代码-2016.10.01以后\Gnsser 2016.12.13.20\Gnsser\Gnsser.NtripClient\bin\Debug\GeoSolution.pdb
+E:\Gnsser代码-2016.10.01以后\Gnsser 2016.12.13.20\Gnsser\Gnsser.NtripClient\bin\Debug\GeoSolution.xml
+E:\Gnsser代码-2016.10.01以后\Gnsser 2016.12.13.20\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.pdb
+E:\Gnsser代码-2016.10.01以后\Gnsser 2016.12.13.20\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Core.pdb
+E:\Gnsser代码-2016.10.01以后\Gnsser 2016.12.13.20\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Core.xml
+E:\Gnsser代码-2016.10.01以后\Gnsser 2016.12.13.20\Gnsser\Gnsser.NtripClient\bin\Debug\AnyInfo.pdb
+E:\Gnsser代码-2016.10.01以后\Gnsser 2016.12.13.20\Gnsser\Gnsser.NtripClient\bin\Debug\AnyInfo.xml
+E:\Gnsser代码-2016.10.01以后\Gnsser 2016.12.13.20\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.NtripClient.csprojResolveAssemblyReference.cache
+E:\Gnsser代码-2016.10.01以后\Gnsser 2016.12.13.20\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.WinForms.LocalDataReceiverForm.resources
+E:\Gnsser代码-2016.10.01以后\Gnsser 2016.12.13.20\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.WinForms.DataReceiverForm.resources
+E:\Gnsser代码-2016.10.01以后\Gnsser 2016.12.13.20\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.WinForms.MainlyForm.resources
+E:\Gnsser代码-2016.10.01以后\Gnsser 2016.12.13.20\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.OptionsDialog.resources
+E:\Gnsser代码-2016.10.01以后\Gnsser 2016.12.13.20\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.Properties.Resources.resources
+E:\Gnsser代码-2016.10.01以后\Gnsser 2016.12.13.20\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.NTRIPDialog.resources
+E:\Gnsser代码-2016.10.01以后\Gnsser 2016.12.13.20\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.SerialDialog.resources
+E:\Gnsser代码-2016.10.01以后\Gnsser 2016.12.13.20\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.WinForms.SourceTableForm.resources
+E:\Gnsser代码-2016.10.01以后\Gnsser 2016.12.13.20\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.NtripClient.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\Gnsser2017.05.06.09【给大双】\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Ntrip.exe.config
+C:\Users\Administrator\Desktop\Gnsser2017.05.06.09【给大双】\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Ntrip.XML
+C:\Users\Administrator\Desktop\Gnsser2017.05.06.09【给大双】\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Ntrip.exe
+C:\Users\Administrator\Desktop\Gnsser2017.05.06.09【给大双】\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Ntrip.pdb
+C:\Users\Administrator\Desktop\Gnsser2017.05.06.09【给大双】\Gnsser\Gnsser.NtripClient\bin\Debug\GeoSolution.dll
+C:\Users\Administrator\Desktop\Gnsser2017.05.06.09【给大双】\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Core.dll
+C:\Users\Administrator\Desktop\Gnsser2017.05.06.09【给大双】\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.exe
+C:\Users\Administrator\Desktop\Gnsser2017.05.06.09【给大双】\Gnsser\Gnsser.NtripClient\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\Administrator\Desktop\Gnsser2017.05.06.09【给大双】\Gnsser\Gnsser.NtripClient\bin\Debug\AnyInfo.dll
+C:\Users\Administrator\Desktop\Gnsser2017.05.06.09【给大双】\Gnsser\Gnsser.NtripClient\bin\Debug\GeoSolution.pdb
+C:\Users\Administrator\Desktop\Gnsser2017.05.06.09【给大双】\Gnsser\Gnsser.NtripClient\bin\Debug\GeoSolution.xml
+C:\Users\Administrator\Desktop\Gnsser2017.05.06.09【给大双】\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.pdb
+C:\Users\Administrator\Desktop\Gnsser2017.05.06.09【给大双】\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Core.pdb
+C:\Users\Administrator\Desktop\Gnsser2017.05.06.09【给大双】\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Core.xml
+C:\Users\Administrator\Desktop\Gnsser2017.05.06.09【给大双】\Gnsser\Gnsser.NtripClient\bin\Debug\AnyInfo.pdb
+C:\Users\Administrator\Desktop\Gnsser2017.05.06.09【给大双】\Gnsser\Gnsser.NtripClient\bin\Debug\AnyInfo.xml
+C:\Users\Administrator\Desktop\Gnsser2017.05.06.09【给大双】\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.NtripClient.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Gnsser2017.05.06.09【给大双】\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Gnsser2017.05.06.09【给大双】\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.WinForms.DataReceiverForm.resources
+C:\Users\Administrator\Desktop\Gnsser2017.05.06.09【给大双】\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.WinForms.DrawLineControl.resources
+C:\Users\Administrator\Desktop\Gnsser2017.05.06.09【给大双】\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.WinForms.LocalDataReceiverForm.resources
+C:\Users\Administrator\Desktop\Gnsser2017.05.06.09【给大双】\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.WinForms.MainlyForm.resources
+C:\Users\Administrator\Desktop\Gnsser2017.05.06.09【给大双】\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.NTRIPDialog.resources
+C:\Users\Administrator\Desktop\Gnsser2017.05.06.09【给大双】\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.OptionsDialog.resources
+C:\Users\Administrator\Desktop\Gnsser2017.05.06.09【给大双】\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.SerialDialog.resources
+C:\Users\Administrator\Desktop\Gnsser2017.05.06.09【给大双】\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.WinForms.SourceTableForm.resources
+C:\Users\Administrator\Desktop\Gnsser2017.05.06.09【给大双】\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.NtripClient.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\Gnsser2017.05.06.09【给大双】\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.exe
+C:\Users\Administrator\Desktop\Gnsser2017.05.06.09【给大双】\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.pdb
+D:\Codes\Gnsser\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Ntrip.exe.config
+D:\Codes\Gnsser\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Ntrip.XML
+D:\Codes\Gnsser\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Ntrip.exe
+D:\Codes\Gnsser\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Ntrip.pdb
+D:\Codes\Gnsser\Gnsser\Gnsser.NtripClient\bin\Debug\GeoSolution.dll
+D:\Codes\Gnsser\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Core.dll
+D:\Codes\Gnsser\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.exe
+D:\Codes\Gnsser\Gnsser\Gnsser.NtripClient\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Codes\Gnsser\Gnsser\Gnsser.NtripClient\bin\Debug\AnyInfo.dll
+D:\Codes\Gnsser\Gnsser\Gnsser.NtripClient\bin\Debug\GeoSolution.pdb
+D:\Codes\Gnsser\Gnsser\Gnsser.NtripClient\bin\Debug\GeoSolution.xml
+D:\Codes\Gnsser\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.pdb
+D:\Codes\Gnsser\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Core.pdb
+D:\Codes\Gnsser\Gnsser\Gnsser.NtripClient\bin\Debug\Gnsser.Core.xml
+D:\Codes\Gnsser\Gnsser\Gnsser.NtripClient\bin\Debug\AnyInfo.pdb
+D:\Codes\Gnsser\Gnsser\Gnsser.NtripClient\bin\Debug\AnyInfo.xml
+D:\Codes\Gnsser\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.NtripClient.csprojResolveAssemblyReference.cache
+D:\Codes\Gnsser\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.Properties.Resources.resources
+D:\Codes\Gnsser\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.WinForms.DataReceiverForm.resources
+D:\Codes\Gnsser\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.WinForms.DrawLineControl.resources
+D:\Codes\Gnsser\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.WinForms.LocalDataReceiverForm.resources
+D:\Codes\Gnsser\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.WinForms.MainlyForm.resources
+D:\Codes\Gnsser\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.NTRIPDialog.resources
+D:\Codes\Gnsser\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.OptionsDialog.resources
+D:\Codes\Gnsser\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.SerialDialog.resources
+D:\Codes\Gnsser\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.WinForms.SourceTableForm.resources
+D:\Codes\Gnsser\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.NtripClient.csproj.GenerateResource.Cache
+D:\Codes\Gnsser\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.exe
+D:\Codes\Gnsser\Gnsser\Gnsser.NtripClient\obj\Debug\Gnsser.Ntrip.pdb

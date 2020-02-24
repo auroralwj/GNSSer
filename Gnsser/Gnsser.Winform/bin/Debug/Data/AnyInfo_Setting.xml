@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Setting>
+  <System>
+    <IsDebug>True</IsDebug>
+  </System>
+  <GlobalMap>
+    <UseGlobalMaps>False</UseGlobalMaps>
+    <RootMapDirectory>
+    </RootMapDirectory>
+    <LayerSuffixes>
+    </LayerSuffixes>
+  </GlobalMap>
+  <JB>
+    <BasicDir>
+    </BasicDir>
+    <Enabled>False</Enabled>
+  </JB>
+  <UI>
+    <EnableRoomFlash>True</EnableRoomFlash>
+  </UI>
+  <Google>
+    <SatUrlModel>http://mt1.google.cn/vt/lyrs=s@163&amp;hl=zh-CN&amp;gl=CN&amp;src=app&amp;expIds=201527&amp;rlbl=1&amp;x={X}&amp;y={Y}&amp;z={Z}&amp;scale=1.0&amp;s=Gali</SatUrlModel>
+    <MapUrlModel>http://mt0.google.cn/vt/lyrs=m@283000000&amp;hl=zh-CN&amp;gl=CN&amp;src=app&amp;expIds=201527&amp;rlbl=1&amp;x={X}&amp;y={Y}&amp;z={Z}&amp;scale=1.0&amp;s=Ga</MapUrlModel>
+    <SatLocalPathModel>Data\MapTiles\Sat\{Z}\{Y}\{X}.jpg</SatLocalPathModel>
+    <MapLocalPathModel>Data\MapTiles\Map\{Z}\{Y}\{X}.png</MapLocalPathModel>
+    <SatTileDir>E:\</SatTileDir>
+    <MapTileDir>Data\MapTiles\Map</MapTileDir>
+    <ShowSatTile>False</ShowSatTile>
+    <ShowMapTile>True</ShowMapTile>
+    <GoogleMapLandBgPath>\Data\Images\GoogleMapLandBg_2012.png</GoogleMapLandBgPath>
+    <GoogleMapSeaBgPath>\Data\Images\GoogleMapSeaBg_2012.png</GoogleMapSeaBgPath>
+    <TransparentMapTile>False</TransparentMapTile>
+    <RealTimeDownLoad>False</RealTimeDownLoad>
+    <GoogleError>-0.00611, 0.0012</GoogleError>
+    <TileRegions>
+      <TileMapRegion>
+        <Name>区域名</Name>
+<Envelope><MinX>0.0000000</MinX><MinY>0.0000000</MinY><MaxX>1.0000000</MaxX><MaxY>1.0000000</MaxY></Envelope><RankTo>18</RankTo>
+<RankFrom>13</RankFrom>
+<SatPath></SatPath>
+<MapPath>C:\Users\Administrator</MapPath>
+</TileMapRegion>
+      <TileMapRegion>
+        <Name>区域名</Name>
+<Envelope><MinX>0.0000000</MinX><MinY>0.0000000</MinY><MaxX>1.0000000</MaxX><MaxY>1.0000000</MaxY></Envelope><RankTo>18</RankTo>
+<RankFrom>13</RankFrom>
+<SatPath></SatPath>
+<MapPath>C:\Users\Administrator\Desktop</MapPath>
+</TileMapRegion>
+      <TileMapRegion>
+        <Name>区域名</Name>
+<Envelope><MinX>0.0000000</MinX><MinY>0.0000000</MinY><MaxX>1.0000000</MaxX><MaxY>1.0000000</MaxY></Envelope><RankTo>18</RankTo>
+<RankFrom>13</RankFrom>
+<SatPath>C:\Users\Administrator</SatPath>
+<MapPath>C:\Users\Public</MapPath>
+</TileMapRegion>
+    </TileRegions>
+  </Google>
+  <PathFinding>
+    <MaxNodePointError>0.0001</MaxNodePointError>
+    <PathLayerCacuOrder>False</PathLayerCacuOrder>
+    <HideGraphNodesLayer>False</HideGraphNodesLayer>
+    <HideGraphEdgesLayer>False</HideGraphEdgesLayer>
+    <NoticeFileDirPath>D:\Codes\CSharp\AnyInfo\AnyInfo.WinForm\bin\Debug\Data\SoftTest\Notification\DynInfo</NoticeFileDirPath>
+    <GraphPath>
+    </GraphPath>
+    <RoadsLayerPath>
+    </RoadsLayerPath>
+    <PointLayerPath>
+    </PointLayerPath>
+    <ShortestAlgorithm>AStar</ShortestAlgorithm>
+  </PathFinding>
+  <ExtendingXml>
+    <ExtendingXmlPath>
+    </ExtendingXmlPath>
+    <ExtendingParamName>
+    </ExtendingParamName>
+    <ExtendingShowTime>False</ExtendingShowTime>
+  </ExtendingXml>
+  <Database>
+    <Server>
+    </Server>
+    <DatabaseName>
+    </DatabaseName>
+    <LoginName>
+    </LoginName>
+    <Password>
+    </Password>
+  </Database>
+  <Navigation>
+    <NavBgMapType>Sat</NavBgMapType>
+    <NavInterval>0</NavInterval>
+    <NavUseUserWindow>False</NavUseUserWindow>
+  </Navigation>
+  <QuickVisit>
+    <Places>
+      <Place>
+        <Name>成都</Name>
+        <LonLat>(104.065906,30.635528)</LonLat>
+      </Place>
+      <Place>
+        <Name>西安</Name>
+        <LonLat>(108.947003,34.246994)</LonLat>
+      </Place>
+      <Place>
+        <Name>郑州</Name>
+        <LonLat>(113.666511,34.740985)</LonLat>
+      </Place>
+      <Place>
+        <Name>北京</Name>
+        <LonLat>(116.397486,39.908835)</LonLat>
+      </Place>
+      <Place>
+        <Name>上海</Name>
+        <LonLat>(121.499630,31.219448)</LonLat>
+      </Place>
+      <Place>
+        <Name>广州</Name>
+        <LonLat>(113.25254, 23.12918)</LonLat>
+      </Place>
+      <Place>
+        <Name>沈阳</Name>
+        <LonLat>(123.43549, 41.80048)</LonLat>
+      </Place>
+      <Place>
+        <Name>三亚</Name>
+        <LonLat>(109.50414, 18.25606)</LonLat>
+      </Place>
+      <Place>
+        <Name>昆明</Name>
+        <LonLat>(102.70909, 25.03890)</LonLat>
+      </Place>
+      <Place>
+        <Name>拉萨</Name>
+        <LonLat>(91.11371, 29.65255)</LonLat>
+      </Place>
+      <Place>
+        <Name>喀什</Name>
+        <LonLat>(75.99034, 39.47326)</LonLat>
+      </Place>
+      <Place>
+        <Name>乌鲁木齐</Name>
+        <LonLat>(87.55071, 43.88091)</LonLat>
+      </Place>
+      <Place>
+        <Name>银川</Name>
+        <LonLat>(106.20755, 38.49255)</LonLat>
+      </Place>
+      <Place>
+        <Name>双辽</Name>
+        <LonLat>(123.51239, 43.52225)</LonLat>
+      </Place>
+      <Place>
+        <Name>东京</Name>
+        <LonLat>(139.76392, 35.68387)</LonLat>
+      </Place>
+      <Place>
+        <Name>纽约</Name>
+        <LonLat>(-73.99363, 40.75108)</LonLat>
+      </Place>
+      <Place>
+        <Name>伦敦</Name>
+        <LonLat>(-0.11744, 51.49452)</LonLat>
+      </Place>
+      <Place>
+        <Name>悉尼</Name>
+        <LonLat>(151.20137, -33.86950)</LonLat>
+      </Place>
+      <Place>
+        <Name>柏林</Name>
+        <LonLat>(13.40810, 52.51779)</LonLat>
+      </Place>
+      <Place>
+        <Name>莫斯科</Name>
+        <LonLat>(37.61098, 55.75165)</LonLat>
+      </Place>
+    </Places>
+  </QuickVisit>
+</Setting>

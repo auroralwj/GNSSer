@@ -1,0 +1,479 @@
+2019-06-06 11:07:20.203	Info	程序启动	Program
+2019-06-06 11:07:20.470	Info	检查新版本	Program
+2019-06-06 11:07:20.768	Error	读取工程配置文件出错！未能找到路径“D:\GnsserTemp\ProjectName.Gproj”的一部分。	AbstractBaseDictionary`2
+2019-06-06 11:07:21.331	Info	成功加载配置文件 gnsser.conf	Setting
+2019-06-06 11:07:21.526	Error	小心！服务路径为空！	FileBasedService`1
+2019-06-06 11:07:35.579	Info	输入文件，载入 2 条项目：
+D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hers0010.18O
+D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hert0010.18O
+2条	FileOpenControl
+2019-06-06 11:07:42.968	Info	输入文件，载入 2 条项目：
+D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hers0010.18O
+D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hert0010.18O
+2条	FileOpenControl
+2019-06-06 11:07:54.809	Info	输入文件，载入了： F:\1\Data\GNSS\Rinex\国内IGS站\lhaz\16\lhaz1300.16o	FileOpenControl
+2019-06-06 11:08:16.784	Info	解析获取了 1 个文件	MultiFileStreamerForm
+2019-06-06 11:08:16.802	Info	处理	F:\1\Data\GNSS\Rinex\国内IGS站\lhaz\16\lhaz1300.16o	ParalleledFileForm
+2019-06-06 11:08:16.939	Info	数据流缓存大小：18	BufferedStreamService`1
+2019-06-06 11:08:16.942	Info	F:\1\Data\GNSS\Rinex\国内IGS站\lhaz\16\lhaz1300.16o 起始处理编号: 0, 最大处理数量: 1073741823	ObsFileEpochRunner`1
+2019-06-06 11:08:17.041	Info	输出版本：2.01	ObsFileFormater
+2019-06-06 11:08:17.049	Info	将移除非此系统：G	ObsFileFormater
+2019-06-06 11:08:18.951	Info	F:\1\Data\GNSS\Rinex\国内IGS站\lhaz\16\lhaz1300.16o缓存数据读取结束！	BufferedStreamService`1
+2019-06-06 11:08:20.606	Fatal	后台执行完成！耗时：00:00:04.0009749。共 0.0667 分
+文件数量 1, 每个文件平均耗时 4.00 秒
+占用内存 195.63 MB	MultiFileStreamerForm
+2019-06-06 11:10:11.260	Info	解析获取了 1 个文件	MultiFileStreamerForm
+2019-06-06 11:10:11.274	Info	处理	F:\1\Data\GNSS\Rinex\国内IGS站\lhaz\16\lhaz1300.16o	ParalleledFileForm
+2019-06-06 11:10:11.301	Info	数据流缓存大小：18	BufferedStreamService`1
+2019-06-06 11:10:11.302	Info	F:\1\Data\GNSS\Rinex\国内IGS站\lhaz\16\lhaz1300.16o 起始处理编号: 0, 最大处理数量: 1073741823	ObsFileEpochRunner`1
+2019-06-06 11:10:11.325	Info	输出版本：2.01	ObsFileFormater
+2019-06-06 11:10:11.329	Info	将移除非此系统：G	ObsFileFormater
+2019-06-06 11:10:11.331	Info	将移除非此观测码：P1	ObsFileFormater
+2019-06-06 11:10:12.473	Info	F:\1\Data\GNSS\Rinex\国内IGS站\lhaz\16\lhaz1300.16o缓存数据读取结束！	BufferedStreamService`1
+2019-06-06 11:10:12.938	Fatal	后台执行完成！耗时：00:00:01.6984540。共 0.0283 分
+文件数量 1, 每个文件平均耗时 1.70 秒
+占用内存 195.88 MB	MultiFileStreamerForm
+2019-06-06 11:10:38.654	Info	解析获取了 1 个文件	MultiFileStreamerForm
+2019-06-06 11:10:38.663	Info	处理	F:\1\Data\GNSS\Rinex\国内IGS站\lhaz\16\lhaz1300.16o	ParalleledFileForm
+2019-06-06 11:10:38.682	Info	数据流缓存大小：18	BufferedStreamService`1
+2019-06-06 11:10:38.682	Info	F:\1\Data\GNSS\Rinex\国内IGS站\lhaz\16\lhaz1300.16o 起始处理编号: 0, 最大处理数量: 1073741823	ObsFileEpochRunner`1
+2019-06-06 11:10:38.707	Info	输出版本：2.01	ObsFileFormater
+2019-06-06 11:10:38.709	Info	将移除非此系统：G	ObsFileFormater
+2019-06-06 11:10:38.711	Warn	已存在：F:\1\Data\GNSS\Rinex\国内IGS站\lhaz\16\GnsserTempOutput\LHAZ1300.16O	ObsFileFormater
+2019-06-06 11:10:38.714	Warn	采用替代路径：F:\1\Data\GNSS\Rinex\国内IGS站\lhaz\16\GnsserTempOutput\LHAZ1300(1).16O	ObsFileFormater
+2019-06-06 11:10:40.431	Info	F:\1\Data\GNSS\Rinex\国内IGS站\lhaz\16\lhaz1300.16o缓存数据读取结束！	BufferedStreamService`1
+2019-06-06 11:10:41.229	Fatal	后台执行完成！耗时：00:00:02.5851223。共 0.0431 分
+文件数量 1, 每个文件平均耗时 2.59 秒
+占用内存 199.00 MB	MultiFileStreamerForm
+2019-06-06 11:12:01.975	Info	解析获取了 1 个文件	MultiFileStreamerForm
+2019-06-06 11:12:01.986	Info	处理	F:\1\Data\GNSS\Rinex\国内IGS站\lhaz\16\lhaz1300.16o	ParalleledFileForm
+2019-06-06 11:12:02.000	Info	数据流缓存大小：18	BufferedStreamService`1
+2019-06-06 11:12:02.003	Info	F:\1\Data\GNSS\Rinex\国内IGS站\lhaz\16\lhaz1300.16o 起始处理编号: 0, 最大处理数量: 1073741823	ObsFileEpochRunner`1
+2019-06-06 11:12:02.023	Info	输出版本：2.01	ObsFileFormater
+2019-06-06 11:12:02.024	Info	将移除非此系统：G	ObsFileFormater
+2019-06-06 11:12:03.664	Info	F:\1\Data\GNSS\Rinex\国内IGS站\lhaz\16\lhaz1300.16o缓存数据读取结束！	BufferedStreamService`1
+2019-06-06 11:12:04.650	Fatal	后台执行完成！耗时：00:00:02.6877736。共 0.0448 分
+文件数量 1, 每个文件平均耗时 2.69 秒
+占用内存 200.36 MB	MultiFileStreamerForm
+2019-06-06 11:12:20.140	Info	输入文件，载入了： F:\1\Data\GNSS\Rinex\国内IGS站\lhaz\16\GnsserTempOutput\LHAZ1300.16O	FileOpenControl
+2019-06-06 11:12:26.789	Info	解析获取了 1 个文件	MultiFileStreamerForm
+2019-06-06 11:12:26.800	Info	开始初始化，加载资源等。。。	AbstractGnssStreamBackGroundRunner`3
+2019-06-06 11:12:26.811	Info	数据流缓存大小：60	BufferedStreamService`1
+2019-06-06 11:12:26.813	Info	LHAZ1300.16O 起始处理编号: 0, 最大处理数量: 10000000	ObsFileEpochRunner`1
+2019-06-06 11:12:26.826	Info	-LHAZ 1个数据源的公共时段为：2016-05-09 00:00:00>2016-05-09 17:59:30	MultiSiteObsStream
+2019-06-06 11:12:26.951	Info	当前历元2016-05-09 00:00:00可以获得IGS Final 产品	IgsEphemerisServiceAutoProvider
+2019-06-06 11:12:27.015	Warn	创建服务失败！Sp3, 2016-05-09 00:00:00	AbstractIgsProductSourceProvider`2
+2019-06-06 11:12:27.018	Info	即将尝试获取远程数据源....	AbstractIgsProductSourceProvider`2
+2019-06-06 11:12:27.031	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/1896/igs18961.sp3.Z	AbstractBaseDictionary`2
+2019-06-06 11:12:27.063	Info	第一次下载  ftp://igs.gnsswhu.cn/pub/gps/products/1896/igs18961.sp3.Z 到 D:\Data\IgsProduct\igs18961.sp3.Z	AbstractBaseDictionary`2
+2019-06-06 11:12:27.065	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/1896/igs18961.sp3.Z 到 D:\Data\IgsProduct\igs18961.sp3.Z	NetUtil
+2019-06-06 11:12:27.824	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/1896/igs18961.sp3.Z 到 D:\Data\IgsProduct\igs18961.sp3.Z	NetUtil
+2019-06-06 11:12:27.829	Info	即将解压 D:\Data\IgsProduct\igs18961.sp3.Z 到 D:\Data\IgsProduct\igs18961.sp3	FileDecompresser
+2019-06-06 11:12:27.990	Info	已经成功了下载一个，指定不再下载其它文件了。 	InputFileManager
+2019-06-06 11:12:28.034	Warn	igs18961.sp3星历略过 EOF	AbstractTimedStreamReader`1
+2019-06-06 11:12:28.036	Info	完全加载了星历文件到内存 igs18961.sp3	AbstractTimedStreamReader`1
+2019-06-06 11:12:28.048	Info	成功载入 Sp3,D:\Data\IgsProduct\igs18961.sp3	AbstractIgsProductSourceProvider`2
+2019-06-06 11:12:28.050	Info	已经具有 1 个服务，且设置为不下载多余产品，取消继续下载。	AbstractIgsProductSourceProvider`2
+2019-06-06 11:12:28.072	Warn	不包含结束时间的 IEphemerisService 服务！2016-05-10 00:00:00	IgsServiceAutoProvider`1
+2019-06-06 11:12:28.092	Info	成功自动匹配星历文件 全局自动 IGS 精密星历服务, 1980-01-06 00:00:00->2079-12-31 00:00:00, G,C,R,E	EphemerisServiceProvider
+2019-06-06 11:12:28.096	Info	成功自动匹配钟差文件 全局自动 IGS 精密钟差服务, 1980-01-06 00:00:00->2079-12-31 00:00:00	ClockServiceProvider
+2019-06-06 11:12:28.099	Info	成功自动匹配 ERP 文件 全局自动 IGS ERP 服务, 1980-01-06 00:00:00->2079-12-31 00:00:00	ClockServiceProvider
+2019-06-06 11:12:28.102	Info	成功采用自动 IGS 格网电离层服务 	DataSourceContext
+2019-06-06 11:12:28.116	Info	将移除非 G 系统的观测值	EpochInfoReviser
+2019-06-06 11:12:28.118	Info	将移除观测值为 0 的卫星	EpochInfoReviser
+2019-06-06 11:12:28.121	Info	将删除不稳定的或有故障的卫星	EpochInfoReviser
+2019-06-06 11:12:28.123	Info	启用 移除不能组成无电离层组合的卫星数据	EpochInfoReviser
+2019-06-06 11:12:28.127	Info	将删除高度截止角低于 7 的卫星。	EpochInfoReviser
+2019-06-06 11:12:28.129	Info	将删除受太阳阴影影响的卫星。	EpochInfoReviser
+2019-06-06 11:12:28.132	Info	将过滤连续历元不足 30 的数据。	EpochInfoReviser
+2019-06-06 11:12:28.158	Info	采用了指定的周跳探测方法。	EpochInfoReviseManager
+2019-06-06 11:12:28.166	Info	伪距 DCB 距离改正， 目前只会改正GPS系统的DCB！	AbstractRangeCorrector
+2019-06-06 11:12:28.214	Info	启用结果检核。	GnssResultChecker
+2019-06-06 11:12:28.232	Info	LHAZ1300.16O 初始化完毕。	PointPositionBackGroundRunner
+2019-06-06 11:12:28.242	Info	LHAZ1300.16O 开始计算。	AbstractGnssStreamBackGroundRunner`3
+2019-06-06 11:12:28.319	Info	当前历元2016-05-09 00:00:00可以获得IGS Final 产品	IgsClockServiceAutoProvider
+2019-06-06 11:12:28.326	Warn	创建服务失败！Clk_30s, 2016-05-09 00:00:00	AbstractIgsProductSourceProvider`2
+2019-06-06 11:12:28.328	Info	即将尝试获取远程数据源....	AbstractIgsProductSourceProvider`2
+2019-06-06 11:12:28.330	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/1896/igs18961.clk_30s.Z	AbstractBaseDictionary`2
+2019-06-06 11:12:28.331	Info	第一次下载  ftp://igs.gnsswhu.cn/pub/gps/products/1896/igs18961.clk_30s.Z 到 D:\Data\IgsProduct\igs18961.clk_30s.Z	AbstractBaseDictionary`2
+2019-06-06 11:12:28.336	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/1896/igs18961.clk_30s.Z 到 D:\Data\IgsProduct\igs18961.clk_30s.Z	NetUtil
+2019-06-06 11:12:42.283	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/1896/igs18961.clk_30s.Z 到 D:\Data\IgsProduct\igs18961.clk_30s.Z	NetUtil
+2019-06-06 11:12:42.292	Info	即将解压 D:\Data\IgsProduct\igs18961.clk_30s.Z 到 D:\Data\IgsProduct\igs18961.clk_30s	FileDecompresser
+2019-06-06 11:12:42.439	Info	已经成功了下载一个，指定不再下载其它文件了。 	InputFileManager
+2019-06-06 11:12:42.747	Info	成功载入 Clk_30s,D:\Data\IgsProduct\igs18961.clk_30s	AbstractIgsProductSourceProvider`2
+2019-06-06 11:12:42.754	Info	已经具有 1 个服务，且设置为不下载多余产品，取消继续下载。	AbstractIgsProductSourceProvider`2
+2019-06-06 11:12:42.838	Warn	不包含结束时间的 ISimpleClockService 服务！2016-05-10 00:00:00	IgsServiceAutoProvider`1
+2019-06-06 11:12:43.216	Info	载入：D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\GNSS\Common\DCB\P1P21605.DCB	DcbFileReader
+2019-06-06 11:12:43.308	Info	DCB 载入 D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\GNSS\Common\DCB\P1P21605.DCB	FileBasedService`1
+2019-06-06 11:12:43.759	Info	载入：D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\GNSS\Common\DCB\P1C11605.DCB	DcbFileReader
+2019-06-06 11:12:43.885	Info	DCB 载入 D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\GNSS\Common\DCB\P1C11605.DCB	FileBasedService`1
+2019-06-06 11:12:43.903	Info	当前历元2016-05-08 23:59:44可以获得IGS Final 产品	IgsClockServiceAutoProvider
+2019-06-06 11:12:43.921	Warn	创建服务失败！Erp, 2016-05-08 23:59:44	AbstractIgsProductSourceProvider`2
+2019-06-06 11:12:43.928	Info	即将尝试获取远程数据源....	AbstractIgsProductSourceProvider`2
+2019-06-06 11:12:43.934	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/1896/igs18967.erp.Z	AbstractBaseDictionary`2
+2019-06-06 11:12:43.940	Info	第一次下载  ftp://igs.gnsswhu.cn/pub/gps/products/1896/igs18967.erp.Z 到 D:\Data\IgsProduct\igs18967.erp.Z	AbstractBaseDictionary`2
+2019-06-06 11:12:43.946	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/1896/igs18967.erp.Z 到 D:\Data\IgsProduct\igs18967.erp.Z	NetUtil
+2019-06-06 11:12:52.832	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/1896/igs18967.erp.Z 到 D:\Data\IgsProduct\igs18967.erp.Z	NetUtil
+2019-06-06 11:12:52.848	Info	即将解压 D:\Data\IgsProduct\igs18967.erp.Z 到 D:\Data\IgsProduct\igs18967.erp	FileDecompresser
+2019-06-06 11:12:52.860	Info	已经成功了下载一个，指定不再下载其它文件了。 	InputFileManager
+2019-06-06 11:12:52.881	Info	成功载入 Erp,D:\Data\IgsProduct\igs18967.erp	AbstractIgsProductSourceProvider`2
+2019-06-06 11:12:52.887	Info	已经具有 1 个服务，且设置为不下载多余产品，取消继续下载。	AbstractIgsProductSourceProvider`2
+2019-06-06 11:12:53.019	Warn	Type:BLOCK IIF,Serial:G10,Radome:, G 的 5 频率的天线数据获取失败！	Antenna
+2019-06-06 11:12:53.028	Warn	Type:BLOCK IIF,Serial:G10,Radome:, G05, 没有获取到！	Antenna
+2019-06-06 11:12:53.037	Warn	Type:BLOCK IIF,Serial:G25,Radome:, G 的 5 频率的天线数据获取失败！	Antenna
+2019-06-06 11:12:53.044	Warn	Type:BLOCK IIF,Serial:G25,Radome:, G05, 没有获取到！	Antenna
+2019-06-06 11:12:53.055	Warn	Type:BLOCK IIF,Serial:G32,Radome:, G 的 5 频率的天线数据获取失败！	Antenna
+2019-06-06 11:12:53.064	Warn	Type:BLOCK IIF,Serial:G32,Radome:, G05, 没有获取到！	Antenna
+2019-06-06 11:12:53.100	Info	切换基准系统 U -> G	AbstractGnssSolver`2
+2019-06-06 11:12:53.211	Warn	Type:BLOCK IIF,Serial:G01,Radome:, G 的 5 频率的天线数据获取失败！	Antenna
+2019-06-06 11:12:53.216	Warn	Type:BLOCK IIF,Serial:G01,Radome:, G05, 没有获取到！	Antenna
+2019-06-06 11:12:53.425	Warn	Type:BLOCK IIF,Serial:G26,Radome:, G 的 5 频率的天线数据获取失败！	Antenna
+2019-06-06 11:12:53.433	Warn	Type:BLOCK IIF,Serial:G26,Radome:, G05, 没有获取到！	Antenna
+2019-06-06 11:12:53.902	Warn	Type:BLOCK IIF,Serial:G03,Radome:, G 的 5 频率的天线数据获取失败！	Antenna
+2019-06-06 11:12:53.912	Warn	Type:BLOCK IIF,Serial:G03,Radome:, G05, 没有获取到！	Antenna
+2019-06-06 11:12:54.690	Warn	Type:BLOCK IIF,Serial:G27,Radome:, G 的 5 频率的天线数据获取失败！	Antenna
+2019-06-06 11:12:54.699	Warn	Type:BLOCK IIF,Serial:G27,Radome:, G05, 没有获取到！	Antenna
+2019-06-06 11:12:55.004	Warn	Type:BLOCK IIF,Serial:G09,Radome:, G 的 5 频率的天线数据获取失败！	Antenna
+2019-06-06 11:12:55.010	Warn	Type:BLOCK IIF,Serial:G09,Radome:, G05, 没有获取到！	Antenna
+2019-06-06 11:12:55.123	Warn	Type:BLOCK IIF,Serial:G08,Radome:, G 的 5 频率的天线数据获取失败！	Antenna
+2019-06-06 11:12:55.132	Warn	Type:BLOCK IIF,Serial:G08,Radome:, G05, 没有获取到！	Antenna
+2019-06-06 11:12:56.031	Warn	Type:BLOCK IIF,Serial:G30,Radome:, G 的 5 频率的天线数据获取失败！	Antenna
+2019-06-06 11:12:56.037	Warn	Type:BLOCK IIF,Serial:G30,Radome:, G05, 没有获取到！	Antenna
+2019-06-06 11:12:57.609	Warn	Type:BLOCK IIF,Serial:G06,Radome:, G 的 5 频率的天线数据获取失败！	Antenna
+2019-06-06 11:12:57.614	Warn	Type:BLOCK IIF,Serial:G06,Radome:, G05, 没有获取到！	Antenna
+2019-06-06 11:12:58.306	Warn	Type:BLOCK IIF,Serial:G24,Radome:, G 的 5 频率的天线数据获取失败！	Antenna
+2019-06-06 11:12:58.310	Warn	Type:BLOCK IIF,Serial:G24,Radome:, G05, 没有获取到！	Antenna
+2019-06-06 11:13:00.701	Info	LHAZ1300.16O缓存数据读取结束！	BufferedStreamService`1
+2019-06-06 11:13:00.748	Info	计算完成：LHAZ	EpochParamAnalyzer
+2019-06-06 11:13:00.786	Info	计算完成：Clon	EpochParamAnalyzer
+2019-06-06 11:13:00.822	Info	IsOK, ParamName, ConvergenceMinutes , MaxAbsDiffer, RmsValue(Count) , ConvergenceTimePeriod 
+Good,Dn, 25, 0.08795, 0.0085345(2109), 2016-05-09 00:00:00>2016-05-09 00:25:00
+Good,De, 25.5, 0.08832, 0.010417(2108), 2016-05-09 00:00:00>2016-05-09 00:25:30
+Good,Du, 37, 0.10082, 0.017644(2085), 2016-05-09 00:00:00>2016-05-09 00:37:00
+	AbstractGnssStreamBackGroundRunner`3
+2019-06-06 11:13:00.835	Info	LHAZ1300.16O, 2016-05-09 17:59:30， 即将输出结果文件...	MultiFileStreamerForm
+2019-06-06 11:13:00.956	Fatal	8 1.5339(0.000504) -26.3492(0.000678) 2.5647(0.000404) 4.9617( 0.00623) -0.0099( 0.00283) 8.3522( 0.02267) -0.1458( 0.02309) 43.7846( 0.02301) 	MultiFileStreamerForm
+2019-06-06 11:13:01.062	Fatal	LHAZ1300.16O	2016-05-09 17:59:30	RmsOfEstimated	0.000504	0.000678	0.000404	0.00623	0.00283	0.02267	0.02309	0.02301	MultiFileStreamerForm
+2019-06-06 11:13:01.080	Fatal	LHAZ1300.16O	2016-05-09 17:59:30	Estimated	1.53395	-26.34921	2.56475	4.96173	-0.00994	8.35218	-0.14577	43.78464	MultiFileStreamerForm
+2019-06-06 11:13:01.110	Fatal	LHAZ1300.16O	2016-05-09 17:59:30	ParamNames	Dx	Dy	Dz	cDt_r	WetTropZpd	G05_Nλ	G25_Nλ	G29_Nλ	MultiFileStreamerForm
+2019-06-06 11:13:01.128	Fatal	Est and Rms:
+    Dx,    Dy,    Dz, cDt_r,WetTropZpd,G05_Nλ,G25_Nλ,G29_Nλ
+1.5339, -26.349, 2.5647, 4.9617, -0.0099359, 8.3522, -0.14577, 43.785
+0.00050427, 0.00067772, 0.00040392, 0.0062256, 0.002826, 0.022669, 0.023092, 0.023006
+	MultiFileStreamerForm
+2019-06-06 11:13:01.895	Info	计算完成：LHAZ	EpochParamAnalyzer
+2019-06-06 11:13:02.055	Info	本批次计算任务完成！	AbstractGnssStreamBackGroundRunner`3
+2019-06-06 11:13:02.066	Info	计算完毕，耗时：00:00:35.2559062, 35.2559062 秒/个	AbstractGnssStreamBackGroundRunner`3
+2019-06-06 11:13:02.083	Fatal	后台执行完成！耗时：00:00:35.4244698。共 0.5904 分
+文件数量 1, 每个文件平均耗时 35.42 秒
+占用内存 276.16 MB	MultiFileStreamerForm
+2019-06-06 11:17:23.697	Info	输入文件，载入了： F:\1\Data\GNSS\Rinex\国内IGS站\lhaz\16\lhaz1320.16o	FileOpenControl
+2019-06-06 11:17:24.943	Info	解析获取了 1 个文件	MultiFileStreamerForm
+2019-06-06 11:17:24.944	Info	开始初始化，加载资源等。。。	AbstractGnssStreamBackGroundRunner`3
+2019-06-06 11:17:25.020	Info	数据流缓存大小：60	BufferedStreamService`1
+2019-06-06 11:17:25.027	Info	lhaz1320.16o 起始处理编号: 0, 最大处理数量: 10000000	ObsFileEpochRunner`1
+2019-06-06 11:17:25.029	Info	-LHAZ 1个数据源的公共时段为：2016-05-11 01:00:00>2016-05-12 01:00:00	MultiSiteObsStream
+2019-06-06 11:17:25.031	Info	当前历元2016-05-11 00:00:00可以获得IGS Final 产品	IgsEphemerisServiceAutoProvider
+2019-06-06 11:17:25.036	Warn	创建服务失败！Sp3, 2016-05-11 00:00:00	AbstractIgsProductSourceProvider`2
+2019-06-06 11:17:25.038	Info	即将尝试获取远程数据源....	AbstractIgsProductSourceProvider`2
+2019-06-06 11:17:25.042	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/1896/igs18963.sp3.Z	AbstractBaseDictionary`2
+2019-06-06 11:17:25.044	Info	第一次下载  ftp://igs.gnsswhu.cn/pub/gps/products/1896/igs18963.sp3.Z 到 D:\Data\IgsProduct\igs18963.sp3.Z	AbstractBaseDictionary`2
+2019-06-06 11:17:25.046	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/1896/igs18963.sp3.Z 到 D:\Data\IgsProduct\igs18963.sp3.Z	NetUtil
+2019-06-06 11:17:29.659	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/1896/igs18963.sp3.Z 到 D:\Data\IgsProduct\igs18963.sp3.Z	NetUtil
+2019-06-06 11:17:29.675	Info	即将解压 D:\Data\IgsProduct\igs18963.sp3.Z 到 D:\Data\IgsProduct\igs18963.sp3	FileDecompresser
+2019-06-06 11:17:29.685	Info	已经成功了下载一个，指定不再下载其它文件了。 	InputFileManager
+2019-06-06 11:17:29.702	Warn	igs18963.sp3星历略过 EOF	AbstractTimedStreamReader`1
+2019-06-06 11:17:29.708	Info	完全加载了星历文件到内存 igs18963.sp3	AbstractTimedStreamReader`1
+2019-06-06 11:17:29.712	Info	成功载入 Sp3,D:\Data\IgsProduct\igs18963.sp3	AbstractIgsProductSourceProvider`2
+2019-06-06 11:17:29.715	Info	已经具有 1 个服务，且设置为不下载多余产品，取消继续下载。	AbstractIgsProductSourceProvider`2
+2019-06-06 11:17:29.724	Warn	不包含结束时间的 IEphemerisService 服务！2016-05-12 00:00:00	IgsServiceAutoProvider`1
+2019-06-06 11:17:29.726	Info	成功自动匹配星历文件 全局自动 IGS 精密星历服务, 1980-01-06 00:00:00->2079-12-31 00:00:00, G,C,R,E	EphemerisServiceProvider
+2019-06-06 11:17:29.729	Info	成功自动匹配钟差文件 全局自动 IGS 精密钟差服务, 1980-01-06 00:00:00->2079-12-31 00:00:00	ClockServiceProvider
+2019-06-06 11:17:29.736	Info	成功自动匹配 ERP 文件 全局自动 IGS ERP 服务, 1980-01-06 00:00:00->2079-12-31 00:00:00	ClockServiceProvider
+2019-06-06 11:17:29.737	Info	成功采用自动 IGS 格网电离层服务 	DataSourceContext
+2019-06-06 11:17:29.739	Info	将移除非 G 系统的观测值	EpochInfoReviser
+2019-06-06 11:17:29.749	Info	将移除观测值为 0 的卫星	EpochInfoReviser
+2019-06-06 11:17:29.752	Info	将删除不稳定的或有故障的卫星	EpochInfoReviser
+2019-06-06 11:17:29.754	Info	启用 移除不能组成无电离层组合的卫星数据	EpochInfoReviser
+2019-06-06 11:17:29.756	Info	将删除高度截止角低于 7 的卫星。	EpochInfoReviser
+2019-06-06 11:17:29.759	Info	将删除受太阳阴影影响的卫星。	EpochInfoReviser
+2019-06-06 11:17:29.760	Info	将过滤连续历元不足 30 的数据。	EpochInfoReviser
+2019-06-06 11:17:29.761	Info	采用了指定的周跳探测方法。	EpochInfoReviseManager
+2019-06-06 11:17:29.763	Info	伪距 DCB 距离改正， 目前只会改正GPS系统的DCB！	AbstractRangeCorrector
+2019-06-06 11:17:29.766	Info	启用结果检核。	GnssResultChecker
+2019-06-06 11:17:29.771	Info	lhaz1320.16o 初始化完毕。	PointPositionBackGroundRunner
+2019-06-06 11:17:29.776	Info	lhaz1320.16o 开始计算。	AbstractGnssStreamBackGroundRunner`3
+2019-06-06 11:17:29.817	Warn	校正中断于 观测值检查过滤器 Gnsser.Filter.ObsSatExcludeFilter, 	Reviser`1
+2019-06-06 11:17:29.818	Warn	初始校正发生错误，计算将在此取消！	ObsFileEpochRunner`1
+2019-06-06 11:17:29.887	Warn	lhaz1320.16o, 2016-05-11 01:00:00, Ok, GNSS:,EnabledSatCount:0:,TotalSatCount:0, Coord(-106943.50000, 5549296.14000, 3139212.60000), 已经超出初始矫正出错时间 2016-05-11 01:00:00， 计算即将结束！	ObsFileEpochRunner`1
+2019-06-06 11:17:29.900	Info	本批次计算任务完成！	AbstractGnssStreamBackGroundRunner`3
+2019-06-06 11:17:29.904	Info	计算完毕，耗时：00:00:04.9552535, 4.9552535 秒/个	AbstractGnssStreamBackGroundRunner`3
+2019-06-06 11:17:29.915	Fatal	后台执行完成！耗时：00:00:04.9742293。共 0.0829 分
+文件数量 1, 每个文件平均耗时 4.97 秒
+占用内存 290.14 MB	MultiFileStreamerForm
+2019-06-06 11:17:55.052	Info	输入文件，载入了： F:\1\Data\GNSS\Rinex\国内IGS站\lhaz\16\lhaz1320.16o	FileOpenControl
+2019-06-06 11:17:57.036	Info	解析获取了 1 个文件	MultiFileStreamerForm
+2019-06-06 11:17:57.047	Info	处理	F:\1\Data\GNSS\Rinex\国内IGS站\lhaz\16\lhaz1320.16o	ParalleledFileForm
+2019-06-06 11:17:57.068	Info	数据流缓存大小：18	BufferedStreamService`1
+2019-06-06 11:17:57.070	Info	F:\1\Data\GNSS\Rinex\国内IGS站\lhaz\16\lhaz1320.16o 起始处理编号: 0, 最大处理数量: 1073741823	ObsFileEpochRunner`1
+2019-06-06 11:17:57.099	Info	输出版本：2.01	ObsFileFormater
+2019-06-06 11:17:57.101	Info	将移除非此系统：G	ObsFileFormater
+2019-06-06 11:17:59.502	Info	F:\1\Data\GNSS\Rinex\国内IGS站\lhaz\16\lhaz1320.16o缓存数据读取结束！	BufferedStreamService`1
+2019-06-06 11:18:01.643	Fatal	后台执行完成！耗时：00:00:04.6153523。共 0.0769 分
+文件数量 1, 每个文件平均耗时 4.62 秒
+占用内存 286.37 MB	MultiFileStreamerForm
+2019-06-06 11:19:04.058	Info	解析获取了 1 个文件	MultiFileStreamerForm
+2019-06-06 11:19:04.069	Info	处理	F:\1\Data\GNSS\Rinex\国内IGS站\lhaz\16\lhaz1320.16o	ParalleledFileForm
+2019-06-06 11:19:04.093	Info	数据流缓存大小：18	BufferedStreamService`1
+2019-06-06 11:19:04.095	Info	F:\1\Data\GNSS\Rinex\国内IGS站\lhaz\16\lhaz1320.16o 起始处理编号: 0, 最大处理数量: 1073741823	ObsFileEpochRunner`1
+2019-06-06 11:19:04.121	Info	输出版本：2.01	ObsFileFormater
+2019-06-06 11:19:04.124	Info	将移除非此系统：G	ObsFileFormater
+2019-06-06 11:19:06.767	Info	F:\1\Data\GNSS\Rinex\国内IGS站\lhaz\16\lhaz1320.16o缓存数据读取结束！	BufferedStreamService`1
+2019-06-06 11:19:09.042	Fatal	后台执行完成！耗时：00:00:04.9863036。共 0.0831 分
+文件数量 1, 每个文件平均耗时 4.99 秒
+占用内存 301.81 MB	MultiFileStreamerForm
+2019-06-06 11:21:24.071	Info	解析获取了 1 个文件	MultiFileStreamerForm
+2019-06-06 11:21:24.091	Info	处理	F:\1\Data\GNSS\Rinex\国内IGS站\lhaz\16\lhaz1320.16o	ParalleledFileForm
+2019-06-06 11:21:24.154	Info	数据流缓存大小：18	BufferedStreamService`1
+2019-06-06 11:21:24.158	Info	F:\1\Data\GNSS\Rinex\国内IGS站\lhaz\16\lhaz1320.16o 起始处理编号: 0, 最大处理数量: 1073741823	ObsFileEpochRunner`1
+2019-06-06 11:21:24.191	Info	输出版本：2.01	ObsFileFormater
+2019-06-06 11:21:24.195	Info	将移除非此系统：G	ObsFileFormater
+2019-06-06 11:21:28.177	Info	F:\1\Data\GNSS\Rinex\国内IGS站\lhaz\16\lhaz1320.16o缓存数据读取结束！	BufferedStreamService`1
+2019-06-06 11:21:31.251	Fatal	后台执行完成！耗时：00:00:07.1844377。共 0.1197 分
+文件数量 1, 每个文件平均耗时 7.18 秒
+占用内存 301.86 MB	MultiFileStreamerForm
+2019-06-06 11:22:41.696	Info	输入文件，载入了： F:\1\Data\GNSS\Rinex\国内IGS站\lhaz\16\lhaz1650.16o	FileOpenControl
+2019-06-06 11:22:43.873	Info	解析获取了 1 个文件	MultiFileStreamerForm
+2019-06-06 11:22:43.887	Info	处理	F:\1\Data\GNSS\Rinex\国内IGS站\lhaz\16\lhaz1650.16o	ParalleledFileForm
+2019-06-06 11:22:43.911	Info	数据流缓存大小：18	BufferedStreamService`1
+2019-06-06 11:22:43.914	Info	F:\1\Data\GNSS\Rinex\国内IGS站\lhaz\16\lhaz1650.16o 起始处理编号: 0, 最大处理数量: 1073741823	ObsFileEpochRunner`1
+2019-06-06 11:22:43.944	Info	输出版本：2.01	ObsFileFormater
+2019-06-06 11:22:43.947	Info	将移除非此系统：G	ObsFileFormater
+2019-06-06 11:22:48.461	Info	F:\1\Data\GNSS\Rinex\国内IGS站\lhaz\16\lhaz1650.16o缓存数据读取结束！	BufferedStreamService`1
+2019-06-06 11:22:51.934	Fatal	后台执行完成！耗时：00:00:08.0695781。共 0.1345 分
+文件数量 1, 每个文件平均耗时 8.07 秒
+占用内存 331.61 MB	MultiFileStreamerForm
+2019-06-06 12:01:15.456	Info	输入文件，载入了： F:\1\Data\GNSS\Rinex\国内IGS站\lhaz\16\GnsserTempOutput\LHAZ1650.16O	FileOpenControl
+2019-06-06 12:01:17.936	Info	解析获取了 1 个文件	MultiFileStreamerForm
+2019-06-06 12:01:17.941	Info	开始初始化，加载资源等。。。	AbstractGnssStreamBackGroundRunner`3
+2019-06-06 12:01:17.943	Info	数据流缓存大小：60	BufferedStreamService`1
+2019-06-06 12:01:17.947	Info	LHAZ1650.16O 起始处理编号: 0, 最大处理数量: 10000000	ObsFileEpochRunner`1
+2019-06-06 12:01:17.949	Info	-LHAZ 1个数据源的公共时段为：2016-06-13 00:00:00>2016-06-13 23:59:30	MultiSiteObsStream
+2019-06-06 12:01:17.952	Info	当前历元2016-06-13 00:00:00可以获得IGS Final 产品	IgsEphemerisServiceAutoProvider
+2019-06-06 12:01:17.955	Warn	创建服务失败！Sp3, 2016-06-13 00:00:00	AbstractIgsProductSourceProvider`2
+2019-06-06 12:01:17.956	Info	即将尝试获取远程数据源....	AbstractIgsProductSourceProvider`2
+2019-06-06 12:01:17.957	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/1901/igs19011.sp3.Z	AbstractBaseDictionary`2
+2019-06-06 12:01:17.958	Info	第一次下载  ftp://igs.gnsswhu.cn/pub/gps/products/1901/igs19011.sp3.Z 到 D:\Data\IgsProduct\igs19011.sp3.Z	AbstractBaseDictionary`2
+2019-06-06 12:01:17.959	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/1901/igs19011.sp3.Z 到 D:\Data\IgsProduct\igs19011.sp3.Z	NetUtil
+2019-06-06 12:01:21.077	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/1901/igs19011.sp3.Z 到 D:\Data\IgsProduct\igs19011.sp3.Z	NetUtil
+2019-06-06 12:01:21.082	Info	即将解压 D:\Data\IgsProduct\igs19011.sp3.Z 到 D:\Data\IgsProduct\igs19011.sp3	FileDecompresser
+2019-06-06 12:01:21.091	Info	已经成功了下载一个，指定不再下载其它文件了。 	InputFileManager
+2019-06-06 12:01:21.110	Warn	igs19011.sp3星历略过 EOF	AbstractTimedStreamReader`1
+2019-06-06 12:01:21.113	Info	完全加载了星历文件到内存 igs19011.sp3	AbstractTimedStreamReader`1
+2019-06-06 12:01:21.117	Info	成功载入 Sp3,D:\Data\IgsProduct\igs19011.sp3	AbstractIgsProductSourceProvider`2
+2019-06-06 12:01:21.120	Info	已经具有 1 个服务，且设置为不下载多余产品，取消继续下载。	AbstractIgsProductSourceProvider`2
+2019-06-06 12:01:21.135	Warn	不包含结束时间的 IEphemerisService 服务！2016-06-14 00:00:00	IgsServiceAutoProvider`1
+2019-06-06 12:01:21.139	Info	成功自动匹配星历文件 全局自动 IGS 精密星历服务, 1980-01-06 00:00:00->2079-12-31 00:00:00, G,C,R,E	EphemerisServiceProvider
+2019-06-06 12:01:21.142	Info	成功自动匹配钟差文件 全局自动 IGS 精密钟差服务, 1980-01-06 00:00:00->2079-12-31 00:00:00	ClockServiceProvider
+2019-06-06 12:01:21.144	Info	成功自动匹配 ERP 文件 全局自动 IGS ERP 服务, 1980-01-06 00:00:00->2079-12-31 00:00:00	ClockServiceProvider
+2019-06-06 12:01:21.149	Info	成功采用自动 IGS 格网电离层服务 	DataSourceContext
+2019-06-06 12:01:21.152	Info	将移除非 G 系统的观测值	EpochInfoReviser
+2019-06-06 12:01:21.157	Info	将移除观测值为 0 的卫星	EpochInfoReviser
+2019-06-06 12:01:21.161	Info	将删除不稳定的或有故障的卫星	EpochInfoReviser
+2019-06-06 12:01:21.164	Info	启用 移除不能组成无电离层组合的卫星数据	EpochInfoReviser
+2019-06-06 12:01:21.167	Info	将删除高度截止角低于 7 的卫星。	EpochInfoReviser
+2019-06-06 12:01:21.171	Info	将删除受太阳阴影影响的卫星。	EpochInfoReviser
+2019-06-06 12:01:21.175	Info	将过滤连续历元不足 30 的数据。	EpochInfoReviser
+2019-06-06 12:01:21.178	Info	采用了指定的周跳探测方法。	EpochInfoReviseManager
+2019-06-06 12:01:21.180	Info	伪距 DCB 距离改正， 目前只会改正GPS系统的DCB！	AbstractRangeCorrector
+2019-06-06 12:01:21.183	Info	启用结果检核。	GnssResultChecker
+2019-06-06 12:01:21.188	Info	LHAZ1650.16O 初始化完毕。	PointPositionBackGroundRunner
+2019-06-06 12:01:21.195	Info	LHAZ1650.16O 开始计算。	AbstractGnssStreamBackGroundRunner`3
+2019-06-06 12:01:21.199	Warn	校正中断于 观测值检查过滤器 Gnsser.Filter.ObsSatExcludeFilter, 	Reviser`1
+2019-06-06 12:01:21.202	Warn	初始校正发生错误，计算将在此取消！	ObsFileEpochRunner`1
+2019-06-06 12:01:21.230	Warn	LHAZ1650.16O, 2016-06-13 00:00:00, Ok, GNSS:,EnabledSatCount:0:,TotalSatCount:0, Coord(-106943.50000, 5549296.14000, 3139212.60000), 已经超出初始矫正出错时间 2016-06-13 00:00:00， 计算即将结束！	ObsFileEpochRunner`1
+2019-06-06 12:01:22.072	Info	本批次计算任务完成！	AbstractGnssStreamBackGroundRunner`3
+2019-06-06 12:01:22.076	Info	计算完毕，耗时：00:00:04.1318204, 4.1318204 秒/个	AbstractGnssStreamBackGroundRunner`3
+2019-06-06 12:01:22.085	Fatal	后台执行完成！耗时：00:00:04.1517659。共 0.0692 分
+文件数量 1, 每个文件平均耗时 4.15 秒
+占用内存 120.55 MB	MultiFileStreamerForm
+2019-06-06 12:01:40.754	Info	程序启动	Program
+2019-06-06 12:01:40.872	Error	读取工程配置文件出错！未能找到路径“D:\GnsserTemp\ProjectName.Gproj”的一部分。	AbstractBaseDictionary`2
+2019-06-06 12:01:40.905	Info	检查新版本	Program
+2019-06-06 12:01:40.932	Info	成功加载配置文件 gnsser.conf	Setting
+2019-06-06 12:01:40.948	Error	小心！服务路径为空！	FileBasedService`1
+2019-06-06 12:01:46.523	Info	输入文件，载入 2 条项目：
+D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hers0010.18O
+D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hert0010.18O
+2条	FileOpenControl
+2019-06-06 12:01:48.954	Info	输入文件，载入了： F:\1\Data\GNSS\Rinex\国内IGS站\lhaz\16\GnsserTempOutput\LHAZ1650.16O	FileOpenControl
+2019-06-06 12:01:50.931	Info	解析获取了 1 个文件	MultiFileStreamerForm
+2019-06-06 12:01:50.940	Info	开始初始化，加载资源等。。。	AbstractGnssStreamBackGroundRunner`3
+2019-06-06 12:01:50.988	Info	数据流缓存大小：60	BufferedStreamService`1
+2019-06-06 12:01:50.990	Info	LHAZ1650.16O 起始处理编号: 0, 最大处理数量: 10000000	ObsFileEpochRunner`1
+2019-06-06 12:01:51.001	Info	-LHAZ 1个数据源的公共时段为：2016-06-13 00:00:00>2016-06-13 23:59:30	MultiSiteObsStream
+2019-06-06 12:01:51.043	Info	当前历元2016-06-13 00:00:00可以获得IGS Final 产品	IgsEphemerisServiceAutoProvider
+2019-06-06 12:01:51.098	Warn	igs19011.sp3星历略过 EOF	AbstractTimedStreamReader`1
+2019-06-06 12:01:51.100	Info	完全加载了星历文件到内存 igs19011.sp3	AbstractTimedStreamReader`1
+2019-06-06 12:01:51.111	Info	成功载入 Sp3,D:\Data\IgsProduct\igs19011.sp3	AbstractIgsProductSourceProvider`2
+2019-06-06 12:01:51.113	Info	计算选项设置为不拼接 IGS 产品，因此只采用起始历元的产品。	AbstractIgsProductSourceProvider`2
+2019-06-06 12:01:51.133	Warn	不包含结束时间的 IEphemerisService 服务！2016-06-14 00:00:00	IgsServiceAutoProvider`1
+2019-06-06 12:01:51.145	Info	成功自动匹配星历文件 全局自动 IGS 精密星历服务, 1980-01-06 00:00:00->2079-12-31 00:00:00, G,C,R,E	EphemerisServiceProvider
+2019-06-06 12:01:51.148	Info	成功自动匹配钟差文件 全局自动 IGS 精密钟差服务, 1980-01-06 00:00:00->2079-12-31 00:00:00	ClockServiceProvider
+2019-06-06 12:01:51.149	Info	成功自动匹配 ERP 文件 全局自动 IGS ERP 服务, 1980-01-06 00:00:00->2079-12-31 00:00:00	ClockServiceProvider
+2019-06-06 12:01:51.165	Info	成功采用自动 IGS 格网电离层服务 	DataSourceContext
+2019-06-06 12:01:51.174	Info	将移除非 G 系统的观测值	EpochInfoReviser
+2019-06-06 12:01:51.177	Info	将移除观测值为 0 的卫星	EpochInfoReviser
+2019-06-06 12:01:51.178	Info	将删除不稳定的或有故障的卫星	EpochInfoReviser
+2019-06-06 12:01:51.179	Info	启用 移除不能组成无电离层组合的卫星数据	EpochInfoReviser
+2019-06-06 12:01:51.180	Info	将删除高度截止角低于 7 的卫星。	EpochInfoReviser
+2019-06-06 12:01:51.182	Info	将删除受太阳阴影影响的卫星。	EpochInfoReviser
+2019-06-06 12:01:51.183	Info	将过滤连续历元不足 30 的数据。	EpochInfoReviser
+2019-06-06 12:01:51.198	Info	采用了指定的周跳探测方法。	EpochInfoReviseManager
+2019-06-06 12:01:51.202	Info	伪距 DCB 距离改正， 目前只会改正GPS系统的DCB！	AbstractRangeCorrector
+2019-06-06 12:01:51.229	Info	启用结果检核。	GnssResultChecker
+2019-06-06 12:01:51.240	Info	LHAZ1650.16O 初始化完毕。	PointPositionBackGroundRunner
+2019-06-06 12:01:51.250	Info	LHAZ1650.16O 开始计算。	AbstractGnssStreamBackGroundRunner`3
+2019-06-06 12:01:51.308	Warn	校正中断于 观测值检查过滤器 Gnsser.Filter.ObsSatExcludeFilter, 	Reviser`1
+2019-06-06 12:01:51.310	Warn	初始校正发生错误，计算将在此取消！	ObsFileEpochRunner`1
+2019-06-06 12:01:51.348	Warn	LHAZ1650.16O, 2016-06-13 00:00:00, Ok, GNSS:,EnabledSatCount:0:,TotalSatCount:0, Coord(-106943.50000, 5549296.14000, 3139212.60000), 已经超出初始矫正出错时间 2016-06-13 00:00:00， 计算即将结束！	ObsFileEpochRunner`1
+2019-06-06 12:01:51.747	Info	本批次计算任务完成！	AbstractGnssStreamBackGroundRunner`3
+2019-06-06 12:01:51.749	Info	计算完毕，耗时：00:00:00.8074683, 0.8074683 秒/个	AbstractGnssStreamBackGroundRunner`3
+2019-06-06 12:01:51.760	Fatal	后台执行完成！耗时：00:00:00.9510837。共 0.0159 分
+文件数量 1, 每个文件平均耗时 0.95 秒
+占用内存 155.83 MB	MultiFileStreamerForm
+2019-06-06 12:02:25.893	Info	输入文件，载入了： F:\1\Data\GNSS\Rinex\国内IGS站\lhaz\16\lhaz2260.16o	FileOpenControl
+2019-06-06 12:02:26.814	Info	解析获取了 1 个文件	MultiFileStreamerForm
+2019-06-06 12:02:26.814	Info	开始初始化，加载资源等。。。	AbstractGnssStreamBackGroundRunner`3
+2019-06-06 12:02:26.892	Info	数据流缓存大小：60	BufferedStreamService`1
+2019-06-06 12:02:26.893	Info	lhaz2260.16o 起始处理编号: 0, 最大处理数量: 10000000	ObsFileEpochRunner`1
+2019-06-06 12:02:26.894	Info	-LHAZ 1个数据源的公共时段为：2016-08-13 01:00:00>2016-08-14 01:00:00	MultiSiteObsStream
+2019-06-06 12:02:26.895	Info	当前历元2016-08-13 00:00:00可以获得IGS Final 产品	IgsEphemerisServiceAutoProvider
+2019-06-06 12:02:26.898	Warn	创建服务失败！Sp3, 2016-08-13 00:00:00	AbstractIgsProductSourceProvider`2
+2019-06-06 12:02:26.899	Info	即将尝试获取远程数据源....	AbstractIgsProductSourceProvider`2
+2019-06-06 12:02:26.905	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/1909/igs19096.sp3.Z	AbstractBaseDictionary`2
+2019-06-06 12:02:26.907	Info	第一次下载  ftp://igs.gnsswhu.cn/pub/gps/products/1909/igs19096.sp3.Z 到 D:\Data\IgsProduct\igs19096.sp3.Z	AbstractBaseDictionary`2
+2019-06-06 12:02:26.909	Info	正在尝试下载 ftp://igs.gnsswhu.cn/pub/gps/products/1909/igs19096.sp3.Z 到 D:\Data\IgsProduct\igs19096.sp3.Z	NetUtil
+2019-06-06 12:02:27.577	Info	成功下载 ftp://igs.gnsswhu.cn/pub/gps/products/1909/igs19096.sp3.Z 到 D:\Data\IgsProduct\igs19096.sp3.Z	NetUtil
+2019-06-06 12:02:27.581	Info	即将解压 D:\Data\IgsProduct\igs19096.sp3.Z 到 D:\Data\IgsProduct\igs19096.sp3	FileDecompresser
+2019-06-06 12:02:27.596	Info	已经成功了下载一个，指定不再下载其它文件了。 	InputFileManager
+2019-06-06 12:02:27.612	Warn	igs19096.sp3星历略过 EOF	AbstractTimedStreamReader`1
+2019-06-06 12:02:28.216	Info	完全加载了星历文件到内存 igs19096.sp3	AbstractTimedStreamReader`1
+2019-06-06 12:02:28.218	Info	成功载入 Sp3,D:\Data\IgsProduct\igs19096.sp3	AbstractIgsProductSourceProvider`2
+2019-06-06 12:02:28.219	Info	已经具有 1 个服务，且设置为不下载多余产品，取消继续下载。	AbstractIgsProductSourceProvider`2
+2019-06-06 12:02:28.230	Warn	不包含结束时间的 IEphemerisService 服务！2016-08-14 00:00:00	IgsServiceAutoProvider`1
+2019-06-06 12:02:28.231	Info	成功自动匹配星历文件 全局自动 IGS 精密星历服务, 1980-01-06 00:00:00->2079-12-31 00:00:00, G,C,R,E	EphemerisServiceProvider
+2019-06-06 12:02:28.236	Info	成功自动匹配钟差文件 全局自动 IGS 精密钟差服务, 1980-01-06 00:00:00->2079-12-31 00:00:00	ClockServiceProvider
+2019-06-06 12:02:28.237	Info	成功自动匹配 ERP 文件 全局自动 IGS ERP 服务, 1980-01-06 00:00:00->2079-12-31 00:00:00	ClockServiceProvider
+2019-06-06 12:02:28.238	Info	成功采用自动 IGS 格网电离层服务 	DataSourceContext
+2019-06-06 12:02:28.240	Info	将移除非 G 系统的观测值	EpochInfoReviser
+2019-06-06 12:02:28.241	Info	将移除观测值为 0 的卫星	EpochInfoReviser
+2019-06-06 12:02:28.242	Info	将删除不稳定的或有故障的卫星	EpochInfoReviser
+2019-06-06 12:02:28.244	Info	启用 移除不能组成无电离层组合的卫星数据	EpochInfoReviser
+2019-06-06 12:02:28.244	Info	将删除高度截止角低于 7 的卫星。	EpochInfoReviser
+2019-06-06 12:02:28.245	Info	将删除受太阳阴影影响的卫星。	EpochInfoReviser
+2019-06-06 12:02:28.245	Info	将过滤连续历元不足 30 的数据。	EpochInfoReviser
+2019-06-06 12:02:28.246	Info	采用了指定的周跳探测方法。	EpochInfoReviseManager
+2019-06-06 12:02:28.246	Info	伪距 DCB 距离改正， 目前只会改正GPS系统的DCB！	AbstractRangeCorrector
+2019-06-06 12:02:28.247	Info	启用结果检核。	GnssResultChecker
+2019-06-06 12:02:28.249	Info	lhaz2260.16o 初始化完毕。	PointPositionBackGroundRunner
+2019-06-06 12:02:28.252	Info	lhaz2260.16o 开始计算。	AbstractGnssStreamBackGroundRunner`3
+2019-06-06 12:02:28.267	Warn	校正中断于 观测值检查过滤器 Gnsser.Filter.ObsSatExcludeFilter, 	Reviser`1
+2019-06-06 12:02:28.268	Warn	初始校正发生错误，计算将在此取消！	ObsFileEpochRunner`1
+2019-06-06 12:02:28.331	Warn	lhaz2260.16o, 2016-08-13 01:00:00, Ok, GNSS:,EnabledSatCount:0:,TotalSatCount:0, Coord(-106943.50000, 5549296.14000, 3139212.60000), 已经超出初始矫正出错时间 2016-08-13 01:00:00， 计算即将结束！	ObsFileEpochRunner`1
+2019-06-06 12:02:28.406	Info	本批次计算任务完成！	AbstractGnssStreamBackGroundRunner`3
+2019-06-06 12:02:28.408	Info	计算完毕，耗时：00:00:01.5920332, 1.5920332 秒/个	AbstractGnssStreamBackGroundRunner`3
+2019-06-06 12:02:28.418	Fatal	后台执行完成！耗时：00:00:01.6040006。共 0.0267 分
+文件数量 1, 每个文件平均耗时 1.60 秒
+占用内存 171.39 MB	MultiFileStreamerForm
+2019-06-06 12:06:50.855	Info	解析获取了 1 个文件	MultiFileStreamerForm
+2019-06-06 12:06:50.857	Info	开始初始化，加载资源等。。。	AbstractGnssStreamBackGroundRunner`3
+2019-06-06 12:06:50.874	Info	数据流缓存大小：60	BufferedStreamService`1
+2019-06-06 12:06:50.876	Info	lhaz2260.16o 起始处理编号: 0, 最大处理数量: 10000000	ObsFileEpochRunner`1
+2019-06-06 12:06:50.877	Info	-LHAZ 1个数据源的公共时段为：2016-08-13 01:00:00>2016-08-14 01:00:00	MultiSiteObsStream
+2019-06-06 12:06:50.881	Info	成功自动匹配星历文件 全局自动 IGS 精密星历服务, 1980-01-06 00:00:00->2079-12-31 00:00:00, G,C,R,E	EphemerisServiceProvider
+2019-06-06 12:06:50.882	Info	成功自动匹配钟差文件 全局自动 IGS 精密钟差服务, 1980-01-06 00:00:00->2079-12-31 00:00:00	ClockServiceProvider
+2019-06-06 12:06:50.884	Info	成功自动匹配 ERP 文件 全局自动 IGS ERP 服务, 1980-01-06 00:00:00->2079-12-31 00:00:00	ClockServiceProvider
+2019-06-06 12:06:50.884	Info	成功采用自动 IGS 格网电离层服务 	DataSourceContext
+2019-06-06 12:06:50.886	Info	将移除非 G 系统的观测值	EpochInfoReviser
+2019-06-06 12:06:50.886	Info	将移除观测值为 0 的卫星	EpochInfoReviser
+2019-06-06 12:06:50.887	Info	将删除不稳定的或有故障的卫星	EpochInfoReviser
+2019-06-06 12:06:50.888	Info	启用 移除不能组成无电离层组合的卫星数据	EpochInfoReviser
+2019-06-06 12:06:50.888	Info	将删除高度截止角低于 7 的卫星。	EpochInfoReviser
+2019-06-06 12:06:50.889	Info	将删除受太阳阴影影响的卫星。	EpochInfoReviser
+2019-06-06 12:06:50.890	Info	将过滤连续历元不足 30 的数据。	EpochInfoReviser
+2019-06-06 12:06:50.891	Info	采用了指定的周跳探测方法。	EpochInfoReviseManager
+2019-06-06 12:06:50.891	Info	伪距 DCB 距离改正， 目前只会改正GPS系统的DCB！	AbstractRangeCorrector
+2019-06-06 12:06:50.892	Info	启用结果检核。	GnssResultChecker
+2019-06-06 12:06:50.893	Info	lhaz2260.16o 初始化完毕。	PointPositionBackGroundRunner
+2019-06-06 12:06:50.900	Info	lhaz2260.16o 开始计算。	AbstractGnssStreamBackGroundRunner`3
+2019-06-06 12:06:50.902	Warn	校正中断于 观测值检查过滤器 Gnsser.Filter.ObsSatExcludeFilter, 	Reviser`1
+2019-06-06 12:06:50.903	Warn	初始校正发生错误，计算将在此取消！	ObsFileEpochRunner`1
+2019-06-06 12:06:50.963	Warn	lhaz2260.16o, 2016-08-13 01:00:00, Ok, GNSS:,EnabledSatCount:0:,TotalSatCount:0, Coord(-106943.50000, 5549296.14000, 3139212.60000), 已经超出初始矫正出错时间 2016-08-13 01:00:00， 计算即将结束！	ObsFileEpochRunner`1
+2019-06-06 12:06:51.560	Info	本批次计算任务完成！	AbstractGnssStreamBackGroundRunner`3
+2019-06-06 12:06:51.561	Info	计算完毕，耗时：00:00:00.7030112, 0.7030112 秒/个	AbstractGnssStreamBackGroundRunner`3
+2019-06-06 12:06:51.567	Fatal	后台执行完成！耗时：00:00:00.7159772。共 0.0119 分
+文件数量 1, 每个文件平均耗时 0.72 秒
+占用内存 176.52 MB	MultiFileStreamerForm
+2019-06-06 12:07:52.977	Info	统一星历文件（GPS），载入了： D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\IgsProduct\igs19821.sp3	FileOpenControl
+2019-06-06 12:07:52.978	Info	钟差文件，载入了： D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\IgsProduct\igs19821.clk_30s	FileOpenControl
+2019-06-06 12:07:52.979	Info	电离层模型(导航文件)，载入了： D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\IgsProduct\brdc0010.18n	FileOpenControl
+2019-06-06 12:07:52.980	Info	IGS格网电离层，载入了： D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\IgsProduct\igsg0010.18i	FileOpenControl
+2019-06-06 12:07:52.981	Info	GNSSer FCB文件，载入了： D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\GNSS\Common\EpochNLFcbOfDcb.fcb.txt.xls	FileOpenControl
+2019-06-06 12:07:52.982	Info	已知坐标文件，载入了： D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\GNSS\Common\igs18P19821_all_CoordOnly.snx	FileOpenControl
+2019-06-06 12:07:52.983	Info	GNSSer历元电离层参数，载入了： D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hers0010.18O_Param_Iono.txt.xls	FileOpenControl
+2019-06-06 12:07:52.984	Info	测站信息文件，载入了： D:\VS\Gnsser2019.05.17【总站对算后封装压缩版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\GNSS\Common\StationInfo.stainfo	FileOpenControl
+2019-06-06 12:08:27.788	Info	统一星历文件（GPS），载入了： F:\1\Data\GNSS\Rinex\国内IGS站\lhaz\16\igs19096.sp3	FileOpenControl
+2019-06-06 12:08:32.001	Info	钟差文件，载入了： F:\1\Data\GNSS\Rinex\国内IGS站\lhaz\16\igs19096.clk_30s	FileOpenControl
+2019-06-06 12:08:37.273	Info	解析获取了 1 个文件	MultiFileStreamerForm
+2019-06-06 12:08:37.275	Info	开始初始化，加载资源等。。。	AbstractGnssStreamBackGroundRunner`3
+2019-06-06 12:08:37.292	Info	数据流缓存大小：60	BufferedStreamService`1
+2019-06-06 12:08:37.294	Info	lhaz2260.16o 起始处理编号: 0, 最大处理数量: 10000000	ObsFileEpochRunner`1
+2019-06-06 12:08:37.296	Info	-LHAZ 1个数据源的公共时段为：2016-08-13 01:00:00>2016-08-14 01:00:00	MultiSiteObsStream
+2019-06-06 12:08:37.310	Warn	igs19096.sp3星历略过 EOF	AbstractTimedStreamReader`1
+2019-06-06 12:08:37.312	Info	完全加载了星历文件到内存 igs19096.sp3	AbstractTimedStreamReader`1
+2019-06-06 12:08:37.319	Info	成功载入选项指定星历文件:  F:\1\Data\GNSS\Rinex\国内IGS站\lhaz\16\igs19096.sp3	EphemerisServiceProvider
+2019-06-06 12:08:37.330	Info	成功载入选项指定钟差文件 F:\1\Data\GNSS\Rinex\国内IGS站\lhaz\16\igs19096.clk_30s	ClockServiceProvider
+2019-06-06 12:08:37.332	Info	成功自动匹配 ERP 文件 全局自动 IGS ERP 服务, 1980-01-06 00:00:00->2079-12-31 00:00:00	ClockServiceProvider
+2019-06-06 12:08:37.334	Info	成功采用自动 IGS 格网电离层服务 	DataSourceContext
+2019-06-06 12:08:37.337	Info	将移除非 G 系统的观测值	EpochInfoReviser
+2019-06-06 12:08:37.337	Info	将移除观测值为 0 的卫星	EpochInfoReviser
+2019-06-06 12:08:37.338	Info	将删除不稳定的或有故障的卫星	EpochInfoReviser
+2019-06-06 12:08:37.339	Info	启用 移除不能组成无电离层组合的卫星数据	EpochInfoReviser
+2019-06-06 12:08:37.340	Info	将删除高度截止角低于 7 的卫星。	EpochInfoReviser
+2019-06-06 12:08:37.340	Info	将删除受太阳阴影影响的卫星。	EpochInfoReviser
+2019-06-06 12:08:37.342	Info	将过滤连续历元不足 30 的数据。	EpochInfoReviser
+2019-06-06 12:08:37.342	Info	采用了指定的周跳探测方法。	EpochInfoReviseManager
+2019-06-06 12:08:37.343	Info	伪距 DCB 距离改正， 目前只会改正GPS系统的DCB！	AbstractRangeCorrector
+2019-06-06 12:08:37.344	Info	启用结果检核。	GnssResultChecker
+2019-06-06 12:08:37.345	Info	lhaz2260.16o 初始化完毕。	PointPositionBackGroundRunner
+2019-06-06 12:08:37.348	Info	lhaz2260.16o 开始计算。	AbstractGnssStreamBackGroundRunner`3
+2019-06-06 12:08:37.356	Warn	校正中断于 观测值检查过滤器 Gnsser.Filter.ObsSatExcludeFilter, 	Reviser`1
+2019-06-06 12:08:37.358	Warn	初始校正发生错误，计算将在此取消！	ObsFileEpochRunner`1
+2019-06-06 12:08:37.428	Warn	lhaz2260.16o, 2016-08-13 01:00:00, Ok, GNSS:,EnabledSatCount:0:,TotalSatCount:0, Coord(-106943.50000, 5549296.14000, 3139212.60000), 已经超出初始矫正出错时间 2016-08-13 01:00:00， 计算即将结束！	ObsFileEpochRunner`1
+2019-06-06 12:08:37.503	Info	本批次计算任务完成！	AbstractGnssStreamBackGroundRunner`3
+2019-06-06 12:08:37.504	Info	计算完毕，耗时：00:00:00.2284238, 0.2284238 秒/个	AbstractGnssStreamBackGroundRunner`3
+2019-06-06 12:08:37.509	Fatal	后台执行完成！耗时：00:00:00.2403921。共 0.0040 分
+文件数量 1, 每个文件平均耗时 0.24 秒
+占用内存 196.97 MB	MultiFileStreamerForm
+2019-06-06 12:09:22.776	Info	解析获取了 1 个文件	MultiFileStreamerForm
+2019-06-06 12:09:22.777	Info	开始初始化，加载资源等。。。	AbstractGnssStreamBackGroundRunner`3
+2019-06-06 12:09:22.799	Info	数据流缓存大小：60	BufferedStreamService`1
+2019-06-06 12:09:22.800	Info	lhaz2260.16o 起始处理编号: 0, 最大处理数量: 10000000	ObsFileEpochRunner`1
+2019-06-06 12:09:22.801	Info	-LHAZ 1个数据源的公共时段为：2016-08-13 01:00:00>2016-08-14 01:00:00	MultiSiteObsStream
+2019-06-06 12:09:22.801	Info	成功载入选项指定星历文件:  F:\1\Data\GNSS\Rinex\国内IGS站\lhaz\16\igs19096.sp3	EphemerisServiceProvider
+2019-06-06 12:09:22.803	Info	成功载入选项指定钟差文件 F:\1\Data\GNSS\Rinex\国内IGS站\lhaz\16\igs19096.clk_30s	ClockServiceProvider
+2019-06-06 12:09:22.804	Info	成功自动匹配 ERP 文件 全局自动 IGS ERP 服务, 1980-01-06 00:00:00->2079-12-31 00:00:00	ClockServiceProvider
+2019-06-06 12:09:22.805	Info	成功采用自动 IGS 格网电离层服务 	DataSourceContext
+2019-06-06 12:09:22.806	Info	将移除非 G 系统的观测值	EpochInfoReviser
+2019-06-06 12:09:22.807	Info	将移除观测值为 0 的卫星	EpochInfoReviser
+2019-06-06 12:09:22.809	Info	将删除不稳定的或有故障的卫星	EpochInfoReviser
+2019-06-06 12:09:22.810	Info	启用 移除不能组成无电离层组合的卫星数据	EpochInfoReviser
+2019-06-06 12:09:22.814	Info	将删除高度截止角低于 7 的卫星。	EpochInfoReviser
+2019-06-06 12:09:22.815	Info	将删除受太阳阴影影响的卫星。	EpochInfoReviser
+2019-06-06 12:09:22.816	Info	将过滤连续历元不足 30 的数据。	EpochInfoReviser
+2019-06-06 12:09:22.816	Info	采用了指定的周跳探测方法。	EpochInfoReviseManager
+2019-06-06 12:09:22.817	Info	伪距 DCB 距离改正， 目前只会改正GPS系统的DCB！	AbstractRangeCorrector
+2019-06-06 12:09:22.818	Info	启用结果检核。	GnssResultChecker
+2019-06-06 12:09:22.819	Info	lhaz2260.16o 初始化完毕。	PointPositionBackGroundRunner
+2019-06-06 12:09:22.823	Info	lhaz2260.16o 开始计算。	AbstractGnssStreamBackGroundRunner`3

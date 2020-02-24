@@ -1,0 +1,1751 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4D249FDD-B0FB-4567-8D13-CD5EF3228A45}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Geo</RootNamespace>
+    <AssemblyName>Geo.Winform</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <DocumentationFile>bin\Debug\Geo.Winform.xml</DocumentationFile>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Libs\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\Libs\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.PowerPoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\Libs\Microsoft.Office.Interop.PowerPoint.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\Libs\Microsoft.Office.Interop.Word.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Draw\CommonChartControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Draw\CommonChartControl.Designer.cs">
+      <DependentUpon>CommonChartControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Draw\TimePeriodChartControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Draw\TimePeriodChartControl.Designer.cs">
+      <DependentUpon>TimePeriodChartControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Draw\SimpleChartSettingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Draw\SimpleChartSettingForm.Designer.cs">
+      <DependentUpon>SimpleChartSettingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Draw\ChartSettingOption.cs" />
+    <Compile Include="Draw\SeriesSettingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Draw\SeriesSettingForm.Designer.cs">
+      <DependentUpon>SeriesSettingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Draw\FontSettingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Draw\FontSettingForm.Designer.cs">
+      <DependentUpon>FontSettingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Draw\ChartSettingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Draw\ChartSettingForm.Designer.cs">
+      <DependentUpon>ChartSettingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Draw\ColorBuilder.cs" />
+    <Compile Include="Draw\INumeralColorBuilder.cs" />
+    <Compile Include="Draw\TwoDimColorChartForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Draw\TwoDimColorChartForm.Designer.cs">
+      <DependentUpon>TwoDimColorChartForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Draw\ColorChartDrawer.cs" />
+    <Compile Include="Draw\TwoDimColorDrawControlOld.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Draw\TwoDimColorDrawControlOld.Designer.cs">
+      <DependentUpon>TwoDimColorDrawControlOld.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Draw\TwoDimColorDrawControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Draw\TwoDimColorDrawControl.Designer.cs">
+      <DependentUpon>TwoDimColorDrawControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Draw\EpochChartControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Draw\EpochChartControl.Designer.cs">
+      <DependentUpon>EpochChartControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Draw\EpochChartForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Draw\EpochChartForm.Designer.cs">
+      <DependentUpon>EpochChartForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Draw\GraphicsText.cs" />
+    <Compile Include="Draw\UserChartGraphics.cs" />
+    <Compile Include="GifMakerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GifMakerForm.Designer.cs">
+      <DependentUpon>GifMakerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LectureFeeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LectureFeeForm.Designer.cs">
+      <DependentUpon>LectureFeeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Controls\EllipsoidSelectControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Controls\EllipsoidSelectControl.Designer.cs">
+      <DependentUpon>EllipsoidSelectControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Controls\NamedXyzControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Controls\NamedXyzControl.Designer.cs">
+      <DependentUpon>NamedXyzControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Controls\NamedXyControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Controls\NamedXyControl.Designer.cs">
+      <DependentUpon>NamedXyControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Controls\XyzFrameTrans7ParamControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Controls\XyzFrameTrans7ParamControl.Designer.cs">
+      <DependentUpon>XyzFrameTrans7ParamControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Controls\PlainXyTransParamControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Controls\PlainXyTransParamControl.Designer.cs">
+      <DependentUpon>PlainXyTransParamControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\InputThreeValueForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\InputThreeValueForm.Designer.cs">
+      <DependentUpon>InputThreeValueForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Matrix\MultiMatrixEquationCalculateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\Matrix\MultiMatrixEquationCalculateForm.Designer.cs">
+      <DependentUpon>MultiMatrixEquationCalculateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Matrix\MatrixEquationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\Matrix\MatrixEquationForm.Designer.cs">
+      <DependentUpon>MatrixEquationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Matrix\MatrixEquationComposerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\Matrix\MatrixEquationComposerForm.Designer.cs">
+      <DependentUpon>MatrixEquationComposerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Matrix\MatrixViewerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\Matrix\MatrixViewerForm.Designer.cs">
+      <DependentUpon>MatrixViewerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\WinTools\GeodeticAzimuthForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\WinTools\GeodeticAzimuthForm.Designer.cs">
+      <DependentUpon>GeodeticAzimuthForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\WinTools\GaussLonlatConvertForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\WinTools\GaussLonlatConvertForm.Designer.cs">
+      <DependentUpon>GaussLonlatConvertForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\WinTools\XyzFrameConvertParamEstimatForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\WinTools\XyzFrameConvertParamEstimatForm.Designer.cs">
+      <DependentUpon>XyzFrameConvertParamEstimatForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\WinTools\PlanXyConvertParamEstimatForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\WinTools\PlanXyConvertParamEstimatForm.Designer.cs">
+      <DependentUpon>PlanXyConvertParamEstimatForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinUtils\RichTextBoxUtil.cs" />
+    <Compile Include="Winform\Controls\ColorSelectControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Controls\ColorSelectControl.Designer.cs">
+      <DependentUpon>ColorSelectControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\WinTools\File\FileNameExtractForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\WinTools\File\FileNameExtractForm.Designer.cs">
+      <DependentUpon>FileNameExtractForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\WinTools\File\SelectCommonFilesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\WinTools\File\SelectCommonFilesForm.Designer.cs">
+      <DependentUpon>SelectCommonFilesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\WinTools\File\MoveFileByKeyForm .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\WinTools\File\MoveFileByKeyForm .Designer.cs">
+      <DependentUpon>MoveFileByKeyForm .cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinUtils\ChartUtil.cs" />
+    <Compile Include="WinUtils\OperationTypeSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinUtils\OperationTypeSelectForm.Designer.cs">
+      <DependentUpon>OperationTypeSelectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinUtils\TextInputForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinUtils\TextInputForm.Designer.cs">
+      <DependentUpon>TextInputForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\CommonAdjusterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\CommonAdjusterForm.Designer.cs">
+      <DependentUpon>CommonAdjusterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Common\ObjectEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\Common\ObjectEditForm.Designer.cs">
+      <DependentUpon>ObjectEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\CommonSearch\ConnectedNumeralConditionControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\CommonSearch\ConnectedNumeralConditionControl.Designer.cs">
+      <DependentUpon>ConnectedNumeralConditionControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Controls\ArraySelectControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Controls\ArraySelectControl.Designer.cs">
+      <DependentUpon>ArraySelectControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Controls\ArrayCheckBoxControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Controls\ArrayCheckBoxControl.Designer.cs">
+      <DependentUpon>ArrayCheckBoxControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Controls\NamedArrayControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Controls\NamedArrayControl.Designer.cs">
+      <DependentUpon>NamedArrayControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Controls\NamedTimeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Controls\NamedTimeControl.Designer.cs">
+      <DependentUpon>NamedTimeControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Controls\NamedStringControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Controls\NamedStringControl.Designer.cs">
+      <DependentUpon>NamedStringControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Controls\FloatSpanControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Controls\FloatSpanControl.Designer.cs">
+      <DependentUpon>FloatSpanControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Controls\EnabledTimePeriodControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Controls\EnabledTimePeriodControl.Designer.cs">
+      <DependentUpon>EnabledTimePeriodControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Controls\SizableControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Winform\Controls\TimeLoopControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Controls\TimeLoopControl.Designer.cs">
+      <DependentUpon>TimeLoopControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Controls\INamedValue.cs" />
+    <Compile Include="Winform\Controls\LogCommandControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Controls\LogCommandControl.Designer.cs">
+      <DependentUpon>LogCommandControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Controls\NamedFloatControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Controls\NamedFloatControl.Designer.cs">
+      <DependentUpon>NamedFloatControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Controls\EnabledFloatSpanControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Controls\EnabledFloatSpanControl.Designer.cs">
+      <DependentUpon>EnabledFloatSpanControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Controls\EnabledFloatControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Controls\EnabledFloatControl.Designer.cs">
+      <DependentUpon>EnabledFloatControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Controls\NamedIntControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Controls\NamedIntControl.Designer.cs">
+      <DependentUpon>NamedIntControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Controls\EnabledIntControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Controls\EnabledIntControl.Designer.cs">
+      <DependentUpon>EnabledIntControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Controls\EnabledBoolControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Controls\EnabledBoolControl.Designer.cs">
+      <DependentUpon>EnabledBoolControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Controls\EnabledStringControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Controls\EnabledStringControl.Designer.cs">
+      <DependentUpon>EnabledStringControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Controls\ParamVectorRenderControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Controls\ParamVectorRenderControl.Designer.cs">
+      <DependentUpon>ParamVectorRenderControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Controls\RmsedVectorRenderControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Controls\RmsedVectorRenderControl.Designer.cs">
+      <DependentUpon>RmsedVectorRenderControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Controls\AdjustVectorRenderControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Controls\AdjustVectorRenderControl.Designer.cs">
+      <DependentUpon>AdjustVectorRenderControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Controls\AngleTypeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Controls\AngleTypeControl.Designer.cs">
+      <DependentUpon>AngleTypeControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Controls\EnumCheckBoxControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Controls\EnumCheckBoxControl.Designer.cs">
+      <DependentUpon>EnumCheckBoxControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Controls\EnumSelectControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Controls\EnumSelectControl.Designer.cs">
+      <DependentUpon>EnumSelectControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Controls\EnumSelector.cs" />
+    <Compile Include="Winform\Controls\ErrorRejectControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Controls\ErrorRejectControl.Designer.cs">
+      <DependentUpon>ErrorRejectControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Controls\AdjustVectorTypeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Controls\RmsedXyzControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Controls\RmsedXyzControl.designer.cs">
+      <DependentUpon>RmsedXyzControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Controls\AngleUnitTypeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Controls\GeoGridLoopControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Controls\GeoGridLoopControl.Designer.cs">
+      <DependentUpon>GeoGridLoopControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Controls\TimePeriodControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Controls\TimePeriodControl.Designer.cs">
+      <DependentUpon>TimePeriodControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Controls\EnumRadioControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Controls\EnumRadioControl.Designer.cs">
+      <DependentUpon>EnumRadioControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Draw\DrawObjectOptionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Draw\DrawObjectOptionForm.Designer.cs">
+      <DependentUpon>DrawObjectOptionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\EnumRadioForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\EnumRadioForm.Designer.cs">
+      <DependentUpon>EnumRadioForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\IMainForm.cs" />
+    <Compile Include="Winform\Common\LogListenerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\Common\LogListenerForm.Designer.cs">
+      <DependentUpon>LogListenerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Common\RunningStateForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\Common\RunningStateForm.Designer.cs">
+      <DependentUpon>RunningStateForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Common\LogListenerControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Common\LogListenerControl.Designer.cs">
+      <DependentUpon>LogListenerControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\InputTwoStringForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\InputTwoStringForm.Designer.cs">
+      <DependentUpon>InputTwoStringForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\InputTwoValueForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\InputTwoValueForm.Designer.cs">
+      <DependentUpon>InputTwoValueForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\CommonSearch\NumeralConditionControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\CommonSearch\NumeralConditionControl.Designer.cs">
+      <DependentUpon>NumeralConditionControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\CommonSearch\NumeralSearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\CommonSearch\NumeralSearchForm.Designer.cs">
+      <DependentUpon>NumeralSearchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Table\ObjectTable\ObjectTableControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Table\ObjectTable\ObjectTableControl.Designer.cs">
+      <DependentUpon>ObjectTableControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\PickBox.cs" />
+    <Compile Include="Winform\Table\ObjectTable\TableObjectViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\Table\ObjectTable\TableObjectViewForm.Designer.cs">
+      <DependentUpon>TableObjectViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Table\ObjectTable\DifferOfObjectTableForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\Table\ObjectTable\DifferOfObjectTableForm.Designer.cs">
+      <DependentUpon>DifferOfObjectTableForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Table\ObjectTable\TextToObjectTableForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\Table\ObjectTable\TextToObjectTableForm.Designer.cs">
+      <DependentUpon>TextToObjectTableForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\WinTools\DataProcessing\DataSmoothForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\Controls\MyChart.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Winform\WinTools\XyzNeuConvertForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\WinTools\XyzNeuConvertForm.Designer.cs">
+      <DependentUpon>XyzNeuConvertForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\WinTools\PolyfitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\WinTools\PolyfitForm.Designer.cs">
+      <DependentUpon>PolyfitForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\WinTools\FileRenameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\WinTools\FileRenameForm.Designer.cs">
+      <DependentUpon>FileRenameForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\WinTools\LocalToGeoCoordForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\WinTools\LocalToGeoCoordForm.Designer.cs">
+      <DependentUpon>LocalToGeoCoordForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Wizards\Demo\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\Wizards\Demo\Form1.designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Wizards\Demo\Page1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Wizards\Demo\Page1.Designer.cs">
+      <DependentUpon>Page1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Wizards\Demo\Page2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Wizards\Demo\Page2.designer.cs">
+      <DependentUpon>Page2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Wizards\Demo\Page3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Wizards\Demo\Page3.designer.cs">
+      <DependentUpon>Page3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Wizards\BaseStartWizardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\Wizards\BaseStartWizardForm.designer.cs">
+      <DependentUpon>BaseStartWizardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Wizards\IWizardPage.cs" />
+    <Compile Include="Winform\Wizards\OpenTableText\FileOpenWizardPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Wizards\OpenTableText\FileOpenWizardPage.Designer.cs">
+      <DependentUpon>FileOpenWizardPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Wizards\OpenTableText\MultiTableTextOpenVizardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\Wizards\OpenTableText\TableTextOpenVizardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\Wizards\OpenTableText\StringWizardPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Wizards\OpenTableText\StringWizardPage.Designer.cs">
+      <DependentUpon>StringWizardPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Wizards\Pages\CheckboxWizardPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Wizards\Pages\CheckboxWizardPage.Designer.cs">
+      <DependentUpon>CheckboxWizardPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Wizards\Pages\ProgressBarWizardPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Wizards\Pages\ProgressBarWizardPage.Designer.cs">
+      <DependentUpon>ProgressBarWizardPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Wizards\Pages\EnumRadioWizardPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Wizards\Pages\EnumRadioWizardPage.Designer.cs">
+      <DependentUpon>EnumRadioWizardPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Wizards\SteperForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\Wizards\SteperForm.Designer.cs">
+      <DependentUpon>SteperForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Wizards\VizardPageControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Wizards\VizardPageControl.Designer.cs">
+      <DependentUpon>VizardPageControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Wizards\WizardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\Wizards\WizardForm.designer.cs">
+      <DependentUpon>WizardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Wizards\WizardHostForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\Wizards\WizardHostForm.designer.cs">
+      <DependentUpon>WizardHostForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Wizards\WizardPageCollection.cs" />
+    <Compile Include="Winform\Table\DisplayPropertyEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\Table\DisplayPropertyEditForm.Designer.cs">
+      <DependentUpon>DisplayPropertyEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\File\DirectorySelectionControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\File\DirectorySelectionControl.Designer.cs">
+      <DependentUpon>DirectorySelectionControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Interfaces\IEntityEditForm.cs" />
+    <Compile Include="Winform\Table\DataTableForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\Table\DataTableForm.Designer.cs">
+      <DependentUpon>DataTableForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\File\MultiFileOpenControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\File\MultiFileOpenControl.Designer.cs">
+      <DependentUpon>MultiFileOpenControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\File\FileOpenForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\File\FileOpenForm.Designer.cs">
+      <DependentUpon>FileOpenForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Collector\AddSubProgramForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\Collector\AddSubProgramForm.Designer.cs">
+      <DependentUpon>AddSubProgramForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Collector\ButtonControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Collector\ButtonControl.Designer.cs">
+      <DependentUpon>ButtonControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Collector\ShortcutCollectorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\Collector\ShortcutCollectorForm.Designer.cs">
+      <DependentUpon>ShortcutCollectorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\DbBakeup\DbBackupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\DbBakeup\DbBackupForm.designer.cs">
+      <DependentUpon>DbBackupForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Table\SimpleParamedTableForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\Table\SimpleParamedTableForm.Designer.cs">
+      <DependentUpon>SimpleParamedTableForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Util\SqlPaging.cs" />
+    <Compile Include="Winform\Util\SqlSysUtil.cs" />
+    <Compile Include="Winform\WinTools\DocumentFileParser.cs" />
+    <Compile Include="Winform\Util\MD5.cs" />
+    <Compile Include="Winform\Util\MD5_2.cs" />
+    <Compile Include="Winform\OperateName.cs" />
+    <Compile Include="Winform\OrderUnit.cs" />
+    <Compile Include="Winform\Searching\SimpleSearchForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\Searching\SimpleSearchForm.Designer.cs">
+      <DependentUpon>SimpleSearchForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Setting.cs" />
+    <Compile Include="Winform\Setting\ChangeSplashForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\Setting\ChangeSplashForm.Designer.cs">
+      <DependentUpon>ChangeSplashForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Setting\DbConnectSettingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\Setting\DbConnectSettingForm.Designer.cs">
+      <DependentUpon>DbConnectSettingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Setting\SysTitleSettingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\Setting\SysTitleSettingForm.Designer.cs">
+      <DependentUpon>SysTitleSettingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Util\BarCodeGeneratorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\Util\BarCodeGeneratorForm.Designer.cs">
+      <DependentUpon>BarCodeGeneratorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Util\ImageManager.cs" />
+    <Compile Include="Winform\WinTools\ObjectSelectingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\WinTools\ObjectSelectingForm.Designer.cs">
+      <DependentUpon>ObjectSelectingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Searching\EntityQueryBuilder.cs" />
+    <Compile Include="Winform\Table\SimpleTableForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\Table\SimpleTableForm.Designer.cs">
+      <DependentUpon>SimpleTableForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Table\BaseSimpleTableManager.cs" />
+    <Compile Include="Winform\Table\AttributeBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Table\AttributeBox.Designer.cs">
+      <DependentUpon>AttributeBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Table\TitledBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Table\TitledBox.Designer.cs">
+      <DependentUpon>TitledBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Table\TitledTableBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Table\TitledTableBox.Designer.cs">
+      <DependentUpon>TitledTableBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Util\SqlUtil.cs" />
+    <Compile Include="Draw\CommonChartForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Draw\CommonChartForm.Designer.cs">
+      <DependentUpon>CommonChartForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\File\FileOutputControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\File\FileOutputControl.Designer.cs">
+      <DependentUpon>FileOutputControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Table\ISimpleTableManager.cs" />
+    <Compile Include="Winform\WinTools\ListItemSelecterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\WinTools\ListItemSelecterForm.Designer.cs">
+      <DependentUpon>ListItemSelecterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Controls\ParallelConfigControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Controls\ParallelConfigControl.Designer.cs">
+      <DependentUpon>ParallelConfigControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Table\RichTextBoxControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Winform\Table\RichTextBoxControl.Designer.cs">
+      <DependentUpon>RichTextBoxControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Searching\ComboxOperation.cs" />
+    <Compile Include="Winform\Controls\MdiTab.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Winform\Controls\Pagger.Designer.cs">
+      <DependentUpon>Pagger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Controls\ProgressBarComponent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Controls\ProgressBarComponent.Designer.cs">
+      <DependentUpon>ProgressBarComponent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Winform\Searching\DbSearchOption.cs" />
+    <Compile Include="Winform\Searching\PropertyConditionItem.cs" />
+    <Compile Include="Winform\Searching\SearchItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Searching\SearchItem.Designer.cs">
+      <DependentUpon>SearchItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\Controls\Pagger.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Winform\Table\SimpleTableControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\Table\SimpleTableControl.Designer.cs">
+      <DependentUpon>SimpleTableControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\File\FileOpenControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Winform\File\FileOpenControl.Designer.cs">
+      <DependentUpon>FileOpenControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\WinTools\Algorithm\FileFittingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\WinTools\Algorithm\FileGrossDetectingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\WinTools\Algorithm\GrossDetectingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\WinTools\Algorithm\GrossDetectingForm.Designer.cs">
+      <DependentUpon>GrossDetectingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\WinTools\ConfigFileEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\WinTools\ConfigFileEditForm.Designer.cs">
+      <DependentUpon>ConfigFileEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\WinTools\CopyScreen.cs" />
+    <Compile Include="Winform\WinTools\DataProcessing\DataDilutingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\WinTools\DataProcessing\DataProcessingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\WinTools\DataProcessing\DataProcessingForm.Designer.cs">
+      <DependentUpon>DataProcessingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\WinTools\DataProcessing\ResidualAnalysisForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\WinTools\DataProcessing\ResidualFilterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\WinTools\DoubleFormatForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\WinTools\DoubleFormatForm.Designer.cs">
+      <DependentUpon>DoubleFormatForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\WinTools\File\FileExecutingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\WinTools\File\FileExecutingForm.Designer.cs">
+      <DependentUpon>FileExecutingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\WinTools\File\FileSelectorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\WinTools\File\FileSelectorForm.Designer.cs">
+      <DependentUpon>FileSelectorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\WinTools\File\TextFilterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\WinTools\GeoXyzConvertForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\WinTools\GeoXyzConvertForm.Designer.cs">
+      <DependentUpon>GeoXyzConvertForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\WinTools\ILmergeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\WinTools\ILmergeForm.Designer.cs">
+      <DependentUpon>ILmergeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\WinTools\Net\EmailSenderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\WinTools\Net\EmailSenderForm.Designer.cs">
+      <DependentUpon>EmailSenderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\WinTools\Net\FtpDownloadForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\WinTools\Net\FtpDownloadForm.Designer.cs">
+      <DependentUpon>FtpDownloadForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\WinTools\Net\GetIpForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\WinTools\Net\GetIpForm1.Designer.cs">
+      <DependentUpon>GetIpForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\WinTools\Net\GetWebPageSourceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\WinTools\Net\GetWebPageSourceForm.Designer.cs">
+      <DependentUpon>GetWebPageSourceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\WinTools\Net\ScanIpOpenPortsForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\WinTools\Net\ScanIpOpenPortsForm1.Designer.cs">
+      <DependentUpon>ScanIpOpenPortsForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\WinTools\Net\TaskListenerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\WinTools\Net\TaskListenerForm.Designer.cs">
+      <DependentUpon>TaskListenerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\WinTools\Net\TaskSenderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\WinTools\Net\TaskSenderForm.Designer.cs">
+      <DependentUpon>TaskSenderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\WinTools\ScreenImageForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\WinTools\ScreenImageForm1.Designer.cs">
+      <DependentUpon>ScreenImageForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\WinTools\Sys\AnsiCodeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\WinTools\Sys\AnsiCodeForm.Designer.cs">
+      <DependentUpon>AnsiCodeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\WinTools\Sys\CheckSameFileForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\WinTools\Sys\CheckSameFileForm.designer.cs">
+      <DependentUpon>CheckSameFileForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\WinTools\Sys\CmdForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\WinTools\Sys\CmdForm.Designer.cs">
+      <DependentUpon>CmdForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\WinTools\Sys\PcInfoForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\WinTools\Sys\PcInfoForm1.Designer.cs">
+      <DependentUpon>PcInfoForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\WinTools\Sys\ProcessForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\WinTools\Sys\ProcessForm1.Designer.cs">
+      <DependentUpon>ProcessForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\WinTools\Sys\ProcessInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\WinTools\Sys\ProcessInfoForm.Designer.cs">
+      <DependentUpon>ProcessInfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\WinTools\Sys\RenameFilesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\WinTools\Sys\RenameFilesForm.Designer.cs">
+      <DependentUpon>RenameFilesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\WinTools\Sys\TimeCaculatorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\WinTools\Sys\TimeCaculatorForm.Designer.cs">
+      <DependentUpon>TimeCaculatorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\WinTools\Sys\TimeConvertForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\WinTools\Sys\TimeConvertForm1.Designer.cs">
+      <DependentUpon>TimeConvertForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Winform\WinTools\Sys\ZipForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Winform\WinTools\Sys\ZipForm.Designer.cs">
+      <DependentUpon>ZipForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinUtils\AppConfigSetter.cs" />
+    <Compile Include="WinUtils\DataGridViewUtil.cs" />
+    <Compile Include="WinUtils\Excel\ExcelHelper.cs" />
+    <Compile Include="WinUtils\Excel\ExcelUtil.cs" />
+    <Compile Include="WinUtils\ExtractIcon.cs" />
+    <Compile Include="WinUtils\ImageUtil.cs" />
+    <Compile Include="WinUtils\InputBox\InputLinesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinUtils\InputBox\InputLinesForm.Designer.cs">
+      <DependentUpon>InputLinesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinUtils\InputBox\OneTextInputForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinUtils\InputBox\OneTextInputForm.Designer.cs">
+      <DependentUpon>OneTextInputForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinUtils\ListViewUtil.cs" />
+    <Compile Include="WinUtils\NumeralFilterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinUtils\NumeralFilterForm.Designer.cs">
+      <DependentUpon>NumeralFilterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinUtils\RadioNumeralFilterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinUtils\RadioNumeralFilterForm.Designer.cs">
+      <DependentUpon>RadioNumeralFilterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinUtils\TwoRadioSelectingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinUtils\TwoRadioSelectingForm.Designer.cs">
+      <DependentUpon>TwoRadioSelectingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinUtils\RadioSelectingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinUtils\RadioSelectingForm.Designer.cs">
+      <DependentUpon>RadioSelectingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinUtils\ReportUtil.cs" />
+    <Compile Include="WinUtils\SelectMultiNameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinUtils\SelectMultiNameForm.Designer.cs">
+      <DependentUpon>SelectMultiNameForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinUtils\SortingNamesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinUtils\SortingNamesForm.Designer.cs">
+      <DependentUpon>SortingNamesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinUtils\TreeNodeUtil.cs" />
+    <Compile Include="WinUtils\UI\FormUtil.cs" />
+    <Compile Include="WinUtils\UI\SplashForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinUtils\UI\SplashForm.designer.cs">
+      <DependentUpon>SplashForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinUtils\UI\UiUtil.cs" />
+    <Compile Include="WinUtils\UI\WaitingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WinUtils\UI\WaitingForm.designer.cs">
+      <DependentUpon>WaitingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinUtils\Word\WordAPI.cs" />
+    <Compile Include="WinUtils\Word\WordUtil.cs" />
+    <Compile Include="WinUtils\Word\WordVariable.cs" />
+    <EmbeddedResource Include="Draw\CommonChartControl.resx">
+      <DependentUpon>CommonChartControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Draw\TimePeriodChartControl.resx">
+      <DependentUpon>TimePeriodChartControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Draw\SimpleChartSettingForm.resx">
+      <DependentUpon>SimpleChartSettingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Draw\SeriesSettingForm.resx">
+      <DependentUpon>SeriesSettingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Draw\FontSettingForm.resx">
+      <DependentUpon>FontSettingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Draw\ChartSettingForm.resx">
+      <DependentUpon>ChartSettingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Draw\TwoDimColorChartForm.resx">
+      <DependentUpon>TwoDimColorChartForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Draw\TwoDimColorDrawControlOld.resx">
+      <DependentUpon>TwoDimColorDrawControlOld.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Draw\TwoDimColorDrawControl.resx">
+      <DependentUpon>TwoDimColorDrawControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Draw\EpochChartControl.resx">
+      <DependentUpon>EpochChartControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Draw\EpochChartForm.resx">
+      <DependentUpon>EpochChartForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GifMakerForm.resx">
+      <DependentUpon>GifMakerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LectureFeeForm.resx">
+      <DependentUpon>LectureFeeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Controls\ColorSelectControl.resx">
+      <DependentUpon>ColorSelectControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\CommonAdjusterForm.resx">
+      <DependentUpon>CommonAdjusterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\CommonSearch\NumeralSearchForm.resx">
+      <DependentUpon>NumeralSearchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Common\LogListenerControl.resx">
+      <DependentUpon>LogListenerControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Common\LogListenerForm.resx">
+      <DependentUpon>LogListenerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Common\ObjectEditForm.resx">
+      <DependentUpon>ObjectEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\CommonSearch\ConnectedNumeralConditionControl.resx">
+      <DependentUpon>ConnectedNumeralConditionControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Controls\ArraySelectControl.resx">
+      <DependentUpon>ArraySelectControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Controls\ArrayCheckBoxControl.resx">
+      <DependentUpon>ArrayCheckBoxControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Draw\DrawObjectOptionForm.resx">
+      <DependentUpon>DrawObjectOptionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Controls\NamedArrayControl.resx">
+      <DependentUpon>NamedArrayControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Controls\NamedXyzControl.resx">
+      <DependentUpon>NamedXyzControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Controls\NamedXyControl.resx">
+      <DependentUpon>NamedXyControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Controls\NamedTimeControl.resx">
+      <DependentUpon>NamedTimeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Controls\NamedStringControl.resx">
+      <DependentUpon>NamedStringControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Controls\FloatSpanControl.resx">
+      <DependentUpon>FloatSpanControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Controls\EnabledTimePeriodControl.resx">
+      <DependentUpon>EnabledTimePeriodControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Controls\XyzFrameTrans7ParamControl.resx">
+      <DependentUpon>XyzFrameTrans7ParamControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Controls\PlainXyTransParamControl.resx">
+      <DependentUpon>PlainXyTransParamControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Controls\TimeLoopControl.resx">
+      <DependentUpon>TimeLoopControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Controls\LogCommandControl.resx">
+      <DependentUpon>LogCommandControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Controls\NamedFloatControl.resx">
+      <DependentUpon>NamedFloatControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Controls\EnabledFloatSpanControl.resx">
+      <DependentUpon>EnabledFloatSpanControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Controls\EnabledFloatControl.resx">
+      <DependentUpon>EnabledFloatControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Controls\NamedIntControl.resx">
+      <DependentUpon>NamedIntControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Controls\EnabledIntControl.resx">
+      <DependentUpon>EnabledIntControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Controls\EnabledBoolControl.resx">
+      <DependentUpon>EnabledBoolControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Controls\EnabledStringControl.resx">
+      <DependentUpon>EnabledStringControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Controls\ParamVectorRenderControl.resx">
+      <DependentUpon>ParamVectorRenderControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Controls\RmsedVectorRenderControl.resx">
+      <DependentUpon>RmsedVectorRenderControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Controls\AdjustVectorRenderControl.resx">
+      <DependentUpon>AdjustVectorRenderControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Controls\AngleTypeControl.resx">
+      <DependentUpon>AngleTypeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Controls\EnumCheckBoxControl.resx">
+      <DependentUpon>EnumCheckBoxControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Controls\EnumSelectControl.resx">
+      <DependentUpon>EnumSelectControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Controls\ErrorRejectControl.resx">
+      <DependentUpon>ErrorRejectControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Controls\RmsedXyzControl.resx">
+      <DependentUpon>RmsedXyzControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Controls\GeoGridLoopControl.resx">
+      <DependentUpon>GeoGridLoopControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Controls\TimePeriodControl.resx">
+      <DependentUpon>TimePeriodControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Controls\EnumRadioControl.resx">
+      <DependentUpon>EnumRadioControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Common\RunningStateForm.resx">
+      <DependentUpon>RunningStateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Controls\EllipsoidSelectControl.resx">
+      <DependentUpon>EllipsoidSelectControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\EnumRadioForm.resx">
+      <DependentUpon>EnumRadioForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\InputTwoStringForm.resx">
+      <DependentUpon>InputTwoStringForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\InputThreeValueForm.resx">
+      <DependentUpon>InputThreeValueForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\InputTwoValueForm.resx">
+      <DependentUpon>InputTwoValueForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\CommonSearch\NumeralConditionControl.resx">
+      <DependentUpon>NumeralConditionControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Matrix\MultiMatrixEquationCalculateForm.resx">
+      <DependentUpon>MultiMatrixEquationCalculateForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Matrix\MatrixEquationForm.resx">
+      <DependentUpon>MatrixEquationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Matrix\MatrixEquationComposerForm.resx">
+      <DependentUpon>MatrixEquationComposerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Matrix\MatrixViewerForm.resx">
+      <DependentUpon>MatrixViewerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Table\ObjectTable\ObjectTableControl.resx">
+      <DependentUpon>ObjectTableControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Table\ObjectTable\TableObjectViewForm.resx">
+      <DependentUpon>TableObjectViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Table\ObjectTable\DifferOfObjectTableForm.resx">
+      <DependentUpon>DifferOfObjectTableForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Table\ObjectTable\TextToObjectTableForm.resx">
+      <DependentUpon>TextToObjectTableForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\WinTools\DataProcessing\DataSmoothForm.resx">
+      <DependentUpon>DataSmoothForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\WinTools\File\FileNameExtractForm.resx">
+      <DependentUpon>FileNameExtractForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\WinTools\File\SelectCommonFilesForm.resx">
+      <DependentUpon>SelectCommonFilesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\WinTools\File\MoveFileByKeyForm .resx">
+      <DependentUpon>MoveFileByKeyForm .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\WinTools\GeodeticAzimuthForm.resx">
+      <DependentUpon>GeodeticAzimuthForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\WinTools\GaussLonlatConvertForm.resx">
+      <DependentUpon>GaussLonlatConvertForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\WinTools\XyzFrameConvertParamEstimatForm.resx">
+      <DependentUpon>XyzFrameConvertParamEstimatForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\WinTools\PlanXyConvertParamEstimatForm.resx">
+      <DependentUpon>PlanXyConvertParamEstimatForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\WinTools\XyzNeuConvertForm.resx">
+      <DependentUpon>XyzNeuConvertForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\WinTools\PolyfitForm.resx">
+      <DependentUpon>PolyfitForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\WinTools\FileRenameForm.resx">
+      <DependentUpon>FileRenameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\WinTools\LocalToGeoCoordForm.resx">
+      <DependentUpon>LocalToGeoCoordForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Wizards\Demo\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Wizards\Demo\Page1.resx">
+      <DependentUpon>Page1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Wizards\Demo\Page2.resx">
+      <DependentUpon>Page2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Wizards\Demo\Page3.resx">
+      <DependentUpon>Page3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Wizards\BaseStartWizardForm.resx">
+      <DependentUpon>BaseStartWizardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Wizards\OpenTableText\FileOpenWizardPage.resx">
+      <DependentUpon>FileOpenWizardPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Wizards\OpenTableText\MultiTableTextOpenVizardForm.resx">
+      <DependentUpon>MultiTableTextOpenVizardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Wizards\OpenTableText\TableTextOpenVizardForm.resx">
+      <DependentUpon>TableTextOpenVizardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Wizards\OpenTableText\StringWizardPage.resx">
+      <DependentUpon>StringWizardPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Wizards\Pages\CheckboxWizardPage.resx">
+      <DependentUpon>CheckboxWizardPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Wizards\Pages\ProgressBarWizardPage.resx">
+      <DependentUpon>ProgressBarWizardPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Wizards\Pages\EnumRadioWizardPage.resx">
+      <DependentUpon>EnumRadioWizardPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Wizards\SteperForm.resx">
+      <DependentUpon>SteperForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Wizards\VizardPageControl.resx">
+      <DependentUpon>VizardPageControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Wizards\WizardForm.resx">
+      <DependentUpon>WizardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Wizards\WizardHostForm.resx">
+      <DependentUpon>WizardHostForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Table\DisplayPropertyEditForm.resx">
+      <DependentUpon>DisplayPropertyEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\File\DirectorySelectionControl.resx">
+      <DependentUpon>DirectorySelectionControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\File\MultiFileOpenControl.resx">
+      <DependentUpon>MultiFileOpenControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\File\FileOpenForm.resx">
+      <DependentUpon>FileOpenForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Collector\AddSubProgramForm.resx">
+      <DependentUpon>AddSubProgramForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Collector\ButtonControl.resx">
+      <DependentUpon>ButtonControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Collector\ShortcutCollectorForm.resx">
+      <DependentUpon>ShortcutCollectorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\DbBakeup\DbBackupForm.resx">
+      <DependentUpon>DbBackupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Searching\SimpleSearchForm.resx">
+      <DependentUpon>SimpleSearchForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Setting\ChangeSplashForm.resx">
+      <DependentUpon>ChangeSplashForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Setting\DbConnectSettingForm.resx">
+      <DependentUpon>DbConnectSettingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Setting\SysTitleSettingForm.resx">
+      <DependentUpon>SysTitleSettingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Table\DataTableForm.resx">
+      <DependentUpon>DataTableForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Table\SimpleParamedTableForm.resx">
+      <DependentUpon>SimpleParamedTableForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Util\BarCodeGeneratorForm.resx">
+      <DependentUpon>BarCodeGeneratorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\WinTools\ObjectSelectingForm.resx">
+      <DependentUpon>ObjectSelectingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Table\AttributeBox.resx">
+      <DependentUpon>AttributeBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Table\SimpleTableForm.resx">
+      <DependentUpon>SimpleTableForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Table\TitledBox.resx">
+      <DependentUpon>TitledBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Table\TitledTableBox.resx">
+      <DependentUpon>TitledTableBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Draw\CommonChartForm.resx">
+      <DependentUpon>CommonChartForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\File\FileOutputControl.resx">
+      <DependentUpon>FileOutputControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\WinTools\ListItemSelecterForm.resx">
+      <DependentUpon>ListItemSelecterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Controls\MdiTab.resx">
+      <DependentUpon>MdiTab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Controls\Pagger.resx">
+      <DependentUpon>Pagger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Controls\ParallelConfigControl.resx">
+      <DependentUpon>ParallelConfigControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Controls\ProgressBarComponent.resx">
+      <DependentUpon>ProgressBarComponent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Winform\Table\RichTextBoxControl.resx">
+      <DependentUpon>RichTextBoxControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Searching\SearchItem.resx">
+      <DependentUpon>SearchItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\Table\SimpleTableControl.resx">
+      <DependentUpon>SimpleTableControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\File\FileOpenControl.resx">
+      <DependentUpon>FileOpenControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\WinTools\Algorithm\FileFittingForm.resx">
+      <DependentUpon>FileFittingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\WinTools\Algorithm\FileGrossDetectingForm.resx">
+      <DependentUpon>FileGrossDetectingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\WinTools\Algorithm\GrossDetectingForm.resx">
+      <DependentUpon>GrossDetectingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\WinTools\ConfigFileEditForm.resx">
+      <DependentUpon>ConfigFileEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\WinTools\DataProcessing\DataDilutingForm.resx">
+      <DependentUpon>DataDilutingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\WinTools\DataProcessing\DataProcessingForm.resx">
+      <DependentUpon>DataProcessingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\WinTools\DataProcessing\ResidualFilterForm.resx">
+      <DependentUpon>ResidualFilterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\WinTools\DoubleFormatForm.resx">
+      <DependentUpon>DoubleFormatForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\WinTools\File\FileExecutingForm.resx">
+      <DependentUpon>FileExecutingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\WinTools\File\FileSelectorForm.resx">
+      <DependentUpon>FileSelectorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\WinTools\File\TextFilterForm.resx">
+      <DependentUpon>TextFilterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\WinTools\GeoXyzConvertForm.resx">
+      <DependentUpon>GeoXyzConvertForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\WinTools\ILmergeForm.resx">
+      <DependentUpon>ILmergeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\WinTools\Net\EmailSenderForm.resx">
+      <DependentUpon>EmailSenderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\WinTools\Net\FtpDownloadForm.resx">
+      <DependentUpon>FtpDownloadForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\WinTools\Net\GetIpForm1.resx">
+      <DependentUpon>GetIpForm1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\WinTools\Net\GetWebPageSourceForm.resx">
+      <DependentUpon>GetWebPageSourceForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\WinTools\Net\ScanIpOpenPortsForm1.resx">
+      <DependentUpon>ScanIpOpenPortsForm1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\WinTools\Net\TaskListenerForm.resx">
+      <DependentUpon>TaskListenerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\WinTools\Net\TaskSenderForm.resx">
+      <DependentUpon>TaskSenderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\WinTools\ScreenImageForm1.resx">
+      <DependentUpon>ScreenImageForm1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\WinTools\Sys\AnsiCodeForm.resx">
+      <DependentUpon>AnsiCodeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\WinTools\Sys\CheckSameFileForm.resx">
+      <DependentUpon>CheckSameFileForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\WinTools\Sys\CmdForm.resx">
+      <DependentUpon>CmdForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\WinTools\Sys\PcInfoForm1.resx">
+      <DependentUpon>PcInfoForm1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\WinTools\Sys\ProcessForm1.resx">
+      <DependentUpon>ProcessForm1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\WinTools\Sys\ProcessInfoForm.resx">
+      <DependentUpon>ProcessInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\WinTools\Sys\RenameFilesForm.resx">
+      <DependentUpon>RenameFilesForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\WinTools\Sys\TimeCaculatorForm.resx">
+      <DependentUpon>TimeCaculatorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\WinTools\Sys\TimeConvertForm1.resx">
+      <DependentUpon>TimeConvertForm1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Winform\WinTools\Sys\ZipForm.resx">
+      <DependentUpon>ZipForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinUtils\InputBox\InputLinesForm.resx">
+      <DependentUpon>InputLinesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinUtils\InputBox\OneTextInputForm.resx">
+      <DependentUpon>OneTextInputForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinUtils\NumeralFilterForm.resx">
+      <DependentUpon>NumeralFilterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinUtils\OperationTypeSelectForm.resx">
+      <DependentUpon>OperationTypeSelectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinUtils\RadioNumeralFilterForm.resx">
+      <DependentUpon>RadioNumeralFilterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinUtils\TextInputForm.resx">
+      <DependentUpon>TextInputForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinUtils\TwoRadioSelectingForm.resx">
+      <DependentUpon>TwoRadioSelectingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinUtils\RadioSelectingForm.resx">
+      <DependentUpon>RadioSelectingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinUtils\SelectMultiNameForm.resx">
+      <DependentUpon>SelectMultiNameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinUtils\SortingNamesForm.resx">
+      <DependentUpon>SortingNamesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinUtils\UI\SplashForm.resx">
+      <DependentUpon>SplashForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinUtils\UI\WaitingForm.resx">
+      <DependentUpon>WaitingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image_progressIcon.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\firstpage_16x40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lastpage_16x40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lastpage_16x401.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nextpage_16x40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prepage_16x40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\excel_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Geo\Geo.csproj">
+      <Project>{e82770d4-22d7-4e3b-8ec6-2583e39f0779}</Project>
+      <Name>Geo</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="WinUtils\README.txt" />
+    <None Include="Resources\search_16x16.png" />
+    <Content Include="Winform\Controls\README.txt" />
+    <Content Include="Winform\WinTools\README.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

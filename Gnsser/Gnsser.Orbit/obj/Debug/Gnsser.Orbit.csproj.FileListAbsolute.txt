@@ -1,0 +1,17 @@
+D:\Codes\Gnsser\Gnsser\Gnsser.Orbit\bin\Debug\Gnsser.Orbit.exe
+D:\Codes\Gnsser\Gnsser\Gnsser.Orbit\bin\Debug\Gnsser.Orbit.pdb
+D:\Codes\Gnsser\Gnsser\Gnsser.Orbit\obj\Debug\Gnsser.Orbit.Properties.Resources.resources
+D:\Codes\Gnsser\Gnsser\Gnsser.Orbit\obj\Debug\Gnsser.Orbit.csproj.GenerateResource.Cache
+D:\Codes\Gnsser\Gnsser\Gnsser.Orbit\obj\Debug\Gnsser.Orbit.exe
+D:\Codes\Gnsser\Gnsser\Gnsser.Orbit\obj\Debug\Gnsser.Orbit.pdb
+D:\Codes\Gnsser\Gnsser\Gnsser.Orbit\bin\Debug\AnyInfo.dll
+D:\Codes\Gnsser\Gnsser\Gnsser.Orbit\bin\Debug\GeoSolution.dll
+D:\Codes\Gnsser\Gnsser\Gnsser.Orbit\bin\Debug\Gnsser.Core.dll
+D:\Codes\Gnsser\Gnsser\Gnsser.Orbit\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Codes\Gnsser\Gnsser\Gnsser.Orbit\bin\Debug\AnyInfo.pdb
+D:\Codes\Gnsser\Gnsser\Gnsser.Orbit\bin\Debug\AnyInfo.xml
+D:\Codes\Gnsser\Gnsser\Gnsser.Orbit\bin\Debug\Gnsser.Core.pdb
+D:\Codes\Gnsser\Gnsser\Gnsser.Orbit\bin\Debug\Gnsser.Core.xml
+D:\Codes\Gnsser\Gnsser\Gnsser.Orbit\bin\Debug\GeoSolution.pdb
+D:\Codes\Gnsser\Gnsser\Gnsser.Orbit\bin\Debug\GeoSolution.xml
+D:\Codes\Gnsser\Gnsser\Gnsser.Orbit\obj\Debug\Gnsser.Orbit.csprojResolveAssemblyReference.cache

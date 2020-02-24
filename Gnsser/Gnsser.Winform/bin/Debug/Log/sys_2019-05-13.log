@@ -1,0 +1,146 @@
+2019-05-13 15:16:59.281	Info	程序启动	Program
+2019-05-13 15:16:59.632	Error	读取工程配置文件出错！未能找到路径“D:\GnsserTemp\ProjectName.Gproj”的一部分。	AbstractBaseDictionary`2
+2019-05-13 15:16:59.660	Info	检查新版本	Program
+2019-05-13 15:16:59.749	Info	成功加载配置文件 gnsser.conf	Setting
+2019-05-13 15:16:59.772	Error	小心！服务路径为空！	FileBasedService`1
+2019-05-13 15:18:22.479	Info	保存了配置到文件 gnsser.conf	Setting
+2019-05-13 15:18:22.487	Info	程序正常退出	Program
+2019-05-13 15:36:55.165	Info	程序启动	Program
+2019-05-13 15:36:55.368	Info	检查新版本	Program
+2019-05-13 15:36:55.446	Error	读取工程配置文件出错！未能找到路径“D:\GnsserTemp\ProjectName.Gproj”的一部分。	AbstractBaseDictionary`2
+2019-05-13 15:36:55.524	Info	成功加载配置文件 gnsser.conf	Setting
+2019-05-13 15:36:55.540	Error	小心！服务路径为空！	FileBasedService`1
+2019-05-13 15:37:28.771	Info	保存了配置到文件 gnsser.conf	Setting
+2019-05-13 15:37:28.786	Info	程序正常退出	Program
+2019-05-13 16:20:41.749	Info	程序启动	Program
+2019-05-13 16:20:41.899	Error	读取工程配置文件出错！未能找到路径“D:\GnsserTemp\ProjectName.Gproj”的一部分。	AbstractBaseDictionary`2
+2019-05-13 16:20:41.934	Info	检查新版本	Program
+2019-05-13 16:20:41.996	Info	成功加载配置文件 gnsser.conf	Setting
+2019-05-13 16:20:42.015	Error	小心！服务路径为空！	FileBasedService`1
+2019-05-13 16:21:17.464	Info	输入文件，载入 2 条项目：
+D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hers0010.18O
+D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hert0010.18O
+2条	FileOpenControl
+2019-05-13 16:21:24.895	Info	输入文件，载入了： D:\Data\GNSS\Rinex\algo0010.13o	FileOpenControl
+2019-05-13 16:21:44.785	Info	解析获取了 1 个文件	MultiFileStreamerForm
+2019-05-13 16:21:44.795	Info	开始初始化，加载资源等。。。	AbstractGnssStreamBackGroundRunner`3
+2019-05-13 16:21:44.869	Info	数据流缓存大小：60	BufferedStreamService`1
+2019-05-13 16:21:44.872	Info	algo0010.13o 起始处理编号: 0, 最大处理数量: 10000000	ObsFileEpochRunner`1
+2019-05-13 16:21:44.883	Info	-ALGO0CAC 1个数据源的公共时段为：2013-01-01 00:00:00>2013-01-02 00:00:00	MultiSiteObsStream
+2019-05-13 16:21:44.924	Info	当前历元2013-01-01 00:00:00可以获得IGS Final 产品	IgsEphemerisServiceAutoProvider
+2019-05-13 16:21:45.091	Warn	igs17212.sp3星历略过 EOF	AbstractTimedStreamReader`1
+2019-05-13 16:21:45.093	Info	完全加载了星历文件到内存 igs17212.sp3	AbstractTimedStreamReader`1
+2019-05-13 16:21:45.104	Info	成功载入 Sp3,D:\Data\IgsProduct\igs17212.sp3	AbstractIgsProductSourceProvider`2
+2019-05-13 16:21:45.121	Warn	igs17213.sp3星历略过 EOF	AbstractTimedStreamReader`1
+2019-05-13 16:21:45.122	Info	完全加载了星历文件到内存 igs17213.sp3	AbstractTimedStreamReader`1
+2019-05-13 16:21:45.126	Info	成功载入 Sp3,D:\Data\IgsProduct\igs17213.sp3	AbstractIgsProductSourceProvider`2
+2019-05-13 16:21:45.165	Info	成功自动匹配星历文件 全局自动 IGS 精密星历服务, 1980-01-06 00:00:00->2079-12-31 00:00:00, G,C,R,E	EphemerisServiceProvider
+2019-05-13 16:21:45.168	Info	成功自动匹配钟差文件 全局自动 IGS 精密钟差服务, 1980-01-06 00:00:00->2079-12-31 00:00:00	ClockServiceProvider
+2019-05-13 16:21:45.174	Info	成功自动匹配 ERP 文件 全局自动 IGS ERP 服务, 1980-01-06 00:00:00->2079-12-31 00:00:00	ClockServiceProvider
+2019-05-13 16:21:45.176	Info	成功采用自动 IGS 格网电离层服务 	DataSourceContext
+2019-05-13 16:21:45.186	Info	将移除非 G 系统的观测值	EpochInfoReviser
+2019-05-13 16:21:45.190	Info	将移除观测值为 0 的卫星	EpochInfoReviser
+2019-05-13 16:21:45.192	Info	将删除不稳定的或有故障的卫星	EpochInfoReviser
+2019-05-13 16:21:45.194	Info	启用 移除不能组成无电离层组合的卫星数据	EpochInfoReviser
+2019-05-13 16:21:45.196	Info	将删除高度截止角低于 10 的卫星。	EpochInfoReviser
+2019-05-13 16:21:45.198	Info	将删除受太阳阴影影响的卫星。	EpochInfoReviser
+2019-05-13 16:21:45.199	Info	将过滤连续历元不足 30 的数据。	EpochInfoReviser
+2019-05-13 16:21:45.217	Info	采用了指定的周跳探测方法。	EpochInfoReviseManager
+2019-05-13 16:21:45.221	Info	伪距 DCB 距离改正， 目前只会改正GPS系统的DCB！	AbstractRangeCorrector
+2019-05-13 16:21:45.255	Info	启用结果检核。	GnssResultChecker
+2019-05-13 16:21:45.271	Info	algo0010.13o 初始化完毕。	PointPositionBackGroundRunner
+2019-05-13 16:21:45.284	Info	algo0010.13o 开始计算。	AbstractGnssStreamBackGroundRunner`3
+2019-05-13 16:21:45.355	Info	当前历元2013-01-01 00:00:00可以获得IGS Final 产品	IgsClockServiceAutoProvider
+2019-05-13 16:21:46.456	Info	成功载入 Clk_30s,D:\Data\IgsProduct\igs17212.clk_30s	AbstractIgsProductSourceProvider`2
+2019-05-13 16:21:47.754	Info	成功载入 Clk_30s,D:\Data\IgsProduct\igs17213.clk_30s	AbstractIgsProductSourceProvider`2
+2019-05-13 16:21:47.996	Info	载入：D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\GNSS\Common\DCB\P1P21301.DCB	DcbFileReader
+2019-05-13 16:21:48.035	Info	DCB 载入 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\GNSS\Common\DCB\P1P21301.DCB	FileBasedService`1
+2019-05-13 16:21:48.038	Info	载入：D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\GNSS\Common\DCB\P1C11301.DCB	DcbFileReader
+2019-05-13 16:21:48.039	Info	DCB 载入 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\GNSS\Common\DCB\P1C11301.DCB	FileBasedService`1
+2019-05-13 16:21:48.050	Info	当前历元2012-12-31 23:59:44可以获得IGS Final 产品	IgsClockServiceAutoProvider
+2019-05-13 16:21:48.059	Info	成功载入 Erp,D:\Data\IgsProduct\igs17217.erp	AbstractIgsProductSourceProvider`2
+2019-05-13 16:22:19.522	Info	程序启动	Program
+2019-05-13 16:22:19.596	Info	检查新版本	Program
+2019-05-13 16:22:19.629	Error	读取工程配置文件出错！未能找到路径“D:\GnsserTemp\ProjectName.Gproj”的一部分。	AbstractBaseDictionary`2
+2019-05-13 16:22:19.726	Info	成功加载配置文件 gnsser.conf	Setting
+2019-05-13 16:22:19.745	Error	小心！服务路径为空！	FileBasedService`1
+2019-05-13 16:22:28.951	Info	输入文件，载入 2 条项目：
+D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hers0010.18O
+D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hert0010.18O
+2条	FileOpenControl
+2019-05-13 16:22:32.093	Info	输入文件，载入了： D:\Data\GNSS\Rinex\algo0010.13o	FileOpenControl
+2019-05-13 16:22:50.714	Info	解析获取了 1 个文件	MultiFileStreamerForm
+2019-05-13 16:22:50.723	Info	开始初始化，加载资源等。。。	AbstractGnssStreamBackGroundRunner`3
+2019-05-13 16:22:50.788	Info	数据流缓存大小：60	BufferedStreamService`1
+2019-05-13 16:22:50.790	Info	algo0010.13o 起始处理编号: 0, 最大处理数量: 10000000	ObsFileEpochRunner`1
+2019-05-13 16:22:50.801	Info	-ALGO0CAC 1个数据源的公共时段为：2013-01-01 00:00:00>2013-01-02 00:00:00	MultiSiteObsStream
+2019-05-13 16:22:50.846	Info	当前历元2013-01-01 00:00:00可以获得IGS Final 产品	IgsEphemerisServiceAutoProvider
+2019-05-13 16:22:50.910	Warn	igs17212.sp3星历略过 EOF	AbstractTimedStreamReader`1
+2019-05-13 16:22:50.911	Info	完全加载了星历文件到内存 igs17212.sp3	AbstractTimedStreamReader`1
+2019-05-13 16:22:50.925	Info	成功载入 Sp3,D:\Data\IgsProduct\igs17212.sp3	AbstractIgsProductSourceProvider`2
+2019-05-13 16:22:50.943	Warn	igs17213.sp3星历略过 EOF	AbstractTimedStreamReader`1
+2019-05-13 16:22:50.944	Info	完全加载了星历文件到内存 igs17213.sp3	AbstractTimedStreamReader`1
+2019-05-13 16:22:50.947	Info	成功载入 Sp3,D:\Data\IgsProduct\igs17213.sp3	AbstractIgsProductSourceProvider`2
+2019-05-13 16:22:50.987	Info	成功自动匹配星历文件 全局自动 IGS 精密星历服务, 1980-01-06 00:00:00->2079-12-31 00:00:00, G,C,R,E	EphemerisServiceProvider
+2019-05-13 16:22:50.990	Info	成功自动匹配钟差文件 全局自动 IGS 精密钟差服务, 1980-01-06 00:00:00->2079-12-31 00:00:00	ClockServiceProvider
+2019-05-13 16:22:50.994	Info	成功自动匹配 ERP 文件 全局自动 IGS ERP 服务, 1980-01-06 00:00:00->2079-12-31 00:00:00	ClockServiceProvider
+2019-05-13 16:22:50.996	Info	成功采用自动 IGS 格网电离层服务 	DataSourceContext
+2019-05-13 16:22:51.005	Info	将移除非 G 系统的观测值	EpochInfoReviser
+2019-05-13 16:22:51.005	Info	将移除观测值为 0 的卫星	EpochInfoReviser
+2019-05-13 16:22:51.006	Info	将删除不稳定的或有故障的卫星	EpochInfoReviser
+2019-05-13 16:22:51.007	Info	启用 移除不能组成无电离层组合的卫星数据	EpochInfoReviser
+2019-05-13 16:22:51.009	Info	将删除高度截止角低于 10 的卫星。	EpochInfoReviser
+2019-05-13 16:22:51.010	Info	将删除受太阳阴影影响的卫星。	EpochInfoReviser
+2019-05-13 16:22:51.012	Info	将过滤连续历元不足 30 的数据。	EpochInfoReviser
+2019-05-13 16:22:51.029	Info	采用了指定的周跳探测方法。	EpochInfoReviseManager
+2019-05-13 16:22:51.034	Info	伪距 DCB 距离改正， 目前只会改正GPS系统的DCB！	AbstractRangeCorrector
+2019-05-13 16:22:51.065	Info	启用结果检核。	GnssResultChecker
+2019-05-13 16:22:51.081	Info	algo0010.13o 初始化完毕。	PointPositionBackGroundRunner
+2019-05-13 16:22:51.091	Info	algo0010.13o 开始计算。	AbstractGnssStreamBackGroundRunner`3
+2019-05-13 16:22:51.166	Info	当前历元2013-01-01 00:00:00可以获得IGS Final 产品	IgsClockServiceAutoProvider
+2019-05-13 16:22:51.426	Info	成功载入 Clk_30s,D:\Data\IgsProduct\igs17212.clk_30s	AbstractIgsProductSourceProvider`2
+2019-05-13 16:22:51.706	Info	成功载入 Clk_30s,D:\Data\IgsProduct\igs17213.clk_30s	AbstractIgsProductSourceProvider`2
+2019-05-13 16:22:51.942	Info	载入：D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\GNSS\Common\DCB\P1P21301.DCB	DcbFileReader
+2019-05-13 16:22:51.944	Info	DCB 载入 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\GNSS\Common\DCB\P1P21301.DCB	FileBasedService`1
+2019-05-13 16:22:51.947	Info	载入：D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\GNSS\Common\DCB\P1C11301.DCB	DcbFileReader
+2019-05-13 16:22:51.950	Info	DCB 载入 D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\GNSS\Common\DCB\P1C11301.DCB	FileBasedService`1
+2019-05-13 16:22:51.959	Info	当前历元2012-12-31 23:59:44可以获得IGS Final 产品	IgsClockServiceAutoProvider
+2019-05-13 16:22:51.969	Info	成功载入 Erp,D:\Data\IgsProduct\igs17217.erp	AbstractIgsProductSourceProvider`2
+2019-05-13 16:22:59.369	Info	切换基准系统 U -> G	AbstractGnssSolver`2
+2019-05-13 16:23:10.818	Info	algo0010.13o缓存数据读取结束！	BufferedStreamService`1
+2019-05-13 16:23:10.855	Info	计算完成：algo	EpochParamAnalyzer
+2019-05-13 16:23:10.895	Info	计算完成：Clon	EpochParamAnalyzer
+2019-05-13 16:23:10.916	Info	IsOK, ParamName, ConvergenceMinutes , MaxAbsDiffer, RmsValue(Count) , ConvergenceTimePeriod 
+Good,De, 4, 0.083554, 0.00476(2871), 2013-01-01 00:00:00>2013-01-01 00:04:00
+Good,Dn, 4.5, 0.097839, 0.005839(2870), 2013-01-01 00:00:00>2013-01-01 00:04:30
+Good,Du, 15, 0.085335, 0.0058788(2849), 2013-01-01 00:00:00>2013-01-01 00:15:00
+	AbstractGnssStreamBackGroundRunner`3
+2019-05-13 16:23:10.919	Info	algo0010.13o, 2013-01-01 23:59:30， 即将输出结果文件...	MultiFileStreamerForm
+2019-05-13 16:23:11.026	Fatal	14 0.0000(0.000266) 0.0033(0.000346) -0.0022(0.000352) 343.1835( 0.00465) -0.0187( 0.00204) 79.5718( 0.01762) 14.1456( 0.01769) 9.1688( 0.01602) 43.7700( 0.01616) 23.6682( 0.01591) 28.8524( 0.01608) 22.8377( 0.01616) 66.0909( 0.01668) 32.9979( 0.01839) 	MultiFileStreamerForm
+2019-05-13 16:23:11.039	Fatal	algo0010.13o	2013-01-01 23:59:30	RmsOfEstimated	0.000266	0.000346	0.000352	0.00465	0.00204	0.01762	0.01769	0.01602	0.01616	0.01591	0.01608	0.01616	0.01668	0.01839	MultiFileStreamerForm
+2019-05-13 16:23:11.040	Fatal	algo0010.13o	2013-01-01 23:59:30	Estimated	3.48E-05	0.00333	-0.00221	343.18354	-0.01866	79.57178	14.14563	9.16877	43.76997	23.66818	28.85243	22.83770	66.09093	32.99793	MultiFileStreamerForm
+2019-05-13 16:23:11.041	Fatal	algo0010.13o	2013-01-01 23:59:30	ParamNames	Dx	Dy	Dz	cDt_r	WetTropZpd	G01_Nλ	G11_Nλ	G12_Nλ	G14_Nλ	G18_Nλ	G22_Nλ	G25_Nλ	G31_Nλ	G32_Nλ	MultiFileStreamerForm
+2019-05-13 16:23:11.043	Fatal	Est and Rms:
+    Dx,    Dy,    Dz, cDt_r,WetTropZpd,G01_Nλ,G11_Nλ,G12_Nλ,G14_Nλ,G18_Nλ,G22_Nλ,G25_Nλ,G31_Nλ,G32_Nλ
+3.4793E-05, 0.0033327, -0.0022054, 343.18, -0.018661, 79.572, 14.146, 9.1688, 43.77, 23.668, 28.852, 22.838, 66.091, 32.998
+0.00026633, 0.00034637, 0.00035181, 0.0046543, 0.0020366, 0.017615, 0.017687, 0.016016, 0.016165, 0.015911, 0.016078, 0.016162, 0.01668, 0.018395
+	MultiFileStreamerForm
+2019-05-13 16:23:11.870	Info	计算完成：algo	EpochParamAnalyzer
+2019-05-13 16:23:11.881	Info	本批次计算任务完成！	AbstractGnssStreamBackGroundRunner`3
+2019-05-13 16:23:11.882	Info	计算完毕，耗时：00:00:21.1575686, 21.1575686 秒/个	AbstractGnssStreamBackGroundRunner`3
+2019-05-13 16:23:11.892	Fatal	后台执行完成！耗时：00:00:21.1859703。共 0.3531 分
+文件数量 1, 每个文件平均耗时 21.19 秒
+占用内存 333.52 MB	MultiFileStreamerForm
+2019-05-13 16:23:23.090	Info	保存了配置到文件 gnsser.conf	Setting
+2019-05-13 16:23:23.094	Info	程序正常退出	Program
+2019-05-13 16:36:25.180	Info	程序启动	Program
+2019-05-13 16:36:25.270	Info	检查新版本	Program
+2019-05-13 16:36:25.282	Error	读取工程配置文件出错！未能找到路径“D:\GnsserTemp\ProjectName.Gproj”的一部分。	AbstractBaseDictionary`2
+2019-05-13 16:36:25.359	Info	成功加载配置文件 gnsser.conf	Setting
+2019-05-13 16:36:25.381	Error	小心！服务路径为空！	FileBasedService`1
+2019-05-13 16:36:31.101	Info	输入文件，载入 2 条项目：
+D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hers0010.18O
+D:\VS\Gnsser2019.05.13【总站对算前测试版】\Gnsser\Gnsser\Gnsser.Winform\bin\Debug\Data\Sample\hert0010.18O
+2条	FileOpenControl
+2019-05-13 16:48:09.684	Info	保存了配置到文件 gnsser.conf	Setting
+2019-05-13 16:48:09.688	Info	程序正常退出	Program
