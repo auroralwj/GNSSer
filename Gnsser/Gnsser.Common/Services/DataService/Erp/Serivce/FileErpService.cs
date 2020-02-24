@@ -244,6 +244,8 @@ namespace Gnsser.Data
             erpItem.Ut12Utc = (1.0 - a) * Erps.ElementAt(j).Value.Ut12Utc + a * Erps.ElementAt(j + 1).Value.Ut12Utc;
             erpItem.Lod = (1.0 - a) * Erps.ElementAt(j).Value.Lod + a * Erps.ElementAt(j + 1).Value.Lod;
 
+
+
              
             return erpItem;
         }
