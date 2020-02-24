@@ -46,6 +46,7 @@ namespace Gnsser
             if (EpochSat.Time.Correction != 0)
             {
                 int i = 0;
+                int j = 0;
             }
             var transTime = EpochSat.GetTransitTime();
      
