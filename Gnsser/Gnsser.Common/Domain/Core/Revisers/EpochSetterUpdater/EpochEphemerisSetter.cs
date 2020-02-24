@@ -80,12 +80,6 @@ namespace Gnsser
 
             foreach (var sat in info)
             { 
-
-
-
-
-
-
                 EmissionEphemerisRolver solver = null;
                 //if (info.Time.Correction == 0 
                 //    || info.SiteInfo.EstimatedXyzRms.Length > 100 
